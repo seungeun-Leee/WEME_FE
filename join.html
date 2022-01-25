@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>WEME-join</title>
     
 </head>
-    WEME 홈페이지 만들기 시작!!!!!!
-    <br>이거 안 뜨나요...ㅠㅠ</br>
-</body>
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+        <!-- 유진님이 만들 네비게이션 바... -->
+        </div>
+    </nav>
 
+    <section>
+        <h1>회원가입</h1>
+    </section>
+        <hr width="594px">
+    <section>
+     <form name="join" action="index.html" method="post">
+        <h2>개인정보</h2>
+        <span style="color: red;">*  </span>  사용자 이름 <input type="text" name="username" value=""><br>
+        <span style="color: red;">*  </span>  전화번호 <input type="text" name="phonenumber" value=""><br>
+        <span style="color: red;">*  </span>  이메일 <input type="text" name="email" value=""> @
+        <select name="mailsite" id="">
+            <option value="">직접 입력</option>
+            <option value="gmail">gmail.com</option>
+            <option value="naver">naver.com</option>
+            <option value="daum">daum.net</option>
+
+        </select>
+        <br><br>
+
+        <h2>로그인 정보</h2>
+        <span style="color: red;">*  </span>  닉네임 <input type="text" name="nickname" value=""><br>
+        <span style="color: red;">*  </span>  아이디 <input type="text" name="user_id" value=""><br>
+        <span style="color: red;">*  </span>  비밀번호 <input type="password" name="user_password" value=""><br>
+        <span style="color: red;">*  </span>  비밀번호 확인 <input type="password" name="user_passwordcheck" value=""><br>
+        <br>
+        <input type="submit" name="" value="가입하기">
+
+     </form>
+    </section>
 </body>
 </html>
