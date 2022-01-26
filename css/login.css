@@ -1,0 +1,112 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.joinhead {
+  text-align: center;
+}
+
+.loginhead h1 {
+  position: absolute;
+  height: 58px;
+  left: 904px;
+  top: 296px;
+
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  width: 111px;
+}
+
+input {
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  padding: 5px 5px;
+  width: 120px;
+
+  /* position: absolute;
+  width: 505px;
+  height: 83px;
+  left: 708px;
+  top: 414px; */
+  /* padding-left: 242px; */
+  border: none;
+  outline: none;
+  background: #f5f6f1;
+  border-radius: 15px;
+}
+
+input::-webkit-input-placeholder {
+  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+  background-size: contain;
+  background-position: 1px center;
+  background-repeat: no-repeat;
+  text-align: center;
+  text-indent: 0;
+}
+
+.insertID {
+  position: absolute;
+  width: 505px;
+  height: 83px;
+  left: 708px;
+  top: 414px;
+  /* padding-left: 242px; */
+  border: none;
+  outline: none;
+  background: #f5f6f1;
+  border-radius: 15px;
+}
+
+.insertPWRD {
+  position: absolute;
+  width: 505px;
+  height: 83px;
+  left: 708px;
+  top: 537px;
+  /* padding-left: 242px; */
+  border: none;
+  outline: none;
+  background: #f5f6f1;
+  border-radius: 15px;
+}
+
+.btn {
+  position: absolute;
+  width: 505px;
+  height: 69px;
+  left: 708px;
+  top: 660px;
+
+  background: #93a761;
+  border-radius: 15px;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+
+  display: inline;
+  cursor: pointer;
+}
+
+.find {
+  position: absolute;
+  width: 221px;
+  height: 26px;
+  left: 850px;
+  top: 758px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #747474;
+}
