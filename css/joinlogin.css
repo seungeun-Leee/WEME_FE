@@ -1,0 +1,168 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.joinhead {
+  text-align: center;
+}
+
+.joinhead h1 {
+  position: absolute;
+  width: 148px;
+  height: 58px;
+  left: 866px;
+  top: 231px;
+  text-align: center;
+
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+}
+
+.joinhead hr {
+  position: absolute;
+  width: 594px;
+  height: 0px;
+  left: 663px;
+  top: 317px;
+
+  border: 1px solid #d9d9d9;
+}
+
+.formJoin {
+  position: absolute;
+  width: 713px;
+  height: 1093px;
+  left: 603px;
+  top: 369px;
+
+  background: #f5f6f1;
+  border-radius: 15px;
+  text-align: center;
+
+  padding-bottom: 71;
+}
+
+.formJoin h2 {
+  text-align: left;
+  padding: 53px 0px 71px 60px;
+}
+
+.textForm {
+  text-align: left;
+  padding-left: 60px;
+  background: none;
+  padding-bottom: 53px;
+
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.username {
+  width: 407px;
+  height: 48px;
+  /* padding-left: 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.phonenumber {
+  width: 407px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.email {
+  width: 190px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+
+  padding-bottom: 0px;
+}
+
+.email mailsite {
+  width: 190px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.nickname {
+  width: 407px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.nickname {
+  width: 407px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.userID {
+  width: 407px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.pwrd {
+  width: 407px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.pwrdCheck {
+  width: 407px;
+  height: 48px;
+  /* margin: 0px 64px 40px 242px; */
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.btn {
+  /* position: relative; */
+  /* position: absolute; */
+  width: 499px;
+  height: 80px;
+  background-color: #93a761;
+  border: none;
+  border-radius: 15px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+
+  display: inline;
+  cursor: pointer;
+}

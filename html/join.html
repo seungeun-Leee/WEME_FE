@@ -9,35 +9,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/joinlogin.css">
     <title>WEME-join</title>
     <!-- 회원가입 페이지!!!! -->
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar__logo">
-        <!-- 유진님이 만들 네비게이션 바... -->
-        </div>
+        header
     </nav>
-
-    <section>
+        
+    <div class="joinhead">
         <h1>회원가입</h1>
-    </section>
-        <hr width="594px">
-    <section>
+        <hr>
+    </div>
+    
      <form name="join" action="index.html" method="post" class="formJoin">
-
+        
         <h2>개인정보</h2>
         <div class="textForm">
-            <span style="color: red;">*  </span>  
+            <span style="color: red;">*    </span>  
             사용자 이름 <input type="text" name="username" value="" class="username"><br>
         </div>
         <div class="textForm">
-            <span style="color: red;">*  </span>
+            <span style="color: red;">*    </span>
             전화번호 <input type="text" name="phonenumber" value="" class="phonenumber"><br>
         </div>
         <div class="textForm">
-            <span style="color: red;">*  </span>  
+            <span style="color: red;">*    </span>  
             이메일 <input type="text" name="email" value="" class="email"> @
             <select name="mailsite" id="">
                 <option value="">직접 입력</option>
@@ -46,29 +44,28 @@
                 <option value="daum">daum.com</option>
             </select>
         </div>
-        <br>
 
         <h2>로그인 정보</h2>
         <div class="textForm">
-            <span style="color: red;">*  </span>  
+            <span style="color: red;">*    </span>  
             닉네임 <input type="text" name="nickname" value="" class="nickname"><br>
         </div>
         <div class="textForm">
-            <span style="color: red;">*  </span>  
-            아이디 <input type="text" name="user_id" value="" class="usesrID"><br>
+            <span style="color: red;">*    </span>  
+            아이디 <input type="text" name="user_id" value="" class="userID"><br>
         </div>
         <div class="textForm">
-            <span style="color: red;">*  </span>  
+            <span style="color: red;">*    </span>  
             비밀번호 <input type="password" name="user_password" value="" class="pwrd"><br>
         </div>
         <div class="textForm">
-            <span style="color: red;">*  </span>  
+            <span style="color: red;">*    </span>  
             비밀번호 확인 <input type="password" name="passwordcheck" value="" class="pwrdCheck"><br>
         </div>
         <br>
         <input type="submit" name="" value="가입하기" class="btn">
 
      </form>
-    </section>
+
 </body>
 </html>
