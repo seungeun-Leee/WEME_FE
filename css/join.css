@@ -139,6 +139,18 @@
   background: white;
 }
 
+.pwrdRule {
+  text-align: left;
+  padding-left: 246px;
+  background: none;
+  /* padding-bottom: 53px; */
+
+  font-weight: 500;
+  line-height: 23px;
+  color: #787878;
+  font-size: 16px;
+}
+
 .pwrdCheck {
   width: 407px;
   height: 48px;
@@ -165,4 +177,16 @@
 
   display: inline;
   cursor: pointer;
+}
+
+.footer {
+  /* position: absolute; */
+  width: 1920px;
+  left: -1px;
+  top: 1652px;
+  height: 128px;
+  background-color: #93a761;
+
+  margin: 0px;
+  padding: 0px;
 }
