@@ -65,30 +65,24 @@
   line-height: 35px;
 }
 
-input {
-  width: 407px;
-  height: 48;
-  left: 845px;
-
-  font-size: 20px;
-  line-height: 35px;
-}
-
 .username {
   width: 407px;
   height: 48px;
   border: none;
   outline: none;
   background: white;
+
+  margin-left: 20px;
 }
 
 .phonenumber {
   width: 407px;
   height: 48px;
-  /* margin: 0px 64px 40px 242px; */
   border: none;
   outline: none;
   background: white;
+
+  margin-left: 45px;
 }
 
 .email {
@@ -100,10 +94,11 @@ input {
   background: white;
 
   padding-bottom: 0px;
+  margin-left: 65px;
 }
 
 select {
-  width: 154px;
+  width: 185px;
   height: 48px;
 
   padding: 5px;
@@ -126,6 +121,8 @@ select {
   border: none;
   outline: none;
   background: white;
+
+  margin-left: 65px;
 }
 
 .userID {
@@ -135,40 +132,46 @@ select {
   border: none;
   outline: none;
   background: white;
+
+  margin-left: 65px;
 }
 
 .pwrd {
   width: 407px;
   height: 48px;
-  /* margin: 0px 64px 40px 242px; */
+
   border: none;
   outline: none;
   background: white;
+
+  margin-left: 65px;
 }
 
 .pwrdRule {
   text-align: left;
   padding-left: 246px;
   background: none;
-  /* padding-bottom: 53px; */
 
   font-weight: 500;
   line-height: 23px;
   color: #787878;
   font-size: 16px;
+
+  margin-left: 65px;
 }
 
 .pwrdCheck {
   width: 407px;
   height: 48px;
-  /* margin: 0px 64px 40px 242px; */
+
   border: none;
   outline: none;
   background: white;
+
+  margin-left: 65px;
 }
 
 .btn {
-  /* position: relative; */
   /* position: absolute; */
   width: 499px;
   height: 80px;
