@@ -1,0 +1,41 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+/* 드래그 방지 */
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.tempo_bg {
+    margin: auto;
+    width: 1920px;
+    background-color: #F1F1F1;;
+}
+.tempo_top {
+    margin-left: 360px;
+    height: 194px;
+    /* background-color: rgb(116, 43, 150); */
+}
+.tempo_location {
+    display: flex;
+}
+.tempo_location > li,
+.tempo_location > li > a {
+    margin-right: 9px;
+    font-size: 18px;
+    color: #787878;
+}
+
+
+.tempo_location_text{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+}
