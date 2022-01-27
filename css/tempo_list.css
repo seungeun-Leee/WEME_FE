@@ -1,0 +1,27 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+/* 드래그 방지 */
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.tempo_top {
+    width: 1920px;
+    height: 194px;
+    background-color: aqua;
+}
+.tempo_location {
+    display: flex;
+}
+.tempo_location > li > a {
+    color: #787878;
+    margin-right: 9px;
+}
