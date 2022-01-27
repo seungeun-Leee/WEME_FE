@@ -31,6 +31,7 @@ body {
     color: #787878;
 }
 .tempo_location_text{
+    width: 148px;
     margin-top: 15px;
     font-size: 40px;
     font-weight: bolder;
@@ -49,12 +50,12 @@ body {
 }
 .tempo_list_top > select {
     border: none;
-    margin-left: 20px;
     margin-top: 31px;
     font-size: 18px;
 }
 .tempo_list_top > select:last-child {
     margin-right: 16px;
+    margin-left: 20px;
 }
 .tempo_list_contents {
     margin: auto;
@@ -109,9 +110,11 @@ body {
     justify-content: center;
     margin-top: 75px;
     margin-bottom: 190px;
-    color: black;
     font-size: 18px;
 }
 .tempo_list_bott > li:not(:last-child) {
     margin-right: 17px;
+}
+.tempo_list_bott > li > a {
+    color: black;    
 }
