@@ -39,30 +39,42 @@
 .formJoin {
   position: absolute;
   width: 713px;
-  height: 1093px;
+  height: 1170px;
   left: 603px;
   top: 369px;
 
   background: #f5f6f1;
   border-radius: 15px;
   text-align: center;
-
-  padding-bottom: 71;
 }
 
-.formJoin h2 {
+.personalInfo {
+  margin-top: 53px;
+  padding-bottom: 0px;
+}
+
+.personalInfo h2 {
   text-align: left;
   padding: 0px 0px 71px 60px;
+}
+
+.loginInfo {
+  padding-bottom: 53px;
+}
+
+.loginInfo h2 {
+  text-align: left;
+  padding: 20px 0px 51px 60px;
 }
 
 .textForm {
   text-align: left;
   padding-left: 60px;
   background: none;
-  padding-bottom: 53px;
 
   font-size: 24px;
   line-height: 35px;
+  padding-bottom: 53px;
 }
 
 .username {
@@ -82,26 +94,25 @@
   outline: none;
   background: white;
 
-  margin-left: 45px;
+  margin-left: 48px;
 }
 
 .email {
   width: 190px;
   height: 48px;
-  /* margin: 0px 64px 40px 242px; */
+
   border: none;
   outline: none;
   background: white;
 
-  padding-bottom: 0px;
-  margin-left: 65px;
+  margin-left: 70px;
 }
 
 select {
   width: 185px;
   height: 48px;
 
-  padding: 5px;
+  /* padding: 5px; */
   border: none;
   background: white;
 
@@ -122,7 +133,7 @@ select {
   outline: none;
   background: white;
 
-  margin-left: 65px;
+  margin-left: 70px;
 }
 
 .userID {
@@ -133,7 +144,7 @@ select {
   outline: none;
   background: white;
 
-  margin-left: 65px;
+  margin-left: 70px;
 }
 
 .pwrd {
@@ -144,12 +155,13 @@ select {
   outline: none;
   background: white;
 
-  margin-left: 65px;
+  margin-left: 48px;
 }
 
 .pwrdRule {
   text-align: left;
-  padding-left: 246px;
+  padding-left: 110px;
+  padding-top: 5px;
   background: none;
 
   font-weight: 500;
@@ -168,7 +180,7 @@ select {
   outline: none;
   background: white;
 
-  margin-left: 65px;
+  margin-left: 0px;
 }
 
 .btn {
@@ -193,7 +205,7 @@ select {
   position: absolute;
   width: 1920px;
   left: -1px;
-  top: 1652px;
+  top: 1729px;
   height: 128px;
   background-color: #93a761;
 
