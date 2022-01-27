@@ -54,10 +54,10 @@ input {
   border-radius: 15px;
 }
 
-.insertID ::-webkit-input-placeholder{
+.insertID ::-webkit-input-placeholder {
   background-image: 
   /* url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png); */
-  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFESURBVHgB3ZXdbcIwEMfP+XhnBDZoN6izAQskbSagnSArlAnSJspzuwFhg4yQEXjPF3fISAjwxeZDCH6SFSe27+87+y4CRkjTdOJ53hy7UjUQQlR93y+iKPoZWy9GjE99318OwzA9uViIummaII7jWmfDAQbOOEFjNIe8tBbIsuyDM74v4jjOp7UAuj8HQ1DgzVoAeQVzJJwhcBU4gRLMqeAMgRUYgge9sBZo2/YbF9YwbrzmEk4rgMmz7rou4ERojOYAA5vJOygn1LXd3awS24q8pI3AU6MNEdUX13VnmKUvqmRMMEz0BHUuayp22KdQVbqCdySg4v0OTHZqKFHs9/BGib0dS6yMqUmB41BefYVh+E/v22taFEWCP5XlpcYJZeMvz/NkK4idGX2AG4BnE5AHxmXZFoxKQgISboe8a7l+DIENc0+UO/FypVMAAAAASUVORK5CYII=);
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFESURBVHgB3ZXdbcIwEMfP+XhnBDZoN6izAQskbSagnSArlAnSJspzuwFhg4yQEXjPF3fISAjwxeZDCH6SFSe27+87+y4CRkjTdOJ53hy7UjUQQlR93y+iKPoZWy9GjE99318OwzA9uViIummaII7jWmfDAQbOOEFjNIe8tBbIsuyDM74v4jjOp7UAuj8HQ1DgzVoAeQVzJJwhcBU4gRLMqeAMgRUYgge9sBZo2/YbF9YwbrzmEk4rgMmz7rou4ERojOYAA5vJOygn1LXd3awS24q8pI3AU6MNEdUX13VnmKUvqmRMMEz0BHUuayp22KdQVbqCdySg4v0OTHZqKFHs9/BGib0dS6yMqUmB41BefYVh+E/v22taFEWCP5XlpcYJZeMvz/NkK4idGX2AG4BnE5AHxmXZFoxKQgISboe8a7l+DIENc0+UO/FypVMAAAAASUVORK5CYII=);
 
   background-size: contain;
   background-position: 43px center;
@@ -69,7 +69,6 @@ input {
 .insertPWRD {
   position: absolute;
   display: flex;
-  justify-content: space-between
 
   width: 505px;
   height: 83px;
@@ -82,11 +81,8 @@ input {
   border-radius: 15px;
 }
 
-.insertPWRD ::-webkit-input-placeholder{
-
-  background-image: 
-  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGNSURBVHgB7VbtTYRAEJ3d4/5jB3TglYAVqAXcKSVQAXbCEcJvS4CrQKxASrj/fPmGgCHAwRiPRBNfsuyyy7w3OzMLKFqA7/v2dru9x/ChrmuL55RSKbo0z/PAcZxkzl7NEJuGYfhMTHMESh0h5ELoLBZgcngdw+NdbzpBe2/Ht2h2T4R3czclYkwJbDYbryNHn4HA2e/3ycAJC8/FWLP4WTjkYdqlpR2wIULz0ZGXZcmeZTS9UxZ5g4jJ90VR3Ax3oSe8t78WtU4ukTN4DU4EPdtRvkYCXaUwqqo60QLaihrZXhS4NlYXaJLMhwnxe2oUtd71yjPhRM8SoIqoLVkOF8Lahex0OByOKooiD5MvtALgnKtxeaaVgB15eirzV4T596vodwggT2c0h9813HjMcxJbg2RwuaZ798cwDDP08ZKhaAcD8gbD1/ePBHDSdxNzFgkgEsDHxO8Ttl+8V4mtQixrkoGTmra9jWZKjKRJppbQpm/i/ySLBBJaCfxTpnH0HzEOpEdfAubq/vg+AXRIvpMa8VZ9AAAAAElFTkSuQmCC);
-
+.insertPWRD ::-webkit-input-placeholder {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGNSURBVHgB7VbtTYRAEJ3d4/5jB3TglYAVqAXcKSVQAXbCEcJvS4CrQKxASrj/fPmGgCHAwRiPRBNfsuyyy7w3OzMLKFqA7/v2dru9x/ChrmuL55RSKbo0z/PAcZxkzl7NEJuGYfhMTHMESh0h5ELoLBZgcngdw+NdbzpBe2/Ht2h2T4R3czclYkwJbDYbryNHn4HA2e/3ycAJC8/FWLP4WTjkYdqlpR2wIULz0ZGXZcmeZTS9UxZ5g4jJ90VR3Ax3oSe8t78WtU4ukTN4DU4EPdtRvkYCXaUwqqo60QLaihrZXhS4NlYXaJLMhwnxe2oUtd71yjPhRM8SoIqoLVkOF8Lahex0OByOKooiD5MvtALgnKtxeaaVgB15eirzV4T596vodwggT2c0h9813HjMcxJbg2RwuaZ798cwDDP08ZKhaAcD8gbD1/ePBHDSdxNzFgkgEsDHxO8Ttl+8V4mtQixrkoGTmra9jWZKjKRJppbQpm/i/ySLBBJaCfxTpnH0HzEOpEdfAubq/vg+AXRIvpMa8VZ9AAAAAElFTkSuQmCC);
 
   background-size: contain;
   background-position: 43px center;
@@ -141,4 +137,3 @@ input {
   margin: 0px;
   padding: 0px;
 }
-
