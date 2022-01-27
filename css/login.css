@@ -4,7 +4,7 @@
   border-collapse: collapse;
   margin: 0px;
   padding: 0px;
-  color: black;
+  color: #747474;
 }
 
 .joinhead {
@@ -21,59 +21,88 @@
   font-size: 40px;
   line-height: 58px;
   width: 111px;
+  color: black;
 }
 
+/* input색 없애고 박스 따로 만들어서??? */
 input {
   background-repeat: no-repeat;
   border: 1px solid #ccc;
-  padding: 5px 5px;
-  width: 120px;
-
-  /* position: absolute;
+  padding-left: 43;
   width: 505px;
-  height: 83px;
-  left: 708px;
-  top: 414px; */
-  /* padding-left: 242px; */
+
   border: none;
   outline: none;
   background: #f5f6f1;
   border-radius: 15px;
+
+  font-size: 24px;
+  text-align: center;
 }
 
-input::-webkit-input-placeholder {
-  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+/* input::-webkit-input-placeholder {
+  background-image: 
+  url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+  background-image: 
+
   background-size: contain;
-  background-position: 1px center;
+  background-position: 43px center;
   background-repeat: no-repeat;
-  text-align: center;
-  text-indent: 0;
-}
+  text-align: left;
+  text-indent: 20%;
+} */
 
 .insertID {
   position: absolute;
+  display: flex;
+
   width: 505px;
   height: 83px;
   left: 708px;
   top: 414px;
-  /* padding-left: 242px; */
+
   border: none;
   outline: none;
   background: #f5f6f1;
   border-radius: 15px;
 }
 
+.insertID ::-webkit-input-placeholder{
+  background-image: 
+  url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+
+  background-size: contain;
+  background-position: 43px center;
+  background-repeat: no-repeat;
+  text-align: left;
+  text-indent: 20%;
+}
+
 .insertPWRD {
   position: absolute;
+  display: flex;
+  justify-content: space-between
+
   width: 505px;
   height: 83px;
   left: 708px;
   top: 537px;
-  /* padding-left: 242px; */
+
   border: none;
   outline: none;
   background: #f5f6f1;
   border-radius: 15px;
+}
+
+.insertPWRD ::-webkit-input-placeholder{
+  background-image: 
+  url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+
+  background-size: contain;
+  background-position: 43px center;
+  background-repeat: no-repeat;
+  text-align: left;
+  text-indent: 20%;
 }
 
 .btn {
@@ -103,10 +132,23 @@ input::-webkit-input-placeholder {
   left: 850px;
   top: 758px;
 
-  font-style: normal;
-  font-weight: normal;
+  /* font-style: normal;
+  font-weight: normal; */
   font-size: 18px;
   line-height: 26px;
   text-align: center;
   color: #747474;
 }
+
+.footer {
+  position: absolute;
+  width: 1920px;
+  height: 128px;
+  left: 3px;
+  top: 974px;
+  background-color: #93a761;
+
+  margin: 0px;
+  padding: 0px;
+}
+

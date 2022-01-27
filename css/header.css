@@ -30,6 +30,7 @@ a {
 }
 
 .headergroup {
+  display: flex;
   width: 1920px;
   height: 152px;
   left: 0px;
@@ -41,17 +42,14 @@ a {
 .header_logo {
   width: 238px;
   height: 64px;
-  left: 360px;
-  top: 48px;
 }
 
 .header_logo i {
   color: #93a761;
-
+  font-size: 50px;
+  text-align: center;
   width: 238px;
   height: 64px;
-  left: 360px;
-  top: 48px;
 }
 
 .header_navbar {
@@ -62,13 +60,13 @@ a {
   height: 35px;
   left: 925px;
   top: 69px;
-  justify-content: flex-end;
-  /* justify-content: space-between; */
+  margin: 0;
+  justify-content: space-between;
 }
 
 .header_navbar li {
+  font-weight: bold;
   font-size: 24px;
-  /* padding: 45px; */
 }
 
 .header_navbar a:hover {
@@ -77,15 +75,20 @@ a {
 
 .join_login {
   display: flex;
+  justify-content: center;
   position: absolute;
   width: 172px;
   height: 23px;
   left: 1387px;
   top: 19px;
+  margin: 0px;
 }
 
 .join_login li {
+  text-align: center;
   font-size: 16px;
+  color: #464646;
+
   padding: 8px;
   border-right: 1px solid #000000;
 }
