@@ -1,120 +1,120 @@
 * {
-    font-family: 'Noto Sans KR', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    border-collapse: collapse;
-    margin: 0px;
-    padding: 0px;
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
 }
 /* 드래그 방지 */
 body {
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.tempo_bg {
-    margin: auto;
-    width: 1920px;
+.list_bg {
+  margin: auto;
+  width: 1920px;
 }
-.tempo_top {
-    width: 1200px;
-    margin-left: 360px;
+.list_top {
+  width: 1200px;
+  margin-left: 360px;
 }
-.tempo_location {
-    display: flex;
+.list_location {
+  display: flex;
 }
-.tempo_location > li,
-.tempo_location > li > a {
-    margin-right: 9px;
-    font-size: 18px;
-    color: #787878;
+.list_location > li,
+.list_location > li > a {
+  margin-right: 9px;
+  font-size: 18px;
+  color: #787878;
 }
-.tempo_location_text{
-    width: 148px;
-    margin-top: 15px;
-    font-size: 40px;
-    font-weight: bolder;
+.list_location_text {
+  width: 148px;
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: bolder;
 }
-.tempo_top > hr {
-    margin-top: 60px;
-    width: 1200px;
-    height: 0px;
-    border: 1px solid #787878;
+.list_top > hr {
+  margin-top: 60px;
+  width: 1200px;
+  height: 0px;
+  border: 1px solid #787878;
 }
-.tempo_list_top {
-    margin: auto;
-    display: flex;
-    justify-content: flex-end;
-    width: 1200px;
+.list_sort_btn {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
 }
-.tempo_list_top > select {
-    border: none;
-    margin-top: 31px;
-    font-size: 18px;
+.list_sort_btn > select {
+  border: none;
+  margin-top: 31px;
+  font-size: 18px;
 }
-.tempo_list_top > select:last-child {
-    margin-right: 16px;
-    margin-left: 20px;
+.list_sort_btn > select:last-child {
+  margin-right: 16px;
+  margin-left: 20px;
 }
-.tempo_list_contents {
-    margin: auto;
-    width: 1200px;
+.list_contents {
+  margin: auto;
+  width: 1200px;
 }
-/* .tempo_list_contents:not(:last-child) {
+/* .list_contents:not(:last-child) {
     margin-bottom: 500px;
 } */
-.tempo_list_contents > ul{
-    display: flex;
+.list_contents > ul {
+  display: flex;
 }
-.tempo_list_contents > ul > a {
-    margin-top: 88px;
-    margin-right: 59px;
-    text-decoration: none;
+.list_contents > ul > a {
+  margin-top: 88px;
+  margin-right: 59px;
+  text-decoration: none;
 }
 .list_img {
-    width: 361px;
-    height: 228px;
-    border-radius: 15px;
+  width: 361px;
+  height: 228px;
+  border-radius: 15px;
 }
-.tempo_list_contents > ul > a > li > div > h1 {
-    color: black;
-    font-size: 24px;
+.list_contents > ul > a > li > div > h1 {
+  color: black;
+  font-size: 24px;
 }
 .list_sort {
-    margin-top: 13px;
+  margin-top: 13px;
 }
 .list_sort > span {
-    display: inline-block;
-    text-align: center;
-    height: 22px;
-    margin-right: 12px;
-    border-radius: 7px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    color: black;
+  display: inline-block;
+  text-align: center;
+  height: 22px;
+  margin-right: 12px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  color: black;
 }
 .sort1 {
-    width: 85px;
-    background: #F5F6F1;
+  width: 85px;
+  background: #f5f6f1;
 }
 .sort2 {
-    width: 64px;
-    background: #DDDFA0;
+  width: 64px;
+  background: #dddfa0;
 }
 .sort3 {
-    width: 70px;
-    background: #93A761;
+  width: 70px;
+  background: #93a761;
 }
-.tempo_list_bott {
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-    margin-bottom: 190px;
-    font-size: 18px;
+.list_bott {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 190px;
+  font-size: 18px;
 }
-.tempo_list_bott > li:not(:last-child) {
-    margin-right: 17px;
+.list_bott > li:not(:last-child) {
+  margin-right: 17px;
 }
-.tempo_list_bott > li > a {
-    color: black;    
+.list_bott > li > a {
+  color: black;
 }
