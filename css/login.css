@@ -29,29 +29,31 @@ input {
   border: 1px solid #ccc;
   padding-left: 43;
   width: 505px;
+  height: 83px;
 
   border: none;
   outline: none;
-  background: #f5f6f1;
+  background: white;
   border-radius: 15px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
 
-  font-size: 24px;
-  text-align: center;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 20%;
 }
+
+input:focus {
+  outline: 1px solid #93a761;
+}
+
+/* insertID, pwrd 공통부분 insert에 넣고 공통부분 각 클래스에서 지우면..? */
 
 .insertID {
   position: absolute;
   display: flex;
 
-  width: 505px;
-  height: 83px;
   left: 708px;
   top: 414px;
-
-  border: none;
-  outline: none;
-  background: #f5f6f1;
-  border-radius: 15px;
 }
 
 .insertID ::-webkit-input-placeholder {
@@ -70,15 +72,8 @@ input {
   position: absolute;
   display: flex;
 
-  width: 505px;
-  height: 83px;
   left: 708px;
   top: 537px;
-
-  border: none;
-  outline: none;
-  background: #f5f6f1;
-  border-radius: 15px;
 }
 
 .insertPWRD ::-webkit-input-placeholder {
@@ -105,6 +100,7 @@ input {
   font-size: 24px;
   line-height: 35px;
   text-align: center;
+  text-indent: 0;
   color: #ffffff;
 
   display: inline;
@@ -118,8 +114,6 @@ input {
   left: 850px;
   top: 758px;
 
-  /* font-style: normal;
-  font-weight: normal; */
   font-size: 18px;
   line-height: 26px;
   text-align: center;
