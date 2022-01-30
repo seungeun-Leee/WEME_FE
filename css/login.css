@@ -7,24 +7,26 @@
   color: #747474;
 }
 
-.joinhead {
+.navbar {
+  width: 1920px;
+  height: 152px;
+  margin-bottom: 144px;
   text-align: center;
 }
 
 .loginhead h1 {
   position: absolute;
-  height: 58px;
   left: 904px;
-  top: 296px;
 
   font-weight: bold;
   font-size: 40px;
   line-height: 58px;
-  width: 111px;
+
   color: black;
 }
 
-input {
+.insertID input,
+.insertPWRD input {
   background-repeat: no-repeat;
   border: 1px solid #ccc;
   padding-left: 43;
@@ -42,11 +44,10 @@ input {
   text-indent: 20%;
 }
 
-input:focus {
+.insertID input:focus,
+.insertPWRD input:focus {
   outline: 1px solid #93a761;
 }
-
-/* insertID, pwrd 공통부분 insert에 넣고 공통부분 각 클래스에서 지우면..? */
 
 .insertID {
   position: absolute;
@@ -95,6 +96,7 @@ input:focus {
 
   background: #93a761;
   border-radius: 15px;
+  border: none;
 
   font-weight: bold;
   font-size: 24px;
@@ -118,13 +120,13 @@ input:focus {
   line-height: 26px;
   text-align: center;
   color: #747474;
+  padding-bottom: 190px;
 }
 
 .footer {
   position: absolute;
   width: 1920px;
   height: 128px;
-  left: 3px;
   top: 974px;
   background-color: #93a761;
 

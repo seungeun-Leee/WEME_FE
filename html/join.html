@@ -14,69 +14,71 @@
     <!-- 회원가입 페이지!!!! -->
 </head>
 <body>
-    <nav class="navbar">
+    <div class="header">
         header
-    </nav>
-        
-    <div class="joinhead">
-        <h1>회원가입</h1>
-        <hr>
     </div>
-    
-     <form name="join" action="index.html" method="post" class="formJoin">
         
-        <div class="personalInfo">
-            <h2>개인정보</h2>
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                    사용자 이름 
-                    <input type="text" name="username" value="" class="username"><br>
-            </div>
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                    전화번호 <input type="text" name="phonenumber" value="" class="phonenumber"><br>
-            </div>
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                    이메일 <input type="text" name="email" value="" class="email"> @
-                <select name="mailsite" id="">
-                    <option value="">직접 입력</option>
-                    <option value="gmail">gmail.com</option>
-                    <option value="naver">naver.com</option>
-                    <option value="daum">daum.com</option>
-                </select>
-            </div>
+    <div class="join_bg">
+        <div class="joinhead">
+            <h1>회원가입</h1>
+            <hr>
         </div>
-        
-        <div class="loginInfo">
-            <h2>로그인 정보</h2>
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                    닉네임 <input type="text" name="nickname" value="" class="nickname"><br>
+        <form name="join" action="index.html" method="post" class="formJoin">
+            
+            <div class="personalInfo">
+                <h2>개인정보</h2>
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
+                        사용자 이름 
+                        <input type="text" name="username" value="" class="username"><br>
+                </div>
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
+                        전화번호 <input type="text" name="phonenumber" value="" class="phonenumber"><br>
+                </div>
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
+                        이메일 <input type="text" name="email" value="" class="email"> &nbsp;&nbsp; @ &nbsp;&nbsp;
+                    <select name="mailsite" id="">
+                        <option value="">직접 입력</option>
+                        <option value="gmail">gmail.com</option>
+                        <option value="naver">naver.com</option>
+                        <option value="daum">daum.com</option>
+                    </select>
+                </div>
             </div>
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                    아이디 <input type="text" name="user_id" value="" class="userID"><br>
+            
+            <div class="loginInfo">
+                <h2>로그인 정보</h2>
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
+                        닉네임 <input type="text" name="nickname" value="" class="nickname"><br>
+                </div>
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
+                        아이디 <input type="text" name="user_id" value="" class="userID"><br>
+                </div>
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span> 
+                        비밀번호 <input type="password" name="user_password" value="" class="pwrd"><br>
+                    <div class="pwrdRule">특수문자를 포함한 10~16자 이상으로 입력해주세요.</div>
+                </div>       
+            
+                <div class="textForm">
+                    <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
+                        비밀번호 확인 <input type="password" name="passwordcheck" value="" class="pwrdCheck"><br>
+                        <div class="pwrdRule">일치합니다.</div>
+                </div>
+                <input type="submit" name="" value="가입하기" class="btn">
             </div>
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span> 
-                    비밀번호 <input type="password" name="user_password" value="" class="pwrd"><br>
-                <div class="pwrdRule">특수문자를 포함한 10~16자 이상으로 입력해주세요.</div>
-            </div>       
-        
-            <div class="textForm">
-                <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                    비밀번호 확인 <input type="password" name="passwordcheck" value="" class="pwrdCheck"><br>
-            </div>
-            <br>
-            <input type="submit" name="" value="가입하기" class="btn">
-        </div>
 
-     </form>
+        </form>
 
-     <div class="footer"> 
-         <li>contents?</li>
-     </div>
+    </div>
+
+    <div class="footer"> 
+        <li>contents?</li>
+    </div>
 
 </body>
 </html>
