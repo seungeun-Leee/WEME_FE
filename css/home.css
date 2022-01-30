@@ -173,7 +173,7 @@ h4 {
   width: 1920px;
   margin: auto;
   margin-top: 206px;
-  background-color: darkorange;
+  /* background-color: darkorange; */
 }
 .home_review_text {
   width: 424px;
@@ -185,8 +185,8 @@ h4 {
   padding-left: 321px;
 }
 .home_review_choose {
-  background-color: skyblue;
-  width: 1920px;
+  /* background-color: skyblue; */
+  width: 1200px;
   margin: auto;
   display: flex;
   /* text-align: center; */
