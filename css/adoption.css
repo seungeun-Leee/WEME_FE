@@ -1,42 +1,42 @@
 .adoption_location_text {
-    margin-top: 15px;
+  margin-top: 15px;
 }
-.adoption_location_text > span{
-    /* display: flex; */
-    margin-right: 30px;
-    font-size: 40px;
+.adoption_location_text > span {
+  /* display: flex; */
+  margin-right: 30px;
+  font-size: 40px;
 }
-.adoption_location_text > span > a{
-    color: #A3A3A3;;
-    font-size: 32px;
+.adoption_location_text > span > a {
+  color: #a3a3a3;
+  font-size: 32px;
 }
 .list_top_img {
-    margin: auto;
-    margin-top: 60px;
-    width: 1200px;
-    height: 259px;
-    background-color: #DDDFA0;
+  margin: auto;
+  margin-top: 60px;
+  width: 1200px;
+  height: 259px;
+  background-color: #dddfa0;
 }
 .adop_list_top {
-    margin: auto;
-    display: flex;
-    justify-content: flex-end;
-    width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
 }
 .list_top_subtext {
-    color: #787878;
+  color: #787878;
 }
 .list_top_subtext {
-    margin-right: 445px;
-    margin-top: 25px;
-    font-size: 18px;
+  margin-right: 445px;
+  margin-top: 25px;
+  font-size: 18px;
 }
 .list_top_sort > select {
-    border: none;
-    margin-top: 31px;
-    font-size: 18px;
+  border: none;
+  margin-top: 31px;
+  font-size: 18px;
 }
 .list_top_sort > select:last-child {
-    margin-right: 16px;
-    margin-left: 20px;
+  margin-right: 16px;
+  margin-left: 20px;
 }

@@ -6,32 +6,34 @@
   padding: 0px;
   color: black;
 }
+/* 임시 */
+.header {
+  width: 1920px;
+  height: 152px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.join_bg {
+  margin: auto;
+  width: 1920px;
+}
 
 .joinhead {
+  margin-left: 360px;
   text-align: center;
+  width: 1200px;
+  height: 86px;
 }
 
 .joinhead h1 {
-  position: absolute;
-  width: 148px;
-  height: 58px;
-  left: 866px;
-  top: 231px;
-  text-align: center;
-
-  font-family: Noto Sans KR;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 40px;
-  line-height: 58px;
 }
 
 .joinhead hr {
   position: absolute;
+  margin-top: 28px;
   width: 594px;
-  height: 0px;
-  left: 663px;
-  top: 317px;
 
   border: 1px solid #d9d9d9;
 }
@@ -39,30 +41,50 @@
 .formJoin {
   position: absolute;
   width: 713px;
-  height: 1093px;
+  height: 1170px;
   left: 603px;
   top: 369px;
 
-  background: #f5f6f1;
+  background: white;
   border-radius: 15px;
   text-align: center;
-
-  padding-bottom: 71;
 }
 
-.formJoin h2 {
+.personalInfo {
+  margin-top: 53px;
+  padding-bottom: 0px;
+}
+
+.personalInfo h2 {
   text-align: left;
   padding: 0px 0px 71px 60px;
+}
+
+.loginInfo {
+  padding-bottom: 53px;
+}
+
+.loginInfo h2 {
+  text-align: left;
+  padding: 20px 0px 51px 60px;
 }
 
 .textForm {
   text-align: left;
   padding-left: 60px;
   background: none;
-  padding-bottom: 53px;
 
   font-size: 24px;
   line-height: 35px;
+  padding-bottom: 53px;
+}
+
+.textForm input:focus,
+.textForm select:focus {
+  outline: 1px solid #93a761;
+}
+.input {
+  text-indent: 1%;
 }
 
 .username {
@@ -71,8 +93,10 @@
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .phonenumber {
@@ -81,29 +105,33 @@
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  margin-left: 45px;
+  margin-left: 58px;
 }
 
 .email {
   width: 190px;
   height: 48px;
-  /* margin: 0px 64px 40px 242px; */
+
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  padding-bottom: 0px;
-  margin-left: 65px;
+  margin-left: 80px;
 }
 
 select {
-  width: 185px;
+  width: 155px;
   height: 48px;
 
-  padding: 5px;
   border: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -121,8 +149,10 @@ select {
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  margin-left: 65px;
+  margin-left: 80px;
 }
 
 .userID {
@@ -132,8 +162,10 @@ select {
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  margin-left: 65px;
+  margin-left: 80px;
 }
 
 .pwrd {
@@ -143,13 +175,16 @@ select {
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  margin-left: 65px;
+  margin-left: 58px;
 }
 
 .pwrdRule {
   text-align: left;
-  padding-left: 246px;
+  padding-left: 110px;
+  padding-top: 5px;
   background: none;
 
   font-weight: 500;
@@ -157,7 +192,7 @@ select {
   color: #787878;
   font-size: 16px;
 
-  margin-left: 65px;
+  margin-left: 75px;
 }
 
 .pwrdCheck {
@@ -167,14 +202,16 @@ select {
   border: none;
   outline: none;
   background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-  margin-left: 65px;
+  margin-left: 10px;
 }
 
 .btn {
   /* position: absolute; */
-  width: 499px;
-  height: 80px;
+  width: 585px;
+  height: 70px;
   background-color: #93a761;
   border: none;
   border-radius: 15px;
@@ -185,6 +222,7 @@ select {
   text-align: center;
   color: #ffffff;
 
+  margin-top: 65px;
   display: inline;
   cursor: pointer;
 }
@@ -193,7 +231,7 @@ select {
   position: absolute;
   width: 1920px;
   left: -1px;
-  top: 1652px;
+  top: 1729px;
   height: 128px;
   background-color: #93a761;
 
