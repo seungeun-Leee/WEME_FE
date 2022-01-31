@@ -210,16 +210,16 @@ h4 {
   margin: auto;
 }
 .home_Knowledge_choose > a:first-child{
-  margin-left: 437px;
+  margin-left: 415.5px;
 }
 .home_Knowledge_choose > a:not(:last-child){
   margin-right: 182px;
 }
-.home_Knowledge_choose > a > li {
-  /* border: none; */
-  
-}
+/* .home_Knowledge_choose > a {
+  background-color: violet;
+} */
 .home_Knowledge_img {
+  margin: auto;
   background-image: url(../source/home_Knowledge_img.png);
   width: 227px;
   height: 227px;
