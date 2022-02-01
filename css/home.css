@@ -67,6 +67,9 @@ h4 {
   border: none;
   background: rgba(255, 255, 255, 0);
 }
+.home_bg {
+  margin-top: 35px;
+}
 .intro_text {
   width: 1920px;
   height: 542px;
