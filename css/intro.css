@@ -83,3 +83,36 @@ h5 {
 .team {
   margin-top: 449px;
 }
+
+.teamTitle {
+  text-align: center;
+}
+
+.teamintro {
+  padding-top: 83px;
+  margin-left: 360px;
+}
+
+.teamname {
+  width: 209px;
+  height: 61px;
+  border-radius: 65px;
+  border: 1px solid rgba(147, 167, 97, 1);
+}
+
+.teamname h4 {
+  text-align: center;
+}
+
+.introtxt {
+  padding-top: 25px;
+  color: #787878;
+}
+
+.members {
+  /* margin: 85px 360px 0 360px; */
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
