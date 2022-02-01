@@ -1,0 +1,54 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 32px;
+  font-style: bold;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 38.5px;
+}
+
+h5 {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.main {
+  height: 729px;
+  background: linear-gradient(#f5f6f1 10%, white);
+}
+.intro_top {
+  margin-left: 360px;
+}
+
+.keywords {
+  background-color: #f5f6f1;
+  height: 376px;
+}
+
+.keywords h1 {
+  padding-top: 53px;
+  padding-bottom: 25px;
+}
+
+.keywords h4 {
+  text-align: center;
+  color: #747474;
+  padding-bottom: 55px;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+}
