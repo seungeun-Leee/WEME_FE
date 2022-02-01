@@ -70,10 +70,17 @@
         </div>
         <hr  class="detailpage_top_line">
         <div class="pets_explain_contents">
-            <button class="pets_explain_contents_detail_info_btn">상세 정보</button>
-            <div class="pets_explain_contents_detail_info">
-                예시 이미지<br>
-                <img src="../source/dogimg_rectan.png">
+            <button class="pets_explain_contents_detail_info_btn" id="js_tempo_detail_info_btn">
+                상세 정보
+            </button>
+            <div class="pets_explain_contents_detail_info" id="js_tempo_detail_info">
+                <div class="detail_info_contents">     
+                    <!-- <div>               -->
+                        예시 이미지
+                        <br>
+                        <img src="../source/dogimg_rectan.png">
+                    <!-- </div> -->
+                </div>
             </div>
             
             
@@ -85,21 +92,25 @@
                 <div class="detailpage_comments_count">
                     댓글보기 (<span>16</span>)
                 </div>
-                <div class="detailpage_comments_content">
-                    <div>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.</div>
-                    <div>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.</div>
+                <div class="detailpage_comments_content" id="detailpage_comments_content">
+                    <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
+                        <span class="comment_del" onclick="delComments();return false;">X</span>
+                    </p>
+                    <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
+                        <span class="comment_del" onclick="delComments();return false;">X</span>
+                    </p>
                 </div>
                 <div class="detailpage_comments_write">
                     <div>
-                        <textarea class="write_comment"></textarea>
+                        <input type="text" id="write_comment" placeholder="   댓글을 작성하는 곳." required>
                     </div>
                     <div>
-                        <input type="submit" value="댓글쓰기" class="add_comment"></button>
+                        <button class="add_comment" onclick="newRegister();return false;">댓글쓰기</button>
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
+    <script src="../js/detailpages.js"></script>
 </body>
 </html>

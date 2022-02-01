@@ -177,7 +177,23 @@
 .pets_explain_contents_detail_info {
     margin-top: 59px;
     text-align: center;
+    display: none;
+    /* background-color: steelblue; */
 }
+
+/* .detail_info_bg1 {
+    background-color: red;
+    width: 50px;
+} */
+.detail_info_contents {
+    /* height: 100px; */
+}
+.detail_info_contents > div{
+    /* overflow: hidden; */
+    /* display: none; */
+    /* background-color: violet; */
+
+ } 
 .detailpage_bott_line {
     margin: auto;
     margin-top: 55px;
@@ -205,14 +221,21 @@
     line-height: 35px;
     color: #787878;
 }
-.detailpage_comments_content > div:not(first-child) {
+.detailpage_comments_content > p:not(first-child) {
     margin-top: 6px;
+    width: 912.16px;
+    /* background-color: coral; */
+}
+.detailpage_comments_content > p > span {
+    /* background-color: cornflowerblue; */
+    float: right;
+    /* margin-top: 50%; */
 }
 .detailpage_comments_write {
     margin-top: 65px;
     display: flex;
 }
-.write_comment {    
+#write_comment {    
     width:912.16px;
     height: 44px;
     
