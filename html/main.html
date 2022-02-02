@@ -5,14 +5,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>WEME-HOME</title>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $("#header").load("header.html")
         });
     </script>    
+    <!-- <script type="text/javascript">
+        $(function(){
+            $('.your-class').slick();
+        });
+    </script>  -->
+
+
+    <script type="text/javascript">
+        $(function(){
+            $('.home_emergency_bott').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            // nextArrow: $('.home_emergency_next_btn'),
+            // prevArrow: "<button type='button' class='slick-prev'><img src='../source/prev_arrow.svg'></button>",
+            // nextArrow: "<button type='button' class='slick-Next'><img src='../source/next_arrow.svg'></button>",prevArrow
+            prevArrow : $('.prevArrow'), 
+            nextArrow : $('.nextArrow'), 
+            draggable: false,
+            responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+            ]
+            
+            });
+    });
+
+    </script>
 </head>
 <body>
     <div id="header"></div>
@@ -33,15 +86,27 @@
                     </a>
                 </div>
             </div>
-            <ul class="home_emergency_mid">
-                <li style="margin-left:360px;"><h4>입양</h4></li>
-                <li style="margin-left:27px"><h4>임시보호</h4></li>
-            </ul>
+            
             <div class="home_emergency_bott_contents_box">
                 <ul class="home_emergency_bott">
-                    <a href="#">
-                        <li>
-                            <div>
+                    <li class="b">
+                        <a href="#">
+                        
+                            <div class="a">
+                                <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
+    
+                                
+                                <div class="emergency_loca">
+                                    <h4>가나다보호소</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="b">
+                        <a href="#">
+                        
+                            <div class="a">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
     
                                 
@@ -50,46 +115,68 @@
 
                                 </div>
                             </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <div>
+                        </a>
+                    </li>
+                    <li class="b">
+                        <a href="#">
+                        
+                            <div class="a">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
+    
+                                
                                 <div class="emergency_loca">
-                                    <h4>공룡병원</h4>
+                                    <h4>공릉보호소</h4>
+
                                 </div>
                             </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <div>
+                        </a>
+                    </li>
+                    <li class="b">
+                        <a href="#">
+                        
+                            <div class="a">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
+    
+                                
                                 <div class="emergency_loca">
-                                    <h4>서울 노원구</h4>
+                                    <h4>공릉보호소</h4>
+
                                 </div>
                             </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <div>
+                        </a>
+                    </li>
+                    <li class="b">
+                        <a href="#">
+                        
+                            <div class="a">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
+    
+                                
                                 <div class="emergency_loca">
-                                    <h4>경기도 남양주시</h4>
+                                    <h4>공릉보호소</h4>
+
                                 </div>
                             </div>
-                        </li>
-                    </a>
+                        </a>
+                    </li>
                 </ul>
-                <!-- 다음 화살표 버튼 -->
-                <div id="next_btn" class="home_emergency_next_btn">
-                    <button>
-                        <img src="../source/next_arrow.png">
-                    </button>
+                <div class="indicaotr">
+                    <span class="prevArrow"><img src='../source/prev_arrow.svg'></span>
+                    <span class="nextArrow"><img src='../source/next_arrow.svg'></span>          
                 </div>
+                <!-- 다음 화살표 버튼 -->
+                <!-- <div id="next_btn" class="home_emergency_next_btn">
+                    <button>
+                        <img src="../source/next_arrow.svg">
+                    </button>
+                </div> -->
             </div>
+            <ul class="home_emergency_mid">
+                <!-- style="margin-left:360px;" -->
+                <!-- style="margin-left:27px" -->
+                <li><h4>입양</h4></li>
+                <li style="margin-left:27px"><h4>임시보호</h4></li>
+            </ul>
         </div>
         <div class="home_Knowledge">
             <div class="home_Knowledge_top_img_add">
