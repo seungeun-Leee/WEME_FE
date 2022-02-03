@@ -34,13 +34,13 @@ function newRegister() {
     var delBttn = document.createElement("span");
     var delText = document.createTextNode("X");
     delBttn.setAttribute("class","comment_del");
+    delBttn.setAttribute("onclick","delComments();return false;");
     delBttn.appendChild(delText);
     newP.appendChild(delBttn);
 
     var commentList = document.querySelector("#detailpage_comments_content");
     commentList.appendChild(newP);
-    newcomment.value="";
-    
+    newcomment.value="";    
 }
 
 function delComments() {

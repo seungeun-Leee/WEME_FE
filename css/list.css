@@ -14,7 +14,8 @@ body {
   user-select: none;
 }
 .list_bg {
-  margin: auto;
+  margin: auto;  
+  margin-top: 35px;
   width: 1920px;
 }
 .list_top {

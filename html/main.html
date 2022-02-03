@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>WEME-HOME</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0)
+        });
+    </script>
 </head>
 <body>
+    <div id="header"></div>
     <div class="home_bg">
-        <!-- 헤더 자리 -->
         <div class="intro_text">
             <!-- <h1>WEME 소개글</h1> -->
         </div>
@@ -26,63 +36,72 @@
                     </a>
                 </div>
             </div>
-            <ul class="home_emergency_mid">
-                <li style="margin-left:360px;"><h4>입양</h4></li>
-                <li style="margin-left:27px"><h4>임시보호</h4></li>
-            </ul>
             <div class="home_emergency_bott_contents_box">
                 <ul class="home_emergency_bott">
-                    <a href="#">
-                        <li>
-                            <div>
+                    <li class="home_emergency_bott_li">
+                        <a href="#">
+                            <div class="emergency_contents">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-    
-                                
                                 <div class="emergency_loca">
                                     <h4>공릉보호소</h4>
-
                                 </div>
                             </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <div>
-                                <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-                                <div class="emergency_loca">
-                                    <h4>공룡병원</h4>
-                                </div>
-                            </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <div>
-                                <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
+                        </a>
+                    </li>
+                    <li class="home_emergency_bott_li">
+                        <a href="#">
+                            <div class="emergency_contents">
+                                <img src="../source/emergency_dog_img2.png" class="emergency_pet_img">
                                 <div class="emergency_loca">
                                     <h4>서울 노원구</h4>
                                 </div>
                             </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <div>
-                                <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
+                        </a>
+                    </li>
+                    <li class="home_emergency_bott_li">
+                        <a href="#">
+                            <div class="emergency_contents">
+                                <img src="../source/emergency_dog_img3.png" class="emergency_pet_img">
                                 <div class="emergency_loca">
                                     <h4>경기도 남양주시</h4>
                                 </div>
                             </div>
-                        </li>
-                    </a>
+                        </a>
+                    </li>
+                    <li class="home_emergency_bott_li">
+                        <a href="#">
+                            <div class="emergency_contents">
+                                <img src="../source/emergency_dog_img4.png" class="emergency_pet_img">
+                                <div class="emergency_loca">
+                                    <h4>경기도 남양주시</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="home_emergency_bott_li">
+                        <a href="#">
+                            <div class="emergency_contents">
+                                <img src="../source/emergency_dog_img2.png" class="emergency_pet_img">
+                                <div class="emergency_loca">
+                                    <h4>초록이끼</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
-                <!-- 다음 화살표 버튼 -->
-                <div id="next_btn" class="home_emergency_next_btn">
-                    <button>
-                        <img src="../source/next_arrow.png">
-                    </button>
+                <div class="indicaotr">
+                    <span class="prevArrow"><img src='../source/prev_arrow.svg'></span>
+                    <span class="nextArrow"><img src='../source/next_arrow.svg'></span>          
                 </div>
             </div>
+            <ul class="home_emergency_mid">
+                <li id="emergency_btn1" onclick="emergency_btn1(); return false;">
+                    <h4>입양</h4>
+                </li>
+                <li id="emergency_btn2"  onclick="emergency_btn2(); return false;" style="margin-left:27px">
+                    <h4>임시보호</h4>
+                </li>
+            </ul>
         </div>
         <div class="home_Knowledge">
             <div class="home_Knowledge_top_img_add">
@@ -100,7 +119,6 @@
                     </a>
                 </div>
             </div>
-
             <ul class="home_Knowledge_choose">
                 <a href="#">
                     <div class="home_Knowledge_img"></div>
@@ -137,52 +155,93 @@
             </div>
             <div class="home_review_choose_box">
                 <ul class="home_review_choose">
-                    <a href="#">
-                        <li class="home_review_box">
-                            <div class="home_review_title">
-                                왈자와 함께한 1년
+                    
+                    <li class="home_review_box">
+                        <a href="#">
+                        <div class="home_review_title">
+                            왈자와 함께한 1년
+                        </div>
+                        <div class="home_review_contents">
+                            <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
+                            매일 저를 기다리는 왈자 얼굴 보면 <br>
+                            힘든 하루에 웃음꽃이 활짝 핀답니다<br>
+                            하루라도 더 빨리 만났으면 좋았을 것 같아요...
                             </div>
-                            <div class="home_review_contents">
-                                <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
-                                매일 저를 기다리는 왈자 얼굴 보면 <br>
-                                힘든 하루에 웃음꽃이 활짝 핀답니다<br>
-                                하루라도 더 빨리 만났으면 좋았을 것 같아요...
-                                </div>
-                                <img class="home_review_contents_img">
+                            <img class="home_review_contents_img">
                             </div>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li class="home_review_box">
-                            <div class="home_review_title">
-                                왈자와 함께한 1년
+                        </a>
+                    </li>
+                    <li class="home_review_box">
+                        <a href="#">
+                        <div class="home_review_title">
+                            왈자와 함께한 2년
+                        </div>
+                        <div class="home_review_contents">
+                            <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
+                            매일 저를 기다리는 왈자 얼굴 보면 <br>
+                            힘든 하루에 웃음꽃이 활짝 핀답니다<br>
+                            하루라도 더 빨리 만났으면 좋았을 것 같아요...
                             </div>
-                            <div class="home_review_contents">
-                                <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
-                                매일 저를 기다리는 왈자 얼굴 보면 <br>
-                                힘든 하루에 웃음꽃이 활짝 핀답니다<br>
-                                하루라도 더 빨리 만났으면 좋았을 것 같아요...
-                                </div>
-                                <img class="home_review_contents_img">
+                            <img class="home_review_contents_img">
                             </div>
-                        </li>
-                    </a>
+                        </a>
+                    </li>
+                    <li class="home_review_box">
+                        <a href="#">
+                        <div class="home_review_title">
+                            왈자와 함께한 3년
+                        </div>
+                        <div class="home_review_contents">
+                            <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
+                            매일 저를 기다리는 왈자 얼굴 보면 <br>
+                            힘든 하루에 웃음꽃이 활짝 핀답니다<br>
+                            하루라도 더 빨리 만났으면 좋았을 것 같아요...
+                            </div>
+                            <img class="home_review_contents_img">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="home_review_box">
+                        <a href="#">
+                        <div class="home_review_title">
+                            왈자와 함께한 4년
+                        </div>
+                        <div class="home_review_contents">
+                            <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
+                            매일 저를 기다리는 왈자 얼굴 보면 <br>
+                            힘든 하루에 웃음꽃이 활짝 핀답니다<br>
+                            하루라도 더 빨리 만났으면 좋았을 것 같아요...
+                            </div>
+                            <img class="home_review_contents_img">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="home_review_box">
+                        <a href="#">
+                        <div class="home_review_title">
+                            왈자와 함께한 5년
+                        </div>
+                        <div class="home_review_contents">
+                            <div>우리 왈자를 만난 이후로 매일이 즐거워요<br>
+                            매일 저를 기다리는 왈자 얼굴 보면 <br>
+                            힘든 하루에 웃음꽃이 활짝 핀답니다<br>
+                            하루라도 더 빨리 만났으면 좋았을 것 같아요...
+                            </div>
+                            <img class="home_review_contents_img">
+                            </div>
+                        </a>
+                    </li>
                     
                 </ul>
-                <!-- 다음 화살표 버튼 -->
-                <div id="next_btn" class="home_review_choose_box_next_btn">
-                    <button>
-                        <img src="../source/next_arrow.png">
-                    </button>
+                <div class="indicaotr2">
+                    <span class="prevArrow2"><img src='../source/prev_arrow.svg'></span>
+                    <span class="nextArrow2"><img src='../source/next_arrow.svg'></span>          
                 </div>
+                
             </div>
-            
-
         </div>
     </div>
-    
-    <script>
-        
-    </script>
+
+    <script src="../js/home.js"></script>
 </body>
 </html>
