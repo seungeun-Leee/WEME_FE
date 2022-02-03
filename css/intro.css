@@ -1,0 +1,174 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list_location {
+  display: flex;
+}
+
+.list_location > li,
+.list_location > li > a {
+  margin-right: 9px;
+  font-size: 18px;
+  color: #787878;
+}
+
+h1 {
+  font-size: 32px;
+  font-style: bold;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 38.5px;
+}
+
+h5 {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.main {
+  height: 729px;
+  background: linear-gradient(#f5f6f1, 20%, white);
+}
+.intro_top {
+  margin-left: 360px;
+}
+
+.keywordsIntro {
+  background-color: #f5f6f1;
+  /* width: 1920px; */
+  height: 376px;
+}
+
+.keywords h1 {
+  padding-top: 53px;
+  padding-bottom: 25px;
+}
+
+.keywords h4 {
+  text-align: center;
+  color: #747474;
+  padding-bottom: 55px;
+}
+
+/* .keys {
+  padding: 0 360px 0 360px;
+  justify-content: space-between;
+} */
+
+.contents {
+  display: flex;
+  padding: 0 360px 0 360px;
+  justify-content: space-between;
+}
+
+.keyword1,
+.keyword2,
+.keyword3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .keyimg {
+  position: relative;
+  bottom: -93px;
+} */
+
+.keyText {
+  position: relative;
+  top: -93px;
+  height: 263px;
+  width: 334px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+.keyText h5 {
+  text-align: center;
+  padding-top: 124px;
+  line-height: 26px;
+}
+
+.team {
+  margin-top: 449px;
+}
+
+.teamTitle {
+  text-align: center;
+}
+
+.teamintro {
+  padding-top: 83px;
+  margin-left: 360px;
+}
+
+.teamname {
+  width: 209px;
+  height: 61px;
+  border-radius: 65px;
+  border: 1px solid rgba(147, 167, 97, 1);
+}
+
+.teamname h4 {
+  text-align: center;
+}
+
+.introtxt h4 {
+  text-align: left;
+}
+
+.introtxt {
+  padding-top: 25px;
+  color: #787878;
+}
+
+.members {
+  margin-top: 89px;
+  padding: 0 360px 0 360px;
+}
+
+.memberline1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.memberline2 {
+  padding-top: 83px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yhmemo {
+  position: relative;
+  bottom: -30px;
+}
+
+.namecard {
+  height: 164px;
+  width: 288px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px 5px rgba(176, 176, 176, 0.25);
+}
+
+.YH,
+.NH,
+.SE,
+.YJ,
+.JE,
+.SH {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
