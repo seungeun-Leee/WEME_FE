@@ -8,63 +8,13 @@
     <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>WEME-HOME</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
     <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header").load("header.html")
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0)
         });
-    </script>    
-    <!-- <script type="text/javascript">
-        $(function(){
-            $('.your-class').slick();
-        });
-    </script>  -->
-
-
-    <script type="text/javascript">
-        $(function(){
-            $('.home_emergency_bott').slick({
-            dots: false,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            // nextArrow: $('.home_emergency_next_btn'),
-            // prevArrow: "<button type='button' class='slick-prev'><img src='../source/prev_arrow.svg'></button>",
-            // nextArrow: "<button type='button' class='slick-Next'><img src='../source/next_arrow.svg'></button>",prevArrow
-            prevArrow : $('.prevArrow'), 
-            nextArrow : $('.nextArrow'), 
-            draggable: false,
-            responsive: [
-                {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-                },
-                {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-                },
-                {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-                }
-            ]
-            
-            });
-    });
-
     </script>
 </head>
 <body>
@@ -86,75 +36,54 @@
                     </a>
                 </div>
             </div>
-            
             <div class="home_emergency_bott_contents_box">
                 <ul class="home_emergency_bott">
-                    <li class="b">
+                    <li class="home_emergency_bott_li">
                         <a href="#">
-                        
-                            <div class="a">
+                            <div class="emergency_contents">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-    
-                                
                                 <div class="emergency_loca">
                                     <h4>가나다보호소</h4>
-
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="b">
+                    <li class="home_emergency_bott_li">
                         <a href="#">
-                        
-                            <div class="a">
+                            <div class="emergency_contents">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-    
-                                
                                 <div class="emergency_loca">
                                     <h4>공릉보호소</h4>
-
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="b">
+                    <li class="home_emergency_bott_li">
                         <a href="#">
-                        
-                            <div class="a">
+                            <div class="emergency_contents">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-    
-                                
                                 <div class="emergency_loca">
                                     <h4>공릉보호소</h4>
-
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="b">
+                    <li class="home_emergency_bott_li">
                         <a href="#">
-                        
-                            <div class="a">
+                            <div class="emergency_contents">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-    
-                                
                                 <div class="emergency_loca">
                                     <h4>공릉보호소</h4>
-
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="b">
+                    <li class="home_emergency_bott_li">
                         <a href="#">
-                        
-                            <div class="a">
+                            <div class="emergency_contents">
                                 <img src="../source/emergency_dog_img.png" class="emergency_pet_img">
-    
-                                
                                 <div class="emergency_loca">
                                     <h4>공릉보호소</h4>
-
                                 </div>
                             </div>
                         </a>
@@ -164,16 +93,8 @@
                     <span class="prevArrow"><img src='../source/prev_arrow.svg'></span>
                     <span class="nextArrow"><img src='../source/next_arrow.svg'></span>          
                 </div>
-                <!-- 다음 화살표 버튼 -->
-                <!-- <div id="next_btn" class="home_emergency_next_btn">
-                    <button>
-                        <img src="../source/next_arrow.svg">
-                    </button>
-                </div> -->
             </div>
             <ul class="home_emergency_mid">
-                <!-- style="margin-left:360px;" -->
-                <!-- style="margin-left:27px" -->
                 <li><h4>입양</h4></li>
                 <li style="margin-left:27px"><h4>임시보호</h4></li>
             </ul>
@@ -194,7 +115,6 @@
                     </a>
                 </div>
             </div>
-
             <ul class="home_Knowledge_choose">
                 <a href="#">
                     <div class="home_Knowledge_img"></div>
@@ -270,13 +190,9 @@
                     </button>
                 </div>
             </div>
-            
-
         </div>
     </div>
-    
-    <script>
-        
-    </script>
+
+    <script src="../js/home.js"></script>
 </body>
 </html>
