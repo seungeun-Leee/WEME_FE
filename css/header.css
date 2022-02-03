@@ -19,12 +19,11 @@ a {
 
 .header {
   display: flex;
-  /* position: absolute; */
+  margin: auto;
   width: 1920px;
   height: 152px;
   left: 0px;
   top: 0px;
-  /* justify-content: space-between; */
   align-items: center;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -32,10 +31,8 @@ a {
 
 .headergroup {
   display: flex;
-  width: 1920px;
+  width: 1200px;
   height: 152px;
-  /* left: 0px;
-  top: 0px; */
   margin-right: 360px;
   margin-left: 360px;
 }
@@ -54,36 +51,62 @@ a {
   height: 64px;
 }
 
+.header_right {
+  margin-left: 327px;
+  height: 104px;
+}
+.header_right > ul {
+  margin: auto;
+}
+
 .header_navbar {
   list-style: none;
   display: flex;
-  position: absolute;
   width: 633px;
   height: 35px;
-  left: 925px;
-  top: 69px;
-  margin: 0;
+  padding-top: 27px;
   justify-content: space-between;
-}
 
+}
 .header_navbar li {
+  margin: auto;
   font-weight: bold;
   font-size: 24px;
+  line-height: 35px;
+  text-align: center;
 }
-
+.header_navbar li:not(:last-child) {
+  margin-right: 90px;
+}
 .header_navbar a:hover {
   color: #93a761;
+}
+.user_icon {
+  width: 22px;
+  height: 22.29px;
+}
+.user_icon > div > img {
+  margin-bottom: -5px;
+}
+.user_icon_gray {
+  position: relative;
+}
+.user_icon_green {
+  position: absolute;
+  top: 69px;
+  display: none;
+}
+.user_icon:hover .user_icon_green{
+  display: block;
 }
 
 .join_login {
   display: flex;
   justify-content: right;
-  position: absolute;
-  width: 172px;
+  padding-top: 19px;
+  margin-right: 0px;
+  width: 633px;
   height: 23px;
-  left: 1387px;
-  top: 19px;
-  margin: 0px;
 }
 
 .join_login li {
