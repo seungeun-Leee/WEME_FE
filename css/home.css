@@ -84,10 +84,11 @@ h4 {
   display: flex;
 }
 .emergency_text {
-  width: 340px;
+  /* width: 340px; */
   height: 77px;
   margin-top: 93px;
-  margin-left: 790px;
+  /* margin-left: 790px; */
+  margin-left: 778px;
 }
 .emergency_text > h1 {
   margin: auto;
@@ -96,7 +97,7 @@ h4 {
 .emergency_text > h4 {
   margin: auto;
   margin-top: 5px;
-  width: 340px;
+  /* width: 340px; */
   height: 26px;
 }
 .emergency_more_btn {
@@ -207,11 +208,12 @@ h4 {
   width: 68px;
   height: 26px;
   margin-top: 93px;
-  margin-left: 321px;
+  /* margin-left: 321px; */
+  margin-left: 309px;
   height: 26px;
 }
 .home_Knowledge_text {
-  width: 424px;
+  /* width: 424px; */
   height: 77px;
   margin-top: 93px;
   margin-left: 748px;
@@ -219,13 +221,13 @@ h4 {
 }
 .home_Knowledge_text > h1 {
   margin: auto;
-  width: 356px;
+  /* width: 356px; */
   height: 46px;
 }
 .home_Knowledge_text > h4 {
   margin: auto;
   margin-top: 5px;
-  width: 424px;
+  /* width: 424px; */
   height: 26px;
 }
 .home_emergency_mid {
@@ -270,7 +272,7 @@ h4 {
   margin-top: 187px;
 }
 .home_review_text {
-  width: 336px;
+  /* width: 336px; */
   margin-left: 792px;
   text-align: center;
 }
@@ -280,7 +282,7 @@ h4 {
   line-height: 46px;
 }
 .home_review_text > h4 {
-  width: 336px;
+  /* width: 336px; */
   height: 26px;
   margin-top: 5px;
   line-height: 26px;
@@ -324,7 +326,7 @@ h4 {
 }
 .home_review_title {
   margin-top: 44px;
-  width: 180px;
+  /* width: 180px; */
   height: 35px;
   margin-left: 51px;
   font-weight: 500;
@@ -337,7 +339,7 @@ h4 {
 .home_review_contents > div {
   margin-left: 52px;
   margin-bottom: 51px;
-  width: 338px;
+  /* width: 338px; */
   height: 104px;
   font-size: 18px;
   line-height: 29px;
