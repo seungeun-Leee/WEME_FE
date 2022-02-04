@@ -7,6 +7,10 @@
   padding: 0px;
 }
 
+.intro_bg {
+  width: 1920px;
+}
+
 .list_location {
   display: flex;
 }
