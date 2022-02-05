@@ -28,11 +28,48 @@
   width: 1200px;
 }
 .privatecheck {
-  margin: 60px 360px 0 360px;
+  margin: 60px 360px 51px 360px;
   display: flex;
   justify-content: space-between;
 }
-
 .privatecheck h4 {
   font-weight: lighter;
+}
+
+.simpleinfo {
+  margin: 0px 360px 0px 360px;
+}
+
+.simpleinfo h4 {
+  margin-bottom: 60px;
+  color: #93a761;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+
+.simpleinfo tr {
+  border: solid 1px;
+}
+
+.simpleinfo td {
+  border: 1px solid #d1d1d1;
+}
+
+.simpleinfo th {
+  width: 239px;
+  height: 72px;
+  border: solid 1px #d1d1d1;
+  background-color: #f5f6f1;
+  text-align: left;
+  text-indent: 31px;
+}
+
+.simpleinfo input {
+  margin-left: 9px;
+  height: 54px;
+  border: 1px solid rgba(209, 209, 209, 1);
+  text-indent: 5%;
 }
