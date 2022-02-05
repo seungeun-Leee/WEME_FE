@@ -1,0 +1,193 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+}
+/* 드래그 방지 */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.adoption_guide_bg {
+  margin: auto;  
+  margin-top: 35px;
+  width: 1920px;
+}
+/* .adoption_process_top {
+  background-color: aquamarine;
+} */
+.adoption_process_top > h1 {
+  margin-top: 76px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+.adoption_process_top > hr {
+  margin: auto;
+  margin-top: 38px;
+  width: 44px;
+  border: 1px solid #A3A3A3;
+}
+.adoption_process_top > h4 {
+  margin-top: 27px;
+  height: 35px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #787878;
+}
+.adoption_process_mid {
+  height: 547px;
+}
+.adoption_process_mid_bg{
+  display: flex;
+  margin: auto;
+  margin-top: 54px;
+  width: 1200px;
+  height: 428px;
+  background: #F5F6F1;
+}
+.adoption_process_step_box {
+  margin: auto;
+  display: flex;
+}
+.adoption_process_step_contents {
+  text-align: center;
+  width: 271px;
+  height: 352px;
+}
+.adoption_process_step_text1{
+  height: 35px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #93A761;
+}
+.adoption_process_step_img {
+  position:relative;
+  margin: auto;
+  margin-top: 11px;
+  width: 194px;
+  height: 194px;
+  border-radius: 100%;
+  background: #FFFFFF;
+}
+#step_img1 {
+  margin: auto;
+  margin-top: 53px;
+  width: 70px;
+  height: 88px;
+}
+#step_img2 {
+  margin: auto;
+  margin-top: 66px;
+  width: 82px;
+  height: 60px;
+}
+#step_img3 {
+  margin: auto;
+  margin-top: 55px;
+  width: 141px;
+  height: 85px;
+}
+.adoption_process_step_text2 {
+  margin-top: 23px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+.adoption_process_step_text3 {
+  margin-top: 2px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #787878;
+}
+.adoption_process_step_box_arrow {
+  margin: auto 58px auto 58px;
+  width: 23.74px;
+  height: 39.17px;
+}
+.adoption_process_mid_bottom {
+  background-color: #93A761;
+  width: 1200px;
+  margin: auto;
+}
+.adoption_process_mid_butt {
+  float: right;
+  margin: auto;
+  margin-top: 52px;
+  width: 256px;
+  height: 67px;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.adoption_process_bottom {
+  margin: auto;
+  margin-top: 64px;
+  text-align: center;
+}
+#adoption_caution_img {
+  width: 72px;
+  height: 104px;
+}
+.adoption_process_bottom > h1 {
+  margin-top: 18px;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 46px;
+  color: #93A761;
+}
+.adoption_process_bottom > p {
+  margin-top: 37px;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #787878;
+}
+#adoption_caution_bott_img {
+  margin-top: 64px;
+  width: 1200px;
+  height: 538px;
+}
+.adoption_list_go_btn {
+  margin: auto;
+  margin-top: 73px;
+  width: 226px;
+  height: 51px;
+  background: #93A761;
+  border-radius: 10px;
+}
+#adoption_list_go_btn > h4{
+  position: relative;
+  top: 7.14px;
+  left: 52.65px;
+  width: 120.7px;
+  height: 35.7px;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}

@@ -16,7 +16,6 @@
   width: 1200px;
   height: 259px;
   background-image: url(../source/adoption-tempo_banner.svg);
-  /* background-color: #dddfa0; */
 }
 .adoption_process {
   margin: auto;
@@ -30,30 +29,11 @@
   background-image: url(../source/adoption_process_btn.svg);
   cursor: pointer;
 }
-/* .adoption_process >h4 {
+.adoption_process:active {
   margin: auto;
-  margin-top: -20px;
-  width: 94.49px;
-  height: 28.67px;
-
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 35px;
-  text-align: center;
-  background-color: rebeccapurple;
-  
+  margin-top: 186.5px;
+  margin-left: 513.5px;
 }
-.adoption_process > img {
-  display: flex;
-  margin-left: 142px;
-  margin-top: -14.77px;
-  width: 9px;
-  height: 13px;
-  background-color: aqua;
-} */
-
-
-
 .adop_list_top {
   margin: auto;
   display: flex;
