@@ -33,7 +33,7 @@
         </div>
         <div class="privatecheck">
             <h4>*반려견 입양자로서의 적합성을 파악하기 위함이며 이 외의 용도로는 일체 사용되지 않습니다.</h4>
-            <label>동의합니다 &nbsp;<input type="checkbox" name="color" value="blue"> </label>
+            <label>동의합니다 &nbsp;<input type="checkbox" name="color"> </label>
         </div>
         <div class="simpleinfo">
             <h4>❗ 간단정보</h4>
@@ -51,27 +51,30 @@
                     
                     <tr>
                         <th> 성별 </th>
-                        <td><input type="text" name="name" size="1200" style="width: 100%; "></td>
+                        <td><input type="checkbox" name="sex" value="F" onclick="clickCheck(this)"/> &nbsp; 여자
+                            <input type="checkbox" name="sex" value="M" onclick="clickCheck(this)"/> &nbsp; 남자
+                            <script type="text/javascript" src="../js/applycheckbox.js"></script>
+                        </td>
                     </tr>
 
                     <tr>
                         <th> 연락처 </th>
-                        <td><input type="text" name="name" size="1200" style="width: 100%; "></td>
+                        <td><input type="text" name="name" size="1200" style="width: 218px; "></td>
                     </tr>
 
                     <tr>
                         <th> 연락 가능 시간 </th>
-                        <td><input type="text" name="name" size="1200" style="width: 100%; "></td>
+                        <td><input type="text" name="name" size="1200" style="width: 952px; "></td>
                     </tr>
 
                     <tr>
                         <th> 주소 </th>
-                        <td><input type="text" name="name" size="1200" style="width: 100%; "></td>
+                        <td><input type="text" name="name" size="1200" style="width: 710px; "></td>
                     </tr>
 
                     <tr>
                         <th> 직업/직장 </th>
-                        <td><input type="text" name="name" size="1200" style="width: 100%; "></td>
+                        <td><input type="text" name="name" size="1200" style="width: 218px "></td>
                     </tr>
 
                 </table>
