@@ -1,0 +1,38 @@
+.apply_bg {
+  margin: auto;
+  width: 1920px;
+}
+
+.adoption_location_text {
+  margin-top: 15px;
+}
+.adoption_location_text > span {
+  margin-right: 30px;
+  font-size: 40px;
+}
+.adoption_location_text > span > a {
+  color: #a3a3a3;
+  font-size: 32px;
+}
+.list_top_img {
+  margin: auto;
+  margin-top: 60px;
+  width: 1200px;
+  height: 259px;
+  background-color: #dddfa0;
+}
+.adop_list_top {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+}
+.privatecheck {
+  margin: 60px 360px 0 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.privatecheck h4 {
+  font-weight: lighter;
+}
