@@ -31,8 +31,12 @@ body {
   font-size: 18px;
   color: #787878;
 }
+.adoption_location_text {
+  display: flex;
+}
 .list_location_text {
   width: 148px;
+  height: 58px;
   margin-top: 15px;
   font-size: 40px;
   font-weight: bolder;
@@ -43,6 +47,22 @@ body {
   height: 0px;
   border: 1px solid #787878;
 }
+
+.list_location_text2 {
+  display: flex;
+  margin-top: 24px;
+  height: 46px;
+
+}
+.list_location_text2 > h6 {
+  color: #787878;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
+}
+
 .list_sort_btn {
   margin: auto;
   display: flex;
@@ -62,14 +82,11 @@ body {
   margin: auto;
   width: 1200px;
 }
-/* .list_contents:not(:last-child) {
-    margin-bottom: 500px;
-} */
-.list_contents > ul {
-  display: flex;
+.list_contents > ul{
+  display: flex;  
+  margin-top: 87px;
 }
 .list_contents > ul > a {
-  margin-top: 88px;
   margin-right: 59px;
   text-decoration: none;
 }
@@ -106,6 +123,17 @@ body {
   width: 70px;
   background: #93a761;
 }
+.list_sort > span > h4 {
+  margin-top: -2px;
+  height: 23px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+
+
 .list_bott {
   display: flex;
   justify-content: center;

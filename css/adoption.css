@@ -15,7 +15,24 @@
   margin-top: 60px;
   width: 1200px;
   height: 259px;
-  background-color: #dddfa0;
+  background-image: url(../source/adoption-tempo_banner.svg);
+}
+.adoption_process {
+  margin: auto;
+  margin-top: 186px;
+  margin-left: 513px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 50px;
+  width: 174px;
+  height: 43px;
+  background-image: url(../source/adoption_process_btn.svg);
+  cursor: pointer;
+}
+.adoption_process:active {
+  margin: auto;
+  margin-top: 186.5px;
+  margin-left: 513.5px;
 }
 .adop_list_top {
   margin: auto;
