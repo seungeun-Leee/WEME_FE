@@ -40,6 +40,10 @@
   margin: 0px 360px 0px 360px;
 }
 
+.moreinfo {
+  margin: 60px 360px 0px 360px;
+}
+
 .simpleinfo h4 {
   margin-bottom: 60px;
   color: #93a761;
@@ -65,6 +69,7 @@
   background-color: #f5f6f1;
   text-align: left;
   text-indent: 31px;
+  font-size: 18px;
 }
 
 .simpleinfo input {
@@ -72,4 +77,65 @@
   height: 54px;
   border: 1px solid rgba(209, 209, 209, 1);
   /* text-indent: 5%; */
+}
+
+.moreinfo h4 {
+  margin-bottom: 60px;
+  color: #93a761;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+
+.moreinfo h5 {
+  width: 1200px;
+  /* height: 72px; */
+  padding-top: 23px;
+  padding-bottom: 23px;
+  border: solid 1px #d1d1d1;
+  background-color: #f5f6f1;
+  text-indent: 31px;
+  font-size: 18px;
+
+  margin-bottom: 9px;
+}
+
+.moreinfo input {
+  margin-left: 31px;
+  width: 1138px;
+  height: 54px;
+  border: 1px solid rgba(209, 209, 209, 1);
+  margin-bottom: 9px;
+}
+
+.moreinfo hr {
+  width: 1200px;
+  border: 1px solid rgba(209, 209, 209, 1);
+}
+
+.apply {
+  margin: 72px 360px 190px 360px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  /* position: absolute; */
+  height: 70px;
+  width: 312px;
+  border-radius: 10px;
+  border: none;
+  background: #93a761;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  text-indent: 0;
+  color: #ffffff;
+
+  /* display: inline; */
+  cursor: pointer;
 }
