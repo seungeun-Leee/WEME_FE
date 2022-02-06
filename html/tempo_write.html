@@ -9,48 +9,6 @@
     <title>WEME-tempowrite</title>
 </head>
 <body>
-
-<h1>글 쓰는 곳</h1>
-
-
-
-
-
-
-
-    <div class="text_write_box">
-        <!-- placeholder="내용을 입력해주세요" rows="10" cols="90"  style="width: 1200px"-->
-        <textarea name="editorTxt" id="editorTxt"></textarea>
-
-        <input type="button" value="제출" onclick="submitPost()"/>
-    </div>
-
-
-    <script type="text/javascript">
-        var oEditors = [];
-        nhn.husky.EZCreator.createInIFrame({
-            oAppRef: oEditors,
-            elPlaceHolder: "editorTxt",
-            sSkinURI: "/smarteditor/SmartEditor2Skin.html",
-            fCreator: "createSEditor2"
-        
-        });
-        $(document).ready(function() {
-    smartEditor()
-    })
-
-    function submitPost() {
-        oEditors.getById["editorTxt"].exec("UPDATE_CONTENTS_FIELD", [])
-        let content = document.getElementById("editorTxt").value
-
-        if(content == '') {
-            alert("내용을 입력해주세요.")
-            oEditors.getById["editorTxt"].exec("FOCUS")
-            return
-        } else {
-            console.log(content)
-        }
-    }
-    </script> 
+    
 </body>
 </html>
