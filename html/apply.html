@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/apply.css">
+
+    <title>WEME-adoptapply</title>
+</head>
+<body>
+    <div class="apply_bg">
+        <div class="list_top">
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">입양</a></li>
+                <li>></li>
+                <li><a href="#">보호소</a></li>
+            </ul>
+            <div class="adoption_location_text">
+                <span class="list_location_text">입양하기</span>
+                <span>
+                    <a href="#" style="color: #93A761;">보호소</a>&nbsp;|&nbsp;
+                    <!-- 구분선, 임시보호에서는 임시보호 글씨가 초록색 -->
+                    <a href="#">임시보호</a> 
+                </span>
+            </div>
+            <hr>
+        </div>
+        <div class="privatecheck">
+            <h4>*반려견 입양자로서의 적합성을 파악하기 위함이며 이 외의 용도로는 일체 사용되지 않습니다.</h4>
+            <label>동의합니다 &nbsp;<input type="checkbox" name="color"> </label>
+        </div>
+        <div class="simpleinfo">
+            <h4>❗ 간단정보</h4>
+            <form>
+                <table style="border: 1px solid; border-collapse: collapse;">
+                    <tr>
+                    <th> 이름 </th>
+                    <td><input type="text" name="name" style="width: 218px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 생년월일 </th>
+                        <td><input type="text" name="birth" style="width: 218px; "></td>
+                    </tr>
+                    
+                    <tr>
+                        <th> 성별 </th>
+                        <td><input type="checkbox" name="sex" value="F" onclick="clickCheck(this)"/> &nbsp; 여자
+                            <input type="checkbox" name="sex" value="M" onclick="clickCheck(this)"/> &nbsp; 남자
+                            <script type="text/javascript" src="../js/applycheckbox.js"></script>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th> 연락처 </th>
+                        <td><input type="text" name="name" style="width: 218px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 연락 가능 시간 </th>
+                        <td><input type="text" name="name" style="width: 952px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 주소 </th>
+                        <td><input type="text" name="name" style="width: 710px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 직업/직장 </th>
+                        <td><input type="text" name="name" style="width: 218px "></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+        <div class="moreinfo">
+            <h4>❗ 상세정보</h4>
+            <form>
+                <h5> 1. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 2. &nbsp; 입양에 대해 고민한 기간은 어떻게 되나요? 입양을 결정한 이유와 함께 기재해 주세요.
+                </h5>
+                <input type="text" name="birth">
+
+                <h5> 3. &nbsp; 함께 거주 중인 가족 구성원은 어떻게 되나요? </h5>
+                <input type="text" name="birth">
+
+                <h5> 4. &nbsp; 가족 구성원들 모두 입양에 동의하시나요? </h5>
+                <input type="text" name="birth">
+
+                <h5> 5. &nbsp; 가족 중 개/고양이 알레르기 반응이 있는 분이 있나요? </h5>
+                <input type="text" name="birth">
+
+                <h5> 6. &nbsp; 가족 구성원 중 주 양육자는 누구인가요? 간단한 소개 부탁드립니다.  </h5>
+                <input type="text" name="birth">
+
+                <h5> 7. &nbsp; 현재 키우고 있는 다른 반려동물이 있나요? 있다면 종류, 성별, 나이, 중성화 여부, 품종 등의 내용을 포함한 설명을 기재해 주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 8. &nbsp; 과거 반려동물을 키운 경험이 있었나요?
+                    있었다면 종류, 나이, 현재 상태를 포함한 설명을 기재해 주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 9. &nbsp; 주거 형태 </h5>
+                <input type="checkbox" class="home" value="apt" onclick="clickCheck(this)"/> &nbsp; 아파트
+                <input type="checkbox" class="home" value="inde" onclick="clickCheck(this)"/> &nbsp; 단독주택
+                <input type="checkbox" class="home" value="villa" onclick="clickCheck(this)"/> &nbsp; 빌라 및 다세대
+                <input type="checkbox" class="home" value="oneroom" onclick="clickCheck(this)"/> &nbsp; 원룸
+
+                <script type="text/javascript" src="../js/applycheckbox.js"></script>
+
+                <h5> 10. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 11. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 12. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 13. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 14. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+                
+                <h5> 15. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <h5> 16. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
+                <input type="text" name="birth">
+
+                <hr>
+            </form>
+        </div>
+        <div class="apply">        
+            <input type="submit" name="" value="신청완료" class="btn">
+        </div>
+</body>
+</html>
