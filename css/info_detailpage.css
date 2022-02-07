@@ -1,0 +1,127 @@
+.info_datilpage_bg {
+    margin: auto;
+    margin-top: 35px;
+    width: 1920px;
+}
+hr {
+    margin: auto;
+    margin-top: 34px;
+    width: 1200px;
+    border: 1px solid #787878;
+
+}
+.info_detailpage_top_contents_box {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+    width: 1200px;
+}
+.info_detail_icon_text {
+    display: flex;
+}
+.info_detail_icon {
+    width: 89px;
+    height: 89px;
+}
+.info_detail_text {
+    margin-left: 20px;
+}
+.info_detail_text > h5 {
+    margin-top: 9px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    /* text-align: center; */
+    color: #93A761;
+}
+.info_detail_text > h6 {
+    margin-top: 9px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* text-align: center; */
+    color: #A3A3A3;
+}
+.info_detail_share_btn {
+    margin-top: 35px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+.info_detail_share_btn > img {
+    margin-top: 7px;
+    width: 21px;
+    height: 21px;
+}
+.info_detail1 {
+    margin: auto;
+    margin-top: 61px;
+    width: 1200px;
+    text-align: center;
+}
+.info_detail1 >img {
+    width: 820px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info_bott {
+    margin-top: 59px;
+    text-align: center;
+}
+.info_bott_cution {
+    margin: auto;
+    width: 820px;
+    height: 86px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.info_bott_cution > h3 {
+    padding-top: 26px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #787878
+}
+.info_bott_share {
+    margin-top: 59px;
+}
+.info_bott_share > img:nth-child(2) {
+    margin-left: 16.21px;
+    margin-right: 16.21px;
+}
+.go_info_review_list_btn {
+    margin: auto;
+    margin-top: 59px;
+    width: 226px;
+    height: 51px;
+    border: none;
+    background: #93A761;
+    border-radius: 10px;
+    
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+.go_info_review_list_btn:hover {
+    font-size: 24.5px;
+}
