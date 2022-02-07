@@ -73,7 +73,7 @@ h4 {
 .intro_text {
   width: 1920px;
   height: 542px;
-  background-image: url(../source/home_banner1.png);
+  background-image: url(../source/home_banner1.svg);
   margin: auto;
 }
 .home_emergency {
@@ -243,11 +243,18 @@ h4 {
   width: 1920px;
   margin: auto;
 }
-.home_Knowledge_choose > a:first-child{
-  margin-left: 415.5px;
+.home_Knowledge_choose > a {
+  margin: auto;
 }
-.home_Knowledge_choose > a:not(:last-child){
-  margin-right: 182px;
+.home_Knowledge_choose > a:first-child {
+  margin-right: 0px;
+}
+.home_Knowledge_choose > a:nth-child(2) {
+  margin-right: 122px;
+  margin-left: 122px;
+}
+.home_Knowledge_choose > a:last-child {
+  margin-left: 0px;
 }
 .home_Knowledge_img {
   margin: auto;

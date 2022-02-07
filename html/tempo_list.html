@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/adoption.css">
     <title>WEME-temporary</title>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -31,18 +32,46 @@
         </div>
         <div class="tempo_list">
             <div class="list_sort_btn">
-                <select>
-                    <option value='' selected>크기</option>
-                    <option value='small'>소형</option>
-                    <option value='middle'>중형</option>
-                    <option value='large'>대형</option>
-                </select>
-                <select>
-                    <option value='' selected>지역</option>
-                    <option value='seoul'>서울</option>
-                    <option value='gyeonggi'>경기</option>
-                    <option value='incheon'>인천</option>
-                </select>
+                <div class="select" data-role="selectBox">
+                    <span date-value="optValue" class="selected-option">
+                        <!-- 선택된 옵션 값이 출력되는 부분 -->
+                    </span>
+                    <img src="../source/list_sort_btn_down.svg">
+                
+                    <!-- 옵션 영역 -->
+                    <ul class="hide">
+                    <li>크기</li>
+                    <li>소형견</li>
+                    <li>중형견</li>
+                    <li>대형견</li>
+                    </ul>
+                </div>
+
+                <div class="select" data-role="selectBox2">
+                    <span date-value="optValue2" class="selected-option">
+                        <!-- 선택된 옵션 값이 출력되는 부분 -->
+                    </span>
+                    <img src="../source/list_sort_btn_down.svg">
+                
+                    <!-- 옵션 영역 -->
+                    <ul class="hide2" id="hide2">
+                    <li>지역</li>
+                    <li>서울시</li>
+                    <li>경기도</li>
+                    <li>인천시</li>
+                    <li>부산시</li>
+                    <li>대전시</li>
+                    <li>대구시</li>
+                    <li>울산시</li>
+                    <li>세종시</li>
+                    <li>광주시</li>
+                    <li>강원도</li>
+                    <li>충청도</li>
+                    <li>경상도</li>
+                    <li>전라도</li>
+                    <li>제주도</li>
+                    </ul>
+                </div>
             </div>
             <div class="list_contents">
                 <ul class="list1">
@@ -176,5 +205,6 @@
             <li><a href="#">3</a></li>
         </ul>
     </div>
+    <script src="../js/list_sort_btn.js"></script>
 </body>
 </html>
