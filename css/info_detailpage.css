@@ -129,3 +129,10 @@ hr {
 .go_info_review_list_btn:hover {
     font-size: 24.5px;
 }
+
+.header_navbar a {
+    color: black;
+  }
+#info_nav {
+    color: #93a761;
+}

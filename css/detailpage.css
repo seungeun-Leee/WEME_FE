@@ -276,3 +276,9 @@
 }
 
 
+.header_navbar a {
+    color: black;
+  }
+  #temp_nav {
+    color: #93a761;
+  }
