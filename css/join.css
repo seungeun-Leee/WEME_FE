@@ -31,8 +31,8 @@
 }
 
 .joinhead hr {
-  position: absolute;
   margin-top: 28px;
+  margin-left: 303px;
   width: 594px;
 
   border: 1px solid #d9d9d9;
