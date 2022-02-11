@@ -22,7 +22,8 @@
     <nav class="header">
         <div class="headergroup">
             <div class="header_logo">
-                <button><a href=""></a></button> 
+                <!-- <button><a href=""><img src="../source/weme_logo.svg"></a></button>  -->
+                <a href=""><img src="../source/weme_logo.svg"></a>
                 <!-- 과연 WEME 로고는 무엇이 될 것인가 -->
             </div>
             <div class="header_right">
@@ -34,17 +35,19 @@
                     <img class="join_login_div_line" src="../source/join_login_div_line.svg">
                 </ul>
                 <ul class="header_navbar">
-                    <li><a id="WEME_nav" href="">WEME</a></li>
-                    <li><a id="temp_nav" href="">임시보호</a></li>
-                    <li><a id="adop_nav" href="">입양</a></li>
-                    <li><a id="info_nav" href="">정보</a></li>
-                    <li>
+                    <li id="WEME_nav"><a href="">WEME</a><br><img id="weme_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg"></li>
+                    <li id="temp_nav"><a href="">임시보호</a><br><img id="temp_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg"></li>
+                    <li id="adop_nav"><a href="">입양</a><br><img id="adop_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg"></li>
+                    <li id="info_nav"><a href="">정보</a><br><img id="info_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg"></li>
+                    <li id="user_nav">
                         <a href="" class="user_icon">
-                            <div class="user_icon_gray"><img src="../source/user_basic.svg" alt=""></div>
-                            <div class="user_icon_green"><img src="../source/user_green.svg" alt=""></div>
+                            <div class="user_icon_gray"><img src="../source/user_basic.svg"></div>
+                            <!-- <div class="user_icon_green"><img src="../source/user_green.svg" alt=""></div> -->
+                            <img id="user_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg">
                         </a>
                     </li>
                 </ul>
+                
             </div>
         </div>
     </nav>

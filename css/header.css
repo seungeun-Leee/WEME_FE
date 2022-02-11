@@ -35,16 +35,19 @@ a {
   height: 152px;
   margin-right: 360px;
   margin-left: 360px;
+  /* background-color: aqua; */
 }
 
-.header_logo {
-  width: 238px;
-  height: 64px;
-  padding-top: 48px;
+.header_logo >a>img{
+  /* width: 238px;
+  height: 64px; */
+  width: 260px;
+  height: 52px;
+  margin-top: 48px;
 }
 
 .header_logo button {
-  background-color: #93a761;
+  /* background-color: #93a761; */
   border: none;
   border-radius: 15px;
   width: 238px;
@@ -52,8 +55,9 @@ a {
 }
 
 .header_right {
-  margin-left: 327px;
+  margin-left: 303px;
   height: 104px;
+  /* background-color: darkmagenta; */
 }
 .header_right > ul {
   margin: auto;
@@ -62,25 +66,54 @@ a {
 .header_navbar {
   list-style: none;
   display: flex;
-  width: 633px;
+  /* width: 633px; */
+  width: 760px;
   height: 35px;
   padding-top: 27px;
   justify-content: space-between;
+  /* background-color: slateblue; */
 
 }
 .header_navbar li {
   margin: auto;
+  width: 120px;
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
   text-align: center;
+  /* border: 1px solid seagreen; */
 }
-.header_navbar li:not(:last-child) {
-  margin-right: 90px;
+
+.nav_green_bar {
+  margin-top: 24px;
+  width: 120px;
+  height: 8px;
+  border-radius: 50px;
+  display: none;
 }
-.header_navbar a:hover {
-  color: #93a761;
+#WEME_nav:hover #weme_greenbar {
+  display: block;
+  background-color: #93a761;
 }
+#temp_nav:hover #temp_greenbar {
+  display: block;
+  background-color: #93a761;
+}
+#adop_nav:hover #adop_greenbar {
+  display: block;
+  background-color: #93a761;
+}
+#info_nav:hover #info_greenbar {
+  display: block;
+  background-color: #93a761;
+}
+#user_nav:hover #user_greenbar {
+  display: block;
+  background-color: #93a761;
+}
+
+
+
 .user_icon {
   width: 22px;
   height: 22.29px;
@@ -91,14 +124,17 @@ a {
 .user_icon_gray {
   position: relative;
 }
-.user_icon_green {
+/* .user_icon_green {
   position: absolute;
   top: 69px;
   display: none;
-}
-.user_icon:hover .user_icon_green{
-  display: block;
-}
+} */
+/* .user_icon:hover .user_icon_green{
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  margin-left: 47px;
+} */
 
 .join_login {
   display: flex;
@@ -107,6 +143,7 @@ a {
   margin-right: 0px;
   width: 633px;
   height: 23px;
+  /* background-color: darkorange; */
 }
 
 .join_login li {
