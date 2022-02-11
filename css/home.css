@@ -69,12 +69,14 @@ h4 {
 }
 .home_bg {
   margin-top: 35px;
+  /* background-color: aquamarine; */
 }
 .intro_text {
   width: 1920px;
   height: 542px;
   background-image: url(../source/home_banner1.svg);
   margin: auto;
+  /* background-color: chocolate; */
 }
 .home_emergency {
   width: 1920px;

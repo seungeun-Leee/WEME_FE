@@ -1,4 +1,5 @@
 var headerView = document.querySelector(".header");
+var home = document.querySelector(".intro_text");
 
 headerView.addEventListener("mousemove",function() {
     document.querySelector("#weme_subnav").style.display="block";
@@ -12,7 +13,7 @@ headerView.addEventListener("mousemove",function() {
     document.querySelector(".adop").style.height="200px";
     document.querySelector(".info").style.height="200px";
     document.querySelector(".user").style.height="200px";
-
+    // home.style.marginTop="-138px";
 });
 
 headerView.addEventListener("mouseleave",function() {
@@ -27,5 +28,6 @@ headerView.addEventListener("mouseleave",function() {
     document.querySelector(".adop").style.height="50px";
     document.querySelector(".info").style.height="50px";
     document.querySelector(".user").style.height="50px";
+    // home.style.marginTop="35px";
 });
 
