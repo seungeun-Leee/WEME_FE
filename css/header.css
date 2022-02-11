@@ -27,15 +27,15 @@ a {
   align-items: center;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  /* background-color: darkolivegreen; */
 }
 
 .headergroup {
   display: flex;
-  width: 1200px;
+  /* width: 1200px; */
   height: 152px;
   margin-right: 360px;
   margin-left: 360px;
-  /* background-color: aqua; */
 }
 
 .header_logo >a>img{
@@ -74,9 +74,10 @@ a {
   /* background-color: slateblue; */
 
 }
-.header_navbar li {
+.header_navbar ul {
   margin: auto;
   width: 120px;
+  height: 50px;
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
@@ -89,28 +90,55 @@ a {
   width: 120px;
   height: 8px;
   border-radius: 50px;
+  visibility: hidden;
+  /* display: none; */
+  margin-bottom: 32px;
+}
+.header_navbar ul:hover .nav_green_bar {
+  visibility: visible;
+}
+.subnav_li {
+  margin-bottom: 20px;
+}
+.subnav:hover {
+  color: #93A761;
+}
+.subnav {
   display: none;
+  /* margin-bottom: 20px; */
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #787878;
 }
-#WEME_nav:hover #weme_greenbar {
+
+
+
+/* .weme:hover #weme_greenbar {
   display: block;
   background-color: #93a761;
 }
-#temp_nav:hover #temp_greenbar {
+.temp:hover #temp_greenbar {
   display: block;
   background-color: #93a761;
 }
-#adop_nav:hover #adop_greenbar {
+.adop:hover #adop_greenbar {
   display: block;
   background-color: #93a761;
 }
-#info_nav:hover #info_greenbar {
+.info:hover #info_greenbar {
   display: block;
   background-color: #93a761;
 }
-#user_nav:hover #user_greenbar {
+.user:hover #user_greenbar {
   display: block;
   background-color: #93a761;
-}
+} */
+
+
+
+
 
 
 
@@ -124,16 +152,14 @@ a {
 .user_icon_gray {
   position: relative;
 }
-/* .user_icon_green {
+.user_icon_green {
   position: absolute;
   top: 69px;
   display: none;
-} */
+}
 /* .user_icon:hover .user_icon_green{
   display: inline-block;
-  position: absolute;
-  top: 70px;
-  margin-left: 47px;
+  margin-left: -13px;
 } */
 
 .join_login {
