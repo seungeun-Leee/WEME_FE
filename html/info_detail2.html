@@ -6,14 +6,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/list.css">
     <link rel="stylesheet" type="text/css" href="../css/info_detailpage.css">
-    <title>WEME-info-detail1</title>
+    <title>WEME-info-detail2</title>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $("#header").load("header.html")
         });
-    </script>    
+    </script>
+    <script type="text/javascript">
+
+        function clip2(){
+            var url = 'http://192.168.35.189:5501/html/info_detail2.html';
+            var textarea = document.createElement("textarea");
+            document.body.appendChild(textarea);
+            url = window.document.location.href;
+            textarea.value = url;
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("URL이 복사되었습니다.")
+        }        
+        </script>
 </head>
 <body>
     <div id="header"></div>
@@ -37,22 +51,24 @@
                     <h6>2022. 1. 17. 13:50</h6>
                 </div>
             </div>
-            <div class="info_detail_share_btn">
-                <img src="../source/share_btn.svg">
-            </div>
+            <span class="info_detail_copy_url">
+                <a href="#" onclick="clip2(); return false;">URL복사</a>
+            </span>
+            
         </div>
         <hr>
         <div class="info_detail2">
             <img src="../source/info_detail2.svg">
         </div>
         <div class="info_bott">
-            <div class="info_bott_cution">
+            <div class="info_bott_caution">
                 <h3>🐶 반려동물 입양은 신중하게 생각해주세요 😺</h3>
             </div>
             <div class="info_bott_share">
                 <img src="../source/facebook.svg">
                 <img src="../source/kakao-talk.svg">
                 <img src="../source/twitter.svg">
+                <img src="../source/url_share.svg" onclick="clip2(); return false;">
             </div>
             <a href="#"><button class="go_info_review_list_btn">목록 가기</button></a>
             
