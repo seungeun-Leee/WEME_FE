@@ -7,7 +7,9 @@ headerView.addEventListener("mousemove",function() {
     document.querySelector("#adop_subnav1").style.display="block";
     document.querySelector("#adop_subnav2").style.display="block";
     document.querySelector("#info_subnav").style.display="block";
-    document.querySelector(".header").style.paddingBottom="138px";
+    // document.querySelector(".header").style.paddingBottom="138px";
+    document.querySelector(".header").style.boxShadow="none";
+    document.querySelector(".nav_bott").style.visibility="visible";
     document.querySelector(".weme").style.height="200px";
     document.querySelector(".temp").style.height="200px";
     document.querySelector(".adop").style.height="200px";
@@ -22,7 +24,9 @@ headerView.addEventListener("mouseleave",function() {
     document.querySelector("#adop_subnav1").style.display="none";
     document.querySelector("#adop_subnav2").style.display="none";
     document.querySelector("#info_subnav").style.display="none";
-    document.querySelector(".header").style.paddingBottom="0px";
+    // document.querySelector(".header").style.paddingBottom="0px";
+    document.querySelector(".header").style.boxShadow="0px 4px 4px rgba(0, 0, 0, 0.1)";
+    document.querySelector(".nav_bott").style.visibility="hidden";
     document.querySelector(".weme").style.height="50px";
     document.querySelector(".temp").style.height="50px";
     document.querySelector(".adop").style.height="50px";
