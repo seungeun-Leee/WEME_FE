@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/myinfo.css">
+    <title>WEME-my_myinfo</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="my_myinfo_bg">
+        <div class="myinfo_top">
+            <h3>마이페이지</h3>
+            <hr>
+        </div>
+        <div class="mypage_id">
+            <div class="my_icon_img">
+                <img src="../source/user_profile.svg">
+            </div>
+            <div class="my_username_box">
+                <div class="my_username">
+                    왈자퐁자
+                </div>
+                <div class="nim">
+                    님
+                </div>                
+            </div>
+        </div>
+        <div class="my_nav_myinfo">
+            <ul class="my_nav">
+                <li id="my_nav1">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar1" src="../source/mypage_nav_bar.svg">
+                    <a href="">임시보호 신청</a>
+                </li>
+                <li id="my_nav2">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar2" src="../source/mypage_nav_bar.svg">
+                    <a href="">입양 신청</a>
+                </li>
+                <li id="my_nav3">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar3" src="../source/mypage_nav_bar.svg">
+                    <a href="">나의 글 • 댓글</a>
+                </li>
+                <li id="my_nav4">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar4" src="../source/mypage_nav_bar.svg">
+                    <a href="">나의 정보</a>
+                </li>
+            </ul>
+
+            
+            <div class="my_myinfo_contents">
+                <div class="my_myinfo_text">
+                    개인정보
+                </div>
+                <form name="my_myinfo_info_box" action="" method="post" class="my_myinfo_info_box">
+                    <li class="personal_info">
+                        <h6>이름</h6><input type="text" name="username"class="inputbox">
+                        <img class="edit_btn" src="../source/edit_btn.svg">
+                    </li>
+                    <li class="personal_info">
+                        <h6>전화번호</h6><input type="text" name="username"class="inputbox">
+                        <img class="edit_btn" src="../source/edit_btn.svg">
+                    </li>
+                    <li class="personal_info">
+                        <h6>이메일</h6><input type="text" name="username"class="inputbox">
+                        <img class="edit_btn" src="../source/edit_btn.svg">
+                    </li>
+
+                </form>
+                
+
+                <div class="my_myinfo_text">
+                    로그인 정보
+                </div>
+                <!-- <div class="my_myinfo_login_info_box">
+
+                </div> -->
+                <form name="my_myinfo_info_box2" action="" method="post" class="my_myinfo_info_box2">
+                    <li class="login_info">
+                        <h6>닉네임</h6><input type="text" name="username"class="inputbox">
+                        <img class="edit_btn" src="../source/edit_btn.svg">
+                    </li>
+                    <li class="login_info">
+                        <h6>아이디</h6>
+                        <input type="text" name="username"class="inputbox">
+                    </li>
+                    <li class="login_info">
+                        <h6>비밀번호</h6><input type="password" name="username"class="inputbox">
+                        <img class="edit_btn" src="../source/edit_btn.svg">
+                    </li>
+
+                </form>
+                <input type="submit" value="저장" class="myinfo_save_btn">
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>
