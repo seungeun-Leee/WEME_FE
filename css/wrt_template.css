@@ -1,0 +1,80 @@
+.title {
+  margin: 22px 0px 0px 0px;
+  height: 70px;
+  width: 1200px;
+}
+
+.wrt {
+  margin: 0 360px 0 360px;
+}
+
+.title input {
+  height: 70px;
+  width: 984px;
+  border: none;
+
+  color: #a3a3a3;
+  font-size: 24px;
+  text-indent: 1%;
+}
+
+input:focus {
+  outline: none;
+}
+
+hr {
+  background-color: #a3a3a3;
+}
+
+.photo {
+  margin: 107px 0 106px 374px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register input {
+  margin-top: 103px;
+
+  height: 80px;
+  width: 371px;
+
+  background: rgba(147, 167, 97, 1);
+  font-size: 32px;
+  color: white;
+
+  border: none;
+  border-radius: 15px;
+}
+
+.regibtn {
+  cursor: pointer;
+}
+
+.basicinfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 112px;
+}
+
+.basicinfo td {
+  border: none;
+}
+
+.basicinfo th {
+  width: 183px;
+  height: 72px;
+  border: none;
+  background-color: #f5f6f1;
+  text-align: left;
+  text-indent: 31px;
+  font-size: 18px;
+}
+
+.basicinfo input {
+  margin-left: 9px;
+  height: 54px;
+  border: 1px solid rgba(209, 209, 209, 1);
+  /* text-indent: 5%; */
+}

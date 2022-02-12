@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/wrt_template.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrt_bg">
+        <div class="list_top">
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">입양</a></li>
+                <li>></li>
+                <li><a href="#">임시보호</a></li>
+            </ul>
+            <div class="list_location_text">입양하기</div>
+            <hr>
+        </div>
+
+        <div class="wrt">
+            <div class="title">            
+                <input type="text" name="" class="wrttitle" placeholder="제목">
+                <hr>
+            </div>
+            
+            <img src="../source/photo.png" class="photo">
+            
+            <div class="basicinfo">
+            
+                <div class="basicinfo_l">
+                <form>
+                <table style=" border-collapse: collapse;">
+                    <tr>
+                        <th> 유기견 이름 </th>
+                        <td><input type="text" name="name" style="width: 346px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 분류 </th>
+                        <td><input type="text" name="birth" style="width: 346px; "></td>
+                    </tr>
+                    
+                    <tr>
+                        <th> 성별 </th>
+                        <td><input type="text" name="birth" style="width: 346px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 체중(크기) </th>
+                        <td><input type="text" name="name" style="width: 346px; "></td>
+                    </tr>
+
+                    <tr>
+                        <th> 특징 </th>
+                        <td><input type="text" name="name" style="width: 346px; "></td>
+                    </tr>
+                </table>
+                </div>
+                </form>
+
+                <div class="basicinfo_r">
+                <form>
+                <table style="border: none; border-collapse: collapse;">
+                <tr>
+                    <th> 품종 </th>
+                    <td><input type="text" name="name" style="width: 346px; "></td>
+                </tr>
+
+                <tr>
+                    <th> 나이(개월수) </th>
+                    <td><input type="text" name="name" style="width: 346px; "></td>
+                </tr>
+
+                <tr>
+                    <th> 예방접종 여부 </th>
+                    <td><input type="text" name="name" style="width: 346px; "></td>
+                </tr>
+
+                <tr>
+                    <th> 중성화 여부 </th>
+                    <td><input type="text" name="name" style="width: 346px; "></td>
+                </tr>
+
+                <tr>
+                    <th> 지역 </th>
+                    <td><input type="text" name="name" style="width: 346px; "></td>
+                </tr>
+                </table>
+                </form>
+                </div>
+                
+            </div>
+        
+            <script type="text/javascript" src="//cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+                <textarea class="form-control" id="p_content"></textarea>
+                <script type="text/javascript">
+                    CKEDITOR.replace('p_content',
+                    {height: 645,
+                    width: 1200});
+            </script>
+        </div>
+
+        <div class="register">        
+            <input type="submit" name="" class="regibtn" value="등록">
+        </div>
+
+    </div>
+</body>
+</html>
