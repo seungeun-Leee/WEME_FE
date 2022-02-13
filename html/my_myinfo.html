@@ -13,6 +13,14 @@
             $("#header").load("header.html")
         });
     </script>
+    <script>
+        function TwoSubmit() {
+            document.my_myinfo_info_box.sumit();
+            document.my_myinfo_info_box2.sumit();
+            alert("dd");
+            
+        }
+    </script>
 </head>
 <body>
     <div id="header"></div>
@@ -59,17 +67,17 @@
                 <div class="my_myinfo_text">
                     개인정보
                 </div>
-                <form name="my_myinfo_info_box" action="" method="post" class="my_myinfo_info_box">
+                <form name="my_myinfo_info_box" action="index.html" method="post" class="my_myinfo_info_box" target="1">
                     <li class="personal_info">
-                        <h6>이름</h6><input type="text" name="username"class="inputbox">
+                        <h6>이름</h6><input type="text" placeholder="이름" name="username"class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
                     <li class="personal_info">
-                        <h6>전화번호</h6><input type="text" name="username"class="inputbox">
+                        <h6>전화번호</h6><input type="text" placeholder="전화번호" name="username"class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
                     <li class="personal_info">
-                        <h6>이메일</h6><input type="text" name="username"class="inputbox">
+                        <h6>이메일</h6><input type="email" placeholder="이메일" name="username"class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
 
@@ -82,22 +90,22 @@
                 <!-- <div class="my_myinfo_login_info_box">
 
                 </div> -->
-                <form name="my_myinfo_info_box2" action="" method="post" class="my_myinfo_info_box2">
+                <form name="my_myinfo_info_box2" action="index.html" method="post" class="my_myinfo_info_box2" target="2">
                     <li class="login_info">
-                        <h6>닉네임</h6><input type="text" name="username"class="inputbox">
+                        <h6>닉네임</h6><input type="text" placeholder="닉네임" name="username"class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
                     <li class="login_info">
                         <h6>아이디</h6>
-                        <input type="text" name="username"class="inputbox">
+                        <input type="text" placeholder="아이디" name="username"class="inputbox">
                     </li>
                     <li class="login_info">
-                        <h6>비밀번호</h6><input type="password" name="username"class="inputbox">
+                        <h6>비밀번호</h6><input type="password" placeholder="비밀번호" name="username"class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
 
                 </form>
-                <input type="submit" value="저장" class="myinfo_save_btn">
+                <input type="button" onclick="TwoSubmit();" value="저장" class="myinfo_save_btn">
 
             </div>
 
