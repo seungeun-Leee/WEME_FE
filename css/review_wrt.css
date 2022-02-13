@@ -7,81 +7,59 @@
   padding: 0px;
 }
 /* 임시 */
-.header {
+/* .header {
   width: 1920px;
   height: 152px;
   margin-bottom: 40px;
   text-align: center;
-}
+} */
 
 .reviewwrt_bg {
-  margin: auto;
   width: 1920px;
 }
 
-.list_top {
-  width: 1200px;
-  margin-left: 360px;
-}
-
-.list_location {
-  display: flex;
-}
-
-.list_location > li,
-.list_location > li > a {
-  margin-right: 9px;
-  font-size: 18px;
-  color: #787878;
-}
-
-.list_location_text {
-  width: 148px;
-  margin-top: 15px;
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-.wrt_top {
-  display: flex;
-
-  margin-top: 60px;
-  margin-left: 360px;
+.wrt {
+  margin: 0 360px 0 360px;
 }
 
 .title {
+  margin: 77px 0px 59px 0px;
   height: 70px;
-  width: 984px;
-  border: none;
+  width: 1200px;
 }
 
 .title input {
   height: 70px;
   width: 984px;
+  border: none;
 
   color: #a3a3a3;
   font-size: 24px;
   text-indent: 1%;
 }
 
-.register {
-  margin-left: 41px;
-
-  height: 70px;
-  width: 176px;
-
-  border-color: #a3a3a3;
-  border-radius: 10px;
+input:focus {
+  outline: none;
 }
 
+hr {
+  background-color: #a3a3a3;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+}
 .register input {
-  height: 70px;
-  width: 176px;
+  margin-top: 63px;
+
+  height: 80px;
+  width: 371px;
 
   background: rgba(147, 167, 97, 1);
-  font-size: 24px;
+  font-size: 32px;
   color: white;
 
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
 }
