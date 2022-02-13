@@ -81,17 +81,37 @@
 
                 <tr>
                     <th> 예방접종 여부 </th>
-                    <td><input type="text" name="name" style="width: 346px; "></td>
+                    <td><ul class="vacci">
+                        <li id="btnO" onclick="emergency_btn1(); return false;">
+                            <h4>O</h4>
+                        </li>
+                        <li id="btnX"  onclick="emergency_btn2(); return false;" style="margin-left:15px">
+                            <h4>X</h4>
+                        </li>
+                    </ul></td>
                 </tr>
 
                 <tr>
                     <th> 중성화 여부 </th>
-                    <td><input type="text" name="name" style="width: 346px; "></td>
+                    <td><ul class="neuter">
+                        <li id="btnO" onclick="emergency_btn1(); return false;">
+                            <h4>O</h4>
+                        </li>
+                        <li id="btnX"  onclick="emergency_btn2(); return false;" style="margin-left:15px">
+                            <h4>X</h4>
+                        </li>
+                    </ul></td>
                 </tr>
 
                 <tr>
                     <th> 지역 </th>
-                    <td><input type="text" name="name" style="width: 346px; "></td>
+                    <td><select name="local" >
+                        <option value="">직접 입력</option>
+                        <option value="seoul">서울</option>
+                        <option value="gyeongi">경기</option>
+                        <option value="daejeon">대전</option>
+                        </select>
+                        <input type="text" name="name" style="width: 191px; "></td>
                 </tr>
                 </table>
                 </form>
@@ -99,6 +119,7 @@
                 
             </div>
         
+            <h4>상세 정보</h4>
             <script type="text/javascript" src="//cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
                 <textarea class="form-control" id="p_content"></textarea>
                 <script type="text/javascript">
