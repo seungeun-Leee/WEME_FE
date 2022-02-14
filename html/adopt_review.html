@@ -8,31 +8,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
     <link rel="stylesheet" type="text/css" href="../css/review_wrt.css">
+
     <title>WEME-review</title>
 </head>
 <body>
-    <div class="header">
-        header 
+    <!-- <div class="header">
+        header
+    </div> -->
+    
+    <div class="list_top">
+            <ul class="list_location">
+            <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+            <li><a href="#">입양</a></li>
+            <li>></li>
+            <li><a href="#">입양후기</a></li>
+        </ul>
+        <div class="list_location_text">입양후기</div>
     </div>
+
     <div class="reviewwrt_bg">
-        <div class="list_top">
-                <ul class="list_location">
-                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
-                <li><a href="#">입양</a></li>
-                <li>></li>
-                <li><a href="#">입양후기</a></li>
-            </ul>
-            <div class="list_location_text">입양후기
-            </div>
-        </div>
-        <div class="wrt_top">
-            <div class="title">            
+        <div class="wrt">
+            <div class="title">   
                 <input type="text" name="" class="wrttitle" placeholder="제목">
+                </style>
+                <hr>
             </div>
-            <div class="register">        
-                <input type="submit" name="" class="regibtn" value="등록">
-            </div>
+        
+        
+            <script type="text/javascript" src="//cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+                <textarea class="form-control" id="p_content"></textarea>
+                <script type="text/javascript">
+                    CKEDITOR.replace('p_content',
+                    {height: 665,
+                    width: 1200});
+            </script>
+        </div>
+
+        <div class="register">        
+            <input type="submit" name="" class="regibtn" value="등록">
         </div>
 
     </div>
