@@ -1,0 +1,119 @@
+#mypage_nav_bar4 {
+    visibility:visible;
+}
+#my_nav4 > a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #000000;
+}
+
+/* 여기는 나의 정보 contents */
+.my_myinfo_contents {
+    margin-left: 82px;
+    /* background-color: lightsteelblue; */
+}
+.my_myinfo_text {
+    margin-bottom: 40px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.my_myinfo_info_box,
+.my_myinfo_info_box2 {
+    margin-bottom: 60px;
+    width: 890px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+form >li {
+    margin-bottom: 39px;
+    height: 43px;
+}
+.personal_info,
+.login_info {
+    display: flex;
+}
+.personal_info:first-child,
+.login_info:first-child {
+    /* background-color: cornflowerblue; */
+    /* margin-top: 60px; */
+    padding-top: 60px;
+}
+
+.personal_info > h6,
+.login_info > h6 {
+    /* background-color: aqua; */
+    margin-left: 71px;
+    width: 89px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #787878;
+}
+.inputbox {
+    margin-left: 118px;
+    width: 406px;
+    border: none;
+    border-bottom: 1px solid #A3A3A3;
+
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #787878;
+}
+#id_input_box {
+    border: none;
+    background: #FFFFFF;
+}
+
+/* #pass {
+    background-color: aqua;
+} */
+#pass > i >img {
+    /* background-color: darkorange; */
+    text-align: center;
+    margin-left: -27px;
+}
+#pass > .edit_btn {
+    margin-bottom: 19px;
+    /* background-color: darkcyan; */
+}
+/* 비밀번호 보기 버튼 제거 */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+.edit_btn {
+    margin: auto;
+    margin-bottom: 0px;
+    margin-left: 59px;
+    width: 24px;
+    height: 24px;
+    /* background-color: darkorange; */
+}
+.myinfo_save_btn {
+    position: relative;
+    left: 96px;
+    width: 371px;
+    height: 80px;
+    background: #93A761;
+    border: none;
+    border-radius: 15px;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+

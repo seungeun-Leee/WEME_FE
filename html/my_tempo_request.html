@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/mytempo.css">
+    <link rel="stylesheet" type="text/css" href="../css/mypage.css">
+    <title>WEME-my_tempo</title>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="my_bg">
+        <div class="my_top">
+            <h3>마이페이지</h3>
+            <hr>
+        </div>
+        <div class="mypage_id">
+            <div class="my_icon_img">
+                <img src="../source/user_profile.svg">
+            </div>
+            <div class="my_username_box">
+                <div class="my_username">
+                    왈자퐁자
+                </div>
+                <div class="nim">
+                    님
+                </div>                
+            </div>
+        </div>
+        <div class="my_nav_box">
+            <ul class="my_nav">
+                <li id="my_nav1">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar1" src="../source/mypage_nav_bar.svg">
+                    <a href="">임시보호 신청</a>
+                </li>
+                <li id="my_nav2">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar2" src="../source/mypage_nav_bar.svg">
+                    <a href="">입양 신청</a>
+                </li>
+                <li id="my_nav3">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar3" src="../source/mypage_nav_bar.svg">
+                    <a href="">나의 글 • 댓글</a>
+                </li>
+                <li id="my_nav4">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar4" src="../source/mypage_nav_bar.svg">
+                    <a href="">나의 정보</a>
+                </li>
+            </ul>
+
+            <div class="mytemp_contents_box">
+                <h6>*이 페이지는 임시보호 신청 내역을 확인할 수 있습니다.</h6>
+                <ul class="mytemp_list_box">
+                    <li class="mytemp_list">
+                        <div class="mytemp_list_contents_box">
+                            <h3 class="mytemp_list_date">2022.01.25</h3>
+                            <hr>
+                            <div class="mytemp_list_contents">
+                                <img class="main_img" src="../source/myadopt_list_img1.svg">
+                                <div class="mytemp_list_title_id">
+                                    <h3 class="mytemp_list_title">쿠키의 보금자리가 되어주세요!</h3>
+                                    <h3 class="mytemp_list_id">왈자퐁자</h3>
+                                </div>
+                                <img class="approval_img" src="../source/mypage_approval_img.svg">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mytemp_list">
+                        <div class="mytemp_list_contents_box">
+                            <h3 class="mytemp_list_date">2022.01.25</h3>
+                            <hr>
+                            <div class="mytemp_list_contents">
+                                <img class="main_img" src="../source/myadopt_list_img1.svg">
+                                <div class="mytemp_list_title_id">
+                                    <h3 class="mytemp_list_title">쿠키의 보금자리가 되어주세요!</h3>
+                                    <h3 class="mytemp_list_id">왈자퐁자</h3>
+                                </div>
+                                <img class="approval_img" src="../source/mypage_disapproval_img.svg">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mytemp_list">
+                        <div class="mytemp_list_contents_box">
+                            <h3 class="mytemp_list_date">2022.01.25</h3>
+                            <hr>
+                            <div class="mytemp_list_contents">
+                                <img class="main_img" src="../source/myadopt_list_img1.svg">
+                                <div class="mytemp_list_title_id">
+                                    <h3 class="mytemp_list_title">쿠키의 보금자리가 되어주세요!</h3>
+                                    <h3 class="mytemp_list_id">왈자퐁자</h3>
+                                </div>
+                                <img class="approval_img" src="../source/mypage_approval_img.svg">
+                            </div>
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+
+            </div>
+        </div>
+        
+        <nav class="my_paging_nav">
+            <ul class="my_paging">
+                <li class="my_paging_item" id="my_prev_btn">
+                    <a href="" class="my_paging_link">
+                        <img class="my_paging_btn" src="../source/my_prev_page.svg">
+                    </a>
+                </li>
+                <li class="my_paging_item"><a href="" class="my_paging_link">1</a></li>
+                <li class="my_paging_item"><a href="" class="my_paging_link">2</a></li>
+                <li class="my_paging_item"><a href="" class="my_paging_link">3</a></li>
+
+                <li class="my_paging_item" id="my_next_btn">
+                    <a href="" class="my_paging_link">
+                        <img class="my_paging_btn" src="../source/my_next_page.svg">
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </div>
+    
+</body>
+</html>

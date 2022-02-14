@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/review_detailpage.css">
+    <title>WEME-review_detail</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        });
+    </script>    
+</head>
+<body>
+    <div id="header"></div>
+    <div class="review_datilpage_bg">
+        <div class="list_top">            
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">입양</a></li>
+                <li>></li>
+                <li><a href="#">입양후기</a></li>
+            </ul>
+            <div class="list_location_text">입양후기</div>
+        </div>
+        <div class="review_detailpage_top_title_date">
+            <h3>왈자와 함께한 3년</h3>
+            <div class="date_id">
+                <h6 class="review_detailpage_date">2022. 1. 17. 13:50</h6>
+                <img src="../source/review_detailpage_date_div.svg" alt="">
+                <h6>글쓴이</h6>
+                <h6 class="review_detailpage_writer">왈자 퐁자</h6>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 입양 후기 내용 들어가는 곳 -->
+        <div class="review_contents">
+
+            <img src="../source/review_detailpage_contents_img.svg"
+            style="width: 819px; height: 559px;">
+            <h6 style="font-size: 24px; line-height: 35px; text-align: center; color: #787878; margin-top: 58px;">
+            우리 왈자를 만난 이후로 매일이 즐거워요<br>
+            매일 저를 기다리는 왈자 얼굴 보면<br>
+            힘든 하루에 웃음꽃이 활짝 핀답니다<br>
+            하루라도 더 빨리 만났으면 좋았을 것 같아요<br><br><br>
+
+
+            앞으로 왈자와 함께할 날들을 위해<br>
+            더 좋은 주인이 되고 싶어요<br>
+            모두 신중히 생각하시고<br>
+            예쁜 반려동물 만나시길 바랄게요!
+            </h6>
+
+        </div>
+
+
+        <div class="review_detailpage_bott">
+            <div class="caution_box">
+                🐶 반려동물 입양은 신중하게 생각해주세요 😺
+            </div>
+            
+            <a href="#"><button class="go_review_list_btn">목록 가기</button></a>
+
+
+        </div>
+
+    </div>
+</body>
+</html>

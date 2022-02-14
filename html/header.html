@@ -15,33 +15,79 @@
     ></script>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
+    <!-- <script src="../js/header.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../css/info_detailpage.css"> -->
 </head>
 <body>
+    
     <nav class="header">
+        <div class="nav_bott"></div>
         <div class="headergroup">
             <div class="header_logo">
-                <button><a href=""></a></button> 
+                <!-- <button><a href=""><img src="../source/weme_logo.svg"></a></button>  -->
+                <a href=""><img src="../source/weme_logo.svg"></a>
                 <!-- 과연 WEME 로고는 무엇이 될 것인가 -->
             </div>
             <div class="header_right">
                 <ul class="join_login">
+                    <img class="join_login_div_line" src="../source/join_login_div_line.svg">
                     <li><a href="join.html">회원가입</a></li>
+                    <img class="join_login_div_line" src="../source/join_login_div_line.svg">
                     <li><a href="login.html">로그인</a></li>
+                    <img class="join_login_div_line" src="../source/join_login_div_line.svg">
                 </ul>
                 <ul class="header_navbar">
-                    <li><a href="">WEME</a></li>
-                    <li><a href="">임시보호</a></li>
-                    <li><a href="">입양</a></li>
-                    <li><a href="">정보</a></li>
-                    <li>
-                        <a href="" class="user_icon">
-                            <div class="user_icon_gray"><img src="../source/user_basic.svg" alt=""></div>
-                            <div class="user_icon_green"><img src="../source/user_green.svg" alt=""></div>
-                        </a>
-                    </li>
+
+                    <ul class="weme">
+                        <li id="WEME_nav">
+                            <a href="">WEME</a><br>
+                            <img id="weme_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg">
+                        </li>
+                        <li class="subnav_li"><a href="" id="weme_subnav" class="subnav">소개</a></li>
+                    </ul>
+                    <ul class="temp">
+                        <li id="temp_nav">
+                            <a href="">임시보호</a><br>
+                            <img id="temp_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg">
+                        </li>
+                        
+                        <li class="subnav_li"><a href="" id="temp_subnav" class="subnav">임시보호</a></li>
+
+                    </ul>
+                    <ul class="adop">
+                        <li id="adop_nav">
+                            <a href="">입양</a><br>
+                            <img id="adop_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg">
+                        </li>
+                        
+                        <li class="subnav_li"><a href="" id="adop_subnav1" class="subnav">보호소</a></li>
+                        <li class="subnav_li"><a href="" id="adop_subnav2" class="subnav">임시보호</a></li>
+                    </ul>
+                    <ul class="info">
+                        <li id="info_nav">
+                            <a href="">정보</a><br>
+                            <img id="info_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg">
+                        </li>
+                        <li class="subnav_li"><a href="" id="info_subnav" class="subnav">필수정보</a></li>
+                    </ul>
+                    <ul class="user">
+                            <a href="" class="user_icon">
+                                <div class="user_icon_gray"><img src="../source/user_basic.svg"></div>
+                                <div class="user_icon_green"><img src="../source/user_green.svg" alt=""></div>
+                                <img id="user_greenbar" class="nav_green_bar" src="../source/nav_greenbar.svg">
+                            </a>
+                        </li>
+                    </ul>
                 </ul>
+                
             </div>
+            
+
+
         </div>
+        
+
     </nav>
+    <script src="../js/header.js"></script>
 </body>
 </html>

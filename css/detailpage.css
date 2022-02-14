@@ -181,20 +181,6 @@
     display: none;
     /* background-color: steelblue; */
 }
-
-/* .detail_info_bg1 {
-    background-color: red;
-    width: 50px;
-} */
-.detail_info_contents {
-    /* height: 100px; */
-}
-.detail_info_contents > div{
-    /* overflow: hidden; */
-    /* display: none; */
-    /* background-color: violet; */
-
- } 
 .detailpage_bott_line {
     margin: auto;
     margin-top: 55px;
@@ -288,5 +274,3 @@
 .detailpage_bg {
     margin-bottom: 190px;
 }
-
-

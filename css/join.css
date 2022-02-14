@@ -15,6 +15,7 @@
 }
 .join_bg {
   margin: auto;
+  margin-top: 79px;
   width: 1920px;
 }
 
@@ -31,19 +32,21 @@
 }
 
 .joinhead hr {
+  /* position: absolute; */
+  margin: auto;
   margin-top: 28px;
-  margin-left: 303px;
   width: 594px;
 
   border: 1px solid #d9d9d9;
 }
 
 .formJoin {
-  position: absolute;
+  /* position: absolute; */
+  margin: auto;
   width: 713px;
   height: 1170px;
-  left: 603px;
-  top: 369px;
+  /* left: 603px;
+  top: 369px; */
 
   background: white;
   border-radius: 15px;
@@ -228,13 +231,15 @@ select {
 }
 
 .footer {
-  position: absolute;
+  /* position: absolute; */
+  margin: auto;
+  margin-top: 200px;
   width: 1920px;
-  left: -1px;
-  top: 1729px;
+  /* left: -1px;
+  top: 1729px; */
   height: 128px;
   background-color: #93a761;
 
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
 }
