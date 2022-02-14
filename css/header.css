@@ -37,8 +37,8 @@ a {
   width: 1920px;
   height: 138px;
   visibility: hidden;
-  /* background-color: red; */
   background-color: #ffffff;
+  /* background-color: red; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 .headergroup {

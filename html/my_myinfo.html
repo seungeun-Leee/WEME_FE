@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/myinfo.css">
+    <link rel="stylesheet" type="text/css" href="../css/mypage.css">
     <title>WEME-my_myinfo</title>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -21,11 +22,25 @@
             
         }
     </script>
+    <script>
+        $(document).ready(function(){
+            $('#pass i').on('click',function(){
+                $('input').toggleClass('active');
+                if($('input').hasClass('active')){
+                    $(this).attr('class',"../source/password_show_btn.svg")
+                    .prev('input').attr('type',"text");
+                }else{
+                    $(this).attr('class',"../source/password_show_btn.svg")
+                    .prev('input').attr('type','password');
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="header"></div>
-    <div class="my_myinfo_bg">
-        <div class="myinfo_top">
+    <div class="my_bg">
+        <div class="my_top">
             <h3>마이페이지</h3>
             <hr>
         </div>
@@ -42,7 +57,7 @@
                 </div>                
             </div>
         </div>
-        <div class="my_nav_myinfo">
+        <div class="my_nav_box">
             <ul class="my_nav">
                 <li id="my_nav1">
                     <img class="mypage_nav_bar" id="mypage_nav_bar1" src="../source/mypage_nav_bar.svg">
@@ -69,15 +84,15 @@
                 </div>
                 <form name="my_myinfo_info_box" action="index.html" method="post" class="my_myinfo_info_box" target="1">
                     <li class="personal_info">
-                        <h6>이름</h6><input type="text" placeholder="이름" name="username"class="inputbox">
+                        <h6>이름</h6><input type="text" placeholder="이름" class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
                     <li class="personal_info">
-                        <h6>전화번호</h6><input type="text" placeholder="전화번호" name="username"class="inputbox">
+                        <h6>전화번호</h6><input type="text" placeholder="전화번호" class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
                     <li class="personal_info">
-                        <h6>이메일</h6><input type="email" placeholder="이메일" name="username"class="inputbox">
+                        <h6>이메일</h6><input type="email" placeholder="이메일" class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
 
@@ -92,15 +107,16 @@
                 </div> -->
                 <form name="my_myinfo_info_box2" action="index.html" method="post" class="my_myinfo_info_box2" target="2">
                     <li class="login_info">
-                        <h6>닉네임</h6><input type="text" placeholder="닉네임" name="username"class="inputbox">
+                        <h6>닉네임</h6><input type="text" placeholder="닉네임" class="inputbox">
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
                     <li class="login_info">
                         <h6>아이디</h6>
-                        <input type="text" placeholder="아이디" name="username"class="inputbox">
+                        <input type="text" placeholder="아이디" id="id_input_box" class="inputbox" disabled>
                     </li>
-                    <li class="login_info">
-                        <h6>비밀번호</h6><input type="password" placeholder="비밀번호" name="username"class="inputbox">
+                    <li class="login_info" id="pass">
+                        <h6>비밀번호</h6><input type="password" placeholder="비밀번호" class="inputbox">
+                        <i><img src="../source/password_show_btn.svg"></i>
                         <img class="edit_btn" src="../source/edit_btn.svg">
                     </li>
 
