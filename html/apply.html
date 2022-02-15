@@ -21,6 +21,7 @@
                 <li>></li>
                 <li><a href="#">보호소</a></li>
             </ul>
+            
             <div class="adoption_location_text">
                 <span class="list_location_text">입양하기</span>
                 <span>
@@ -35,9 +36,11 @@
             <h4>*반려견 입양자로서의 적합성을 파악하기 위함이며 이 외의 용도로는 일체 사용되지 않습니다.</h4>
             <label>동의합니다 &nbsp;<input type="checkbox" name="color"> </label>
         </div>
-        <div class="simpleinfo">
+
+        <div class="info">
+        <form>
+            <div class="simpleinfo">
             <h4>❗ 간단정보</h4>
-            <form>
                 <table style=" border-collapse: collapse;">
                     <tr>
                     <th> 이름 </th>
@@ -78,11 +81,12 @@
                     </tr>
 
                 </table>
-            </form>
-        </div>
-        <div class="moreinfo">
+            <!-- </form> -->
+            </div>
+
+            <div class="moreinfo">
             <h4>❗ 상세정보</h4>
-            <form>
+            <!-- <form> -->
                 <h5> 1. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
                 <input type="text" name="birth" style="width: 1138px;">
 
@@ -141,10 +145,13 @@
                 <input type="text" name="birth" style="width: 1138px;">
 
                 <hr>
-            </form>
+            </div>
+
+            <div class="apply">        
+                <input type="submit" name="" value="신청완료" class="btn">
+            </div>
+        </form>
         </div>
-        <div class="apply">        
-            <input type="submit" name="" value="신청완료" class="btn">
-        </div>
+    </div>
 </body>
 </html>
