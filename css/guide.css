@@ -136,6 +136,10 @@ body {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+.adoption_process_mid_butt >img {
+  margin-top: 16px;
+  margin-left: 30px;
+}
 .adoption_process_bottom {
   margin: auto;
   margin-top: 64px;
@@ -179,8 +183,10 @@ body {
 }
 #adoption_list_go_btn > h4{
   position: relative;
-  top: 7.14px;
-  left: 52.65px;
+  /* top: 7.14px;
+  left: 52.65px; */
+  top: 13px;
+  left: 55px;
   width: 120.7px;
   height: 35.7px;
   font-family: Noto Sans KR;
