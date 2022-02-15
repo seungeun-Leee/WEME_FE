@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="../css/list.css">
     <link rel="stylesheet" type="text/css" href="../css/wrt_template.css">
 
-    <title>Document</title>
+    <title>WEME-adoptwrt</title>
 </head>
 <body>
     <div class="wrt_bg">
@@ -31,7 +31,17 @@
                 <hr>
             </div>
             
-            <img src="../source/photo.png" class="photo">
+            <form method="post" enctype="multipart/form-data">
+                <div class="button">
+                    <label for="chooseFile">
+                        <img src="../source/photo.png" id="newphoto" class="photo" style="cursor: pointer;">
+                    </label>
+                </div>
+                <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+                <div class="image-show" id="image-show"></div>
+                <script type="text/javascript" src="../js/loadfile.js"></script>
+            </form>
+            
             
             <div class="basicinfo">
             
@@ -82,11 +92,9 @@
                 <tr>
                     <th> 예방접종 여부 </th>
                     <td><ul class="vacci">
-                        <li id="btnO" onclick="emergency_btn1(); return false;">
-                            <h4>O</h4>
+                        <li id="btnO" value="O" onclick="btnO(); return false;">
                         </li>
-                        <li id="btnX"  onclick="emergency_btn2(); return false;" style="margin-left:15px">
-                            <h4>X</h4>
+                        <li id="btnX"  value="X" onclick="btnX(); return false;" style="margin-left:15px">
                         </li>
                     </ul></td>
                 </tr>
@@ -94,11 +102,9 @@
                 <tr>
                     <th> 중성화 여부 </th>
                     <td><ul class="neuter">
-                        <li id="btnO" onclick="emergency_btn1(); return false;">
-                            <h4>O</h4>
+                        <li id="btnO" value="O" onclick="btnO(); return false;">
                         </li>
-                        <li id="btnX"  onclick="emergency_btn2(); return false;" style="margin-left:15px">
-                            <h4>X</h4>
+                        <li id="btnX"  value="X" onclick="btnX(); return false;" style="margin-left:15px">
                         </li>
                     </ul></td>
                 </tr>
@@ -106,10 +112,21 @@
                 <tr>
                     <th> 지역 </th>
                     <td><select name="local" >
-                        <option value="">직접 입력</option>
                         <option value="seoul">서울</option>
-                        <option value="gyeongi">경기</option>
-                        <option value="daejeon">대전</option>
+                        <option value="gyeongi">경기도</option>
+                        <option value="incheon">인천시</option>
+                        <option value="busan">부산시</option>
+                        <option value="daejeon">대전시</option>
+                        <option value="daegu">대구시</option>
+                        <option value="ulsan">울산시</option>
+                        <option value="sejong">세종시</option>
+                        <option value="gwangju">광주시</option>
+                        <option value="gangwon">강원도</option>
+                        <option value="chungcheong">충청도</option>
+                        <option value="gyeongsang">경상도</option>
+                        <option value="jeonla">전라도</option>
+                        <option value="jeju">제주도</option>
+
                         </select>
                         <input type="text" name="name" style="width: 191px; "></td>
                 </tr>

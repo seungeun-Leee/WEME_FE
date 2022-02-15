@@ -7,19 +7,21 @@
   padding: 0px;
 }
 
-.intro_bg {
-  width: 1920px;
-}
-
 .list_location {
   display: flex;
 }
-
 .list_location > li,
 .list_location > li > a {
   margin-right: 9px;
   font-size: 18px;
   color: #787878;
+}
+
+.intro_bg {
+  width: 1920px;
+}
+.intro_top {
+  margin-left: 360px;
 }
 
 h1 {
@@ -31,7 +33,10 @@ h1 {
 h4 {
   font-size: 24px;
   font-style: normal;
-  line-height: 38.5px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 h5 {
@@ -41,17 +46,34 @@ h5 {
 }
 
 .main {
-  height: 729px;
-  background: linear-gradient(#f5f6f1, 20%, white);
+  margin: 15px 360px 0 360px;
+  display: flex;
+  justify-content: space-between;
 }
-.intro_top {
-  margin-left: 360px;
+
+.main h1 {
+  font-size: 40px;
+  font-style: bold;
+  /* font-weight: 600; */
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #535353;
+}
+
+.maintxt {
+  padding-top: 83px;
+}
+.mainpic {
+  position: relative;
+  top: 5px;
 }
 
 .keywordsIntro {
   background-color: #f5f6f1;
-  /* width: 1920px; */
   height: 376px;
+  margin-top: 152px;
 }
 
 .keywords h1 {
@@ -64,11 +86,6 @@ h5 {
   color: #747474;
   padding-bottom: 55px;
 }
-
-/* .keys {
-  padding: 0 360px 0 360px;
-  justify-content: space-between;
-} */
 
 .contents {
   display: flex;
@@ -84,38 +101,40 @@ h5 {
   align-items: center;
 }
 
-/* .keyimg {
+.keyimg {
   position: relative;
-  bottom: -93px;
-} */
+  bottom: 415px;
+}
 
 .keyText {
   position: relative;
-  top: -93px;
-  height: 263px;
-  width: 334px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-color: white;
+  top: -50px;
 }
 
-.keyText h5 {
+.goal h4 {
+  padding-top: 45px;
+
+  color: #787878;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
   text-align: center;
-  padding-top: 124px;
-  line-height: 26px;
 }
 
 .team {
-  margin-top: 449px;
-}
-
-.teamTitle {
-  text-align: center;
+  margin-top: 220px;
+  margin-bottom: 190px;
 }
 
 .teamintro {
   padding-top: 83px;
-  margin-left: 360px;
+  margin: 0 320px 0 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .teamname {
@@ -124,22 +143,29 @@ h5 {
   border-radius: 65px;
   border: 1px solid rgba(147, 167, 97, 1);
 }
-
 .teamname h4 {
+  position: relative;
+  top: 5px;
+  font-style: normal;
+  font-weight: 500;
   text-align: center;
 }
 
-.introtxt h4 {
-  text-align: left;
-}
-
 .introtxt {
-  padding-top: 25px;
-  color: #787878;
+  padding-top: 30px;
+  /* color: #787878;
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center; */
 }
 
 .members {
-  margin-top: 89px;
+  margin-top: 76px;
   padding: 0 360px 0 360px;
 }
 
@@ -154,16 +180,29 @@ h5 {
   justify-content: space-between;
 }
 
-.yhmemo {
+.yhmemo,
+.nhmemo,
+.sememo,
+.yjmemo,
+.jememo,
+.shmemo {
   position: relative;
-  bottom: -30px;
+  bottom: -45px;
 }
 
 .namecard {
-  height: 164px;
+  height: 162px;
   width: 288px;
   border-radius: 15px;
   box-shadow: 0px 0px 7px 5px rgba(176, 176, 176, 0.25);
+}
+
+.namecard h4 {
+  padding-top: 53px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
 }
 
 .YH,
