@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/info_detailpage.css">
+    <title>WEME-info-detail3</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        });
+    </script>
+    <script type="text/javascript">
+
+        function clip3(){
+            var url = 'http://192.168.35.189:5501/html/info_detail3.html';
+            var textarea = document.createElement("textarea");
+            document.body.appendChild(textarea);
+            url = window.document.location.href;
+            textarea.value = url;
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("URL이 복사되었습니다.")
+        }        
+        </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="info_datilpage_bg">
+        <div class="list_top">            
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">정보</a></li>
+                <li>></li>
+                <li><a href="#">필수정보</a></li>
+            </ul>
+            <div class="list_location_text">필수정보</div>
+        </div>
+        <div class="info_detailpage_top_contents_box">
+            <div class="info_detail_icon_text">
+                <div class="info_detail_icon">
+                    <img src="../source/info_icon3.svg">
+                </div>
+                <div class="info_detail_text">
+                    <h5>제목</h5>
+                    <h6>2022. 1. 17. 13:50</h6>
+                </div>
+            </div>
+            <span class="info_detail_copy_url">
+                <a href="#" onclick="clip3(); return false;">URL복사</a>
+            </span>
+            
+        </div>
+        <hr>
+        <div class="info_detail2">
+            <img src="../source/info_detail3.svg">
+        </div>
+        <div class="info_bott">
+            <div class="info_bott_caution">
+                <h3>🐶 반려동물 입양은 신중하게 생각해주세요 😺</h3>
+            </div>
+            <div class="info_bott_share">
+                <img src="../source/facebook.svg">
+                <img src="../source/kakao-talk.svg">
+                <img src="../source/twitter.svg">
+                <img src="../source/url_share.svg" onclick="clip3(); return false;">
+            </div>
+            <a href="#"><button class="go_info_review_list_btn">목록 가기</button></a>
+            
+        </div>
+    </div>
+</body>
+</html>

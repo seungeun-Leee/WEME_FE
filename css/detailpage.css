@@ -3,150 +3,156 @@
     margin-top: 35px;
     width: 1920px;
 }
-.detailpage_explain {
-    display: flex;
+.detailpage_bg > hr {
+    margin: auto;
     margin-top: 60px;
-    margin-left: 360px;
+    width: 1200px;
+    color: #535353;
+}
+/* 여기 */
+.detailpage_explain {
+    /* background-color: skyblue; */
+    margin: auto;
     width: 1200px;
 }
-.detailpage_explain_img {
-    background-image: url(../source/tempo_detailpage_img.png);
-    margin-right: 73px;
-    width: 445px;
-    height: 394px;
-    border-radius: 15px;
-}
-.detailpage_explain_text {
-    margin-top: 9px;
-    width: 672px;
-    height: 520px;
-    /* background-color: brown; */
-}
-.detailpage_explain_text > hr {
-    margin-top: 33px;
-    width: 672px;
-}
-.detailpage_explain_text_title {
-    width: 670px;
-    height: 36px;
-}
-.detailpage_explain_text_title > span {
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 37px;
-    color: #000000;
-}
-.detailpage_explain_text_title_sharbtn {
-    width: 35px;
-    height: 35px;
-    float: right;
-    border-radius: 100%;
-    border: 0px;
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-.detailpage_explain_text_title_sharbtn:active {
-    /* margin-top: 1.5px;
-    margin-right: -1.5px; */
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
-}
-.detailpage_explain_text_box {
+.detailpage_title_share_btn {
     display: flex;
-    height: 325px;
+    justify-content: space-between;
+    margin-top: 22px;
 }
-#explain_text_box{
-    background-color: #F5F6F1;
-}
-#explain_text_box > h1 {
+.detailpage_title_date_id >h3 {
     font-weight: 500;
     font-size: 24px;
-    line-height: 220%;
-    margin-left: 18px;
-    margin-top: 6px;
+    line-height: 35px;
+    color: #93A761;
 }
-#explain_text_change_box {
+.detailpage_date_id {
+    display: flex;
+    margin-top: 23px;
+}
+.detailpage_date_id >h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #A3A3A3;
+}
+.detailpage_date_id > img {
+    height: 21px;
+    margin-top: 4px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+.detailpage_id {
+    margin-left: 13px;
+}
+.detailpage_share_btns > img {
+    width: 33.94px;
+    height: 33.94px;
+    margin-left: 11.7px;
+}
+.detailpage_title_img {
+    margin: auto;
+    margin-top: 75px;
+    width: 455px;
+    height: 394px;
+    border-radius: 15px;
+    background-image: url(../source/tempo_detailpage_img.png);
+}
+.basicinfo {
+    margin-top: 106px;
+    display: flex;
+}
+.basicinfo_l {
+    width: 575px;
+}
+.basicinfo_r {
+    margin-left: 24px;
+    width: 567px;
+}
+.basicinfo td {
+    text-indent: 25px;
+    border: none;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 220%;
+    color: #818181;
 }
-#explain_text_change_box > div {
-    margin-left: 24px;
+.basicinfo th {
+    width: 183px;
+    height: 72px;
+    border: none;
+    background-color: #f5f6f1;
+    text-align: left;
+    text-indent: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 220%;
+    color: #787878;
 }
-.explain1 ,
-.explain6{
-    margin-top: 6px;
+.info_edit_request_btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: right;
 }
-.explain8,
-.explain9 {
-    color: #93A761;
-}
-.explain_text_box1 {
-    width: 147px;
-}
-.explain_text_change_box1 {
-    width: 176px;
-}
-.explain_text_box2 {
-    width: 168px;
-}
-.explain_text_change_box2 {
-    width: 181px;
-}
-.detailpage_explain_text_date {
-    margin-top: 22px;
-    font-size: 18px;
-    line-height: 133.19%;
-    color: #A3A3A3;
-}
-/* .detailpage_explain_edit_enter_btn {
-    background-color: aqua;
-} */
-.detailpage_explain_edit_request_btn {
-    margin-top: 26px;
-    margin-right: -4px;
-    float: right;
-}
-.detailpage_explain_edit_request_btn > button {
+.info_edit_request_btn > a {
     width: 155px;
     height: 61px;
+    box-sizing: border-box;
     border-radius: 15px;
-    font-weight: bold;
+}
+.info_edit_request_btn > a > h6 {
+    margin: auto;
+    margin-top: 14px;
+    font-weight: 500;
     font-size: 24px;
     line-height: 33px;
     text-align: center;
-    border: 1px solid #93A761;
-    box-sizing: border-box;
-    cursor: pointer;
 }
-.detailpage_explain_edit_btn {
-    margin-right: 27px;
-    color: #93A761;
+.info_edit_btn {
     background: #FFFFFF;
+    border: 1px solid #93A761;
+    margin-right: 30px;
 }
-.detailpage_explain_request_btn {
-    color: #FFFFFF;
+.info_edit_btn > h6 {
+    color: #93A761;
+}
+.info_request_btn {
     background: #93A761;
 }
-.detailpage_explain_edit_btn:hover {
-    font-size: 24.5px;
+.info_request_btn > h6 {
+    color: #FFFFFF;
 }
-.detailpage_explain_request_btn:hover {
-    font-size: 24.5px;
+
+
+
+
+.info_bott_caution {
+    text-align: center;
+    margin: auto;
+    margin-top: 95px;
+    width: 820px;
+    height: 86px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
-.detailpage_explain_edit_btn:active {
-    font-size: 24.5px;
-    box-shadow: 0px 0px 1.5px 1.5px #93a7613a;
+.info_bott_caution > h3 {
+    padding-top: 26px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #787878
 }
-.detailpage_explain_request_btn:active {
-    font-size: 24.5px;
-    box-shadow: 0px 0px 1.5px 1.5px #93a7613a;
-}
+/* 여기 이전*/
 .detailpage_top_line {
     margin: auto;
     margin-top: 97px;
     width: 1200px;
-    border: 1px solid #A3A3A3;
+    color: #A3A3A3;
 }
 .pets_explain_contents {
     margin: auto;
@@ -185,7 +191,7 @@
     margin: auto;
     margin-top: 55px;
     width: 1200px;
-    border: 1px solid #A3A3A3;
+    color: #A3A3A3;
 }
 .detailpage_comments {
     margin: auto;
@@ -195,11 +201,13 @@
 .detailpage_comments_box {
     margin-left: 36px;
 }
-.detailpage_comments_count {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 35px;
-    color: #000000;
+.detailpage_comments_count,
+.detailpage_comments_count >span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #787878;
 }
 .detailpage_comments_content {
     margin-top: 16px;
@@ -208,18 +216,67 @@
     line-height: 35px;
     color: #787878;
 }
-.detailpage_comments_content > p:not(first-child) {
+
+.detailpage_comments_content > p > img{
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    border: none;
+    background: burlywood;
+}
+/* .detailpage_comments_content > p:not(first-child) {
     margin-top: 6px;
     width: 912.16px;
-    /* background-color: coral; */
 }
 .detailpage_comments_content > p > span {
-    /* background-color: cornflowerblue; */
     float: right;
-    /* margin-top: 50%; */
+} */
+
+/* 댓글 paging 부분 */
+.my_paging_nav {
+    margin: auto;
+    margin-top: 61px;
+    width: 1200px;
 }
+.my_paging {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+.my_paging_item:not(:first-child)  {
+    margin-right: 17px;
+}
+.my_paging_item:nth-last-child(2) {
+    margin-right: 0px;
+}
+#my_prev_btn,
+#my_next_btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.my_paging_link > img {
+    margin: auto;
+    width: 9.04px;
+    height: 12.52px;
+}
+#my_prev_btn {
+    margin-right: 22px;
+}
+#my_next_btn {
+    margin-left: 22px;
+}
+
+/* 댓글 작성하는 부분 */
 .detailpage_comments_write {
-    margin-top: 65px;
+    margin-top: 57px;
     display: flex;
 }
 #write_comment {    

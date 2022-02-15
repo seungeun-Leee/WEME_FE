@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/guide.css">
+    <title>WEME-adopt_guide2</title>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        });
+    </script>    
+</head>
+<body>
+    <div id="header"></div>
+    <div class="adoption_guide_bg">
+        <div class="list_top">
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">입양</a></li>
+                <li>></li>
+                <li><a href="#">입양안내</a></li>
+            </ul>
+            <div class="list_location_text">입양안내</div>
+            <hr>
+        </div>
+        <div class="adoption_process">
+            <div class="adoption_process_top">
+                <h1>입양절차</h1>
+                <hr>
+                <h4>절차에 맞춰 입양을 진행하시길 바랍니다.</h4>
+            </div>
+            <div class="adoption_process_mid">
+                <div class="adoption_process_mid_bg">
+                    <div class="adoption_process_step_box">
+                        <div class="adoption_process_step_contents">
+                            <h1 class="adoption_process_step_text1">STEP 01</h1>
+                            <div class="adoption_process_step_img">
+                                <img id="step_img1" src="../source/step01_img.svg">
+                            </div>
+                            <h1 class="adoption_process_step_text2">입양 신청서 작성</h1>
+                            <h4 class="adoption_process_step_text3">
+                                제공된 양식에 맞춰 입양 신청서<br>를 성실히 작성해 주세요.
+                            </h4>
+                        </div>
+                        <img class="adoption_process_step_box_arrow" src="../source/adoption_step_arrow_img.svg" alt="">
+                        <div class="adoption_process_step_contents">
+                            <h1 class="adoption_process_step_text1">STEP 02</h1>
+                            <div class="adoption_process_step_img">
+                                <img id="step_img2" src="../source/step02_img.svg">
+                            </div>
+                            <h1 class="adoption_process_step_text2">입양 상담</h1>
+                            <h4 class="adoption_process_step_text3">
+                                입양 상담은 대면으로 진행되며<br>대리인 출석은 불가합니다. 
+                            </h4>
+                        </div>
+                        <img class="adoption_process_step_box_arrow" src="../source/adoption_step_arrow_img.svg" alt="">
+                        <div class="adoption_process_step_contents">
+                            <h1 class="adoption_process_step_text1">STEP 03</h1>
+                            <div class="adoption_process_step_img">
+                                <img id="step_img3" src="../source/step03_img.svg">
+                            </div>
+                            <h1 class="adoption_process_step_text2">입양 확정 및 계약서 작성</h1>
+                            <h4 class="adoption_process_step_text3">
+                                하단의 &#60;입양 계약서 다운&#62;을<br>통해 계약서를 출력 후 사용하세요. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="adoption_process_mid_bottom">
+                    <a href="../source/입양계약서.pdf" class="adoption_process_mid_butt" download="입양계약서">
+                        <img src="../source/adoption_contract_go_btn.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="adoption_process_bottom">
+                <img id="adoption_caution_img" src="../source/adoption_caution_img.svg">
+                <h1>잠깐! 입양을 신중히 결정하셨나요?</h1>
+                <p>많은 반려동물들은 종종 일회용품으로 취급되어 주인이 싫증이 나면 집을 잃고 거리로 내몰리기도 합니다.<br>
+                    <b>2020년에는 유기 동물이 13만 마리를 넘어섰고 이 중 21%가 안락사 됐습니다.</b> 또한 한 번 상처를 받은 유기동물들은 새로운<br>
+                    주인에게 마음을 열기까지 생각보다 오랜 시간이 걸릴 수 있습니다. 입양한 동물이 새로운 환경에 적응하기까지는<br>
+                    많은 인내심과 사랑을 필요로 할 것입니다. 반려동물을 입양하는 것은 앞으로 당신 인생의 15년, 어쩌면 그 이상의 시간 동안<br>
+                    책임이 따를 수 있는 중요한 결정입니다.  이에 대한 <b>책임감에 대해 다시 한번 생각하고 신중하게 입양을 결정하시길 바랍니다.</b>
+                </p>
+                <img id="adoption_caution_bott_img" src="../source/adoption_caution_bott_img.svg">
+                <!-- <br> -->
+                <div class="adoption_list_go_btn">
+                    <a id="adoption_list_go_btn" href="#">
+                        <h4>신청서 작성</h4>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -21,8 +21,8 @@ hr {
     display: flex;
 }
 .info_detail_icon {
-    width: 90px;
-    height: 90px;
+    width: 91px;
+    height: 91px;
 }
 .info_detail_text {
     margin-left: 20px;
@@ -64,32 +64,20 @@ hr {
 }
 
 .info_detail1,
-.info_detail2 {
+.info_detail2,
+.info_detail3 {
     margin: auto;
     margin-top: 61px;
     width: 1200px;
     text-align: center;
 }
-.info_detail1 >img {
+.info_detail1 >img,
+.info_detail3 >img {
     width: 820px;
 }
 .info_detail2 >img {
     width: 821px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .info_bott {
     margin-top: 59px;
     text-align: center;

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/mywrite_list.css">
+    <link rel="stylesheet" type="text/css" href="../css/mypage.css">
+    <title>WEME-my_write_list</title>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0)
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="my_bg">
+        <div class="my_top">
+            <h3>마이페이지</h3>
+            <hr>
+        </div>
+        <div class="mypage_id">
+            <div class="my_icon_img">
+                <img src="../source/user_profile.svg">
+            </div>
+            <div class="my_username_box">
+                <div class="my_username">
+                    왈자퐁자
+                </div>
+                <div class="nim">
+                    님
+                </div>                
+            </div>
+        </div>
+        <div class="my_nav_box">
+            <ul class="my_nav">
+                <li id="my_nav1">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar1" src="../source/mypage_nav_bar.svg">
+                    <a href="">임시보호 신청</a>
+                </li>
+                <li id="my_nav2">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar2" src="../source/mypage_nav_bar.svg">
+                    <a href="">입양 신청</a>
+                </li>
+                <li id="my_nav3">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar3" src="../source/mypage_nav_bar.svg">
+                    <a href="">나의 글 • 댓글</a>
+                </li>
+                <li id="my_nav4">
+                    <img class="mypage_nav_bar" id="mypage_nav_bar4" src="../source/mypage_nav_bar.svg">
+                    <a href="">나의 정보</a>
+                </li>
+            </ul>
+
+            <div class="my_write_comments_box">
+                <div class="my_write_box">
+                    <h3>나의 글</h3>
+                    <ul class="my_write_ul">
+                        <li class="my_write_content">
+                            <img src="../source/my_write_img.svg" class="my_write_img">
+                            <div class="my_write_content_mid">
+                                <div class="my_write_text">
+                                    <h5 class="my_write_text_title">쿠키의 보금자리가 되어주세요!</h5>
+                                    <h6 class="my_write_text_date">2022.02.07</h6>
+                                </div>
+                                <div class="my_write_comments_share_count">
+                                    <div class="my_write_comments">
+                                        <img id="my_write_comments_icon" class="my_write_counts_icon" src="../source/my_write_comment_icon.svg">
+                                        <p id="my_write_comments_count" class="my_write_counts">12</p>
+                                    </div>
+                                    <div class="my_write_share">
+                                        <img id="my_write_share_icon" class="my_write_counts_icon" src="../source/my_write_share_icon.svg">
+                                        <p id="my_write_share_count" class="my_write_counts">6</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="my_write_edit_btn"><img src="../source/my_write_edit_btn.svg"></a>
+
+                        </li>
+                        <li class="my_write_content">
+                            <img src="../source/my_write_img.svg" class="my_write_img">
+                            <div class="my_write_content_mid">
+                                <div class="my_write_text">
+                                    <h5 class="my_write_text_title">쿠키의 보금자리가 되어주세요!</h5>
+                                    <h6 class="my_write_text_date">2022.02.07</h6>
+                                </div>
+                                <div class="my_write_comments_share_count">
+                                    <div class="my_write_comments">
+                                        <img id="my_write_comments_icon" class="my_write_counts_icon" src="../source/my_write_comment_icon.svg">
+                                        <p id="my_write_comments_count" class="my_write_counts">12</p>
+                                    </div>
+                                    <div class="my_write_share">
+                                        <img id="my_write_share_icon" class="my_write_counts_icon" src="../source/my_write_share_icon.svg">
+                                        <p id="my_write_share_count" class="my_write_counts">6</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="my_write_edit_btn"><img src="../source/my_write_edit_btn.svg"></a>
+
+                        </li>
+                    </ul>
+
+                    <nav class="my_write_paging_nav">
+                        <ul class="my_write_paging">
+                            <li class="my_write_paging_item" id="my_write_prev_btn">
+                                <a href="" class="my_write_paging_link">
+                                    <img class="my_write_paging_btn" src="../source/my_prev_page.svg">
+                                </a>
+                            </li>
+                            <li class="my_write_paging_item"><a href="" class="my_write_paging_link">1</a></li>
+                            <li class="my_write_paging_item"><a href="" class="my_write_paging_link">2</a></li>
+                            <li class="my_write_paging_item"><a href="" class="my_write_paging_link">3</a></li>
+            
+                            <li class="my_paging_item" id="my_write_next_btn">
+                                <a href="" class="my_write_paging_link">
+                                    <img class="my_write_paging_btn" src="../source/my_next_page.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- 나의 댓글 부분 -->
+                <div class="my_comments_box">
+                    <h3>나의 댓글</h3>
+                    <ul class="my_comments_ul">                        
+                        <li class="my_comments_content">
+                            <img src="../source/my_write_img.svg" class="my_comments_img">
+                            <div class="my_comments_title_write">
+                                <h6 class="my_comments_title">
+                                    쿠키의 보금자리가 되어주세요!
+                                </h6>
+                                <h6 class="my_comments_write">
+                                    “ 입양이 완료됐나요? ”
+                                </h6>
+                            </div>
+                        </li>
+                        <li class="my_comments_content">
+                            <img src="../source/my_write_img.svg" class="my_comments_img">
+                            <div class="my_comments_title_write">
+                                <h6 class="my_comments_title">
+                                    쿠키의 보금자리가 되어주세요!
+                                </h6>
+                                <h6 class="my_comments_write">
+                                    “ 입양이 완료됐나요? ”
+                                </h6>
+                            </div>
+                        </li>
+                        <li class="my_comments_content">
+                            <img src="../source/my_write_img.svg" class="my_comments_img">
+                            <div class="my_comments_title_write">
+                                <h6 class="my_comments_title">
+                                    쿠키의 보금자리가 되어주세요!
+                                </h6>
+                                <h6 class="my_comments_write">
+                                    “ 입양이 완료됐나요? ”
+                                </h6>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <nav class="my_comment_paging_nav">
+                        <ul class="my_comment_paging">
+                            <li class="my_comment_paging_item" id="my_comment_prev_btn">
+                                <a href="" class="my_comment_paging_link">
+                                    <img class="my_comment_paging_btn" src="../source/my_prev_page.svg">
+                                </a>
+                            </li>
+                            <li class="my_comment_paging_item"><a href="" class="my_comment_paging_link">1</a></li>
+                            <li class="my_comment_paging_item"><a href="" class="my_comment_paging_link">2</a></li>
+                            <li class="my_comment_paging_item"><a href="" class="my_comment_paging_link">3</a></li>
+            
+                            <li class="my_paging_item" id="my_comment_next_btn">
+                                <a href="" class="my_comment_paging_link">
+                                    <img class="my_comment_paging_btn" src="../source/my_next_page.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+
+            </div>
+
+            
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>

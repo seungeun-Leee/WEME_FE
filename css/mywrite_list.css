@@ -1,0 +1,245 @@
+#mypage_nav_bar3 {
+    visibility:visible;
+}
+#my_nav3 > a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #000000;
+}
+
+.my_write_comments_box {
+    margin-left: 82px;
+}
+.my_write_box {
+    height: 620px;
+}
+.my_write_box > h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.my_write_ul {
+    margin-top: 44px;
+    height: 426px;
+}
+.my_write_ul > li:nth-child(odd){
+    margin-bottom: 40px;
+}
+.my_write_content {
+    display: flex;
+    width: 890px;
+    height: 193px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.my_write_img {
+    margin-top: 37px;
+    margin-left: 51px;
+    width: 152px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: bisque;
+}
+.my_write_content_mid {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+/* .my_write_text {
+
+} */
+.my_write_text_title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #787878;
+}
+.my_write_text_date {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A3A3A3;
+}
+.my_write_comments_share_count {
+    display: flex;
+    width: 470px;
+    margin-top: 34px;
+}
+.my_write_counts_icon {
+    margin-right: 10px;
+}
+.my_write_counts {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #787878;
+}
+.my_write_comments {
+    display: flex;    
+    width: 75px;
+    margin-right: 9px;
+}
+.my_write_share {
+    display: flex;
+}
+#my_write_comments_icon {
+    width: 25px;
+}
+#my_write_share_icon {
+    width: 21px;
+}
+.my_write_edit_btn {
+    width: 105px;
+    height: 44px;
+    margin-top: 113px;
+    margin-left: 31px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.my_write_edit_btn >img {
+    border-radius: 15px;
+}
+.my_write_paging_nav {
+    margin-top: 88px;
+    width: 890px;
+}
+.my_write_paging {
+    display: flex;
+    justify-content: center;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+.my_write_paging_item:not(:first-child)  {
+    margin-right: 17px;
+}
+.my_write_paging_item:nth-last-child(2) {
+    margin-right: 0px;
+}
+#my_write_prev_btn,
+#my_write_next_btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.my_write_paging_link > img {
+    margin: auto;
+    width: 9.04px;
+    height: 12.52px;
+}
+#my_write_prev_btn {
+    margin-right: 22px;
+}
+#my_write_next_btn {
+    margin-left: 22px;
+}
+
+
+/* 나의 댓글 부분 */
+.my_comments_box {
+    margin-top: 64px;
+    height: 720px;
+}
+.my_comments_box >h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.my_comments_ul {
+    margin-top: 44px;
+    height: 521px;
+}
+.my_comments_ul > li:not(:nth-child(3n)) {
+    margin-bottom: 25px;
+}
+.my_comments_content {
+    display: flex;
+    width: 890px;
+    height: 157px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.my_comments_img {
+    margin-top: 31px;
+    margin-left: 51px;
+    width: 120px;
+    height: 95px;
+    border-radius: 15px;
+    background-color: bisque;
+}
+.my_comments_title_write {
+    margin-top: 31px;
+    margin-left: 30px;
+}
+.my_comments_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #787878;
+}
+.my_comments_write {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #000000;
+}
+.my_comment_paging_nav {
+    margin-top: 88px;
+    width: 890px;
+}
+.my_comment_paging {
+    display: flex;
+    justify-content: center;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+.my_comment_paging_item:not(:first-child)  {
+    margin-right: 17px;
+}
+.my_comment_paging_item:nth-last-child(2) {
+    margin-right: 0px;
+}
+#my_comment_prev_btn,
+#my_comment_next_btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.my_comment_paging_link > img {
+    margin: auto;
+    width: 9.04px;
+    height: 12.52px;
+}
+#my_comment_prev_btn {
+    margin-right: 22px;
+}
+#my_comment_next_btn {
+    margin-left: 22px;
+}
