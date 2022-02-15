@@ -201,11 +201,13 @@
 .detailpage_comments_box {
     margin-left: 36px;
 }
-.detailpage_comments_count {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 35px;
-    color: #000000;
+.detailpage_comments_count,
+.detailpage_comments_count >span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #787878;
 }
 .detailpage_comments_content {
     margin-top: 16px;
@@ -214,18 +216,67 @@
     line-height: 35px;
     color: #787878;
 }
-.detailpage_comments_content > p:not(first-child) {
+
+.detailpage_comments_content > p > img{
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    border: none;
+    background: burlywood;
+}
+/* .detailpage_comments_content > p:not(first-child) {
     margin-top: 6px;
     width: 912.16px;
-    /* background-color: coral; */
 }
 .detailpage_comments_content > p > span {
-    /* background-color: cornflowerblue; */
     float: right;
-    /* margin-top: 50%; */
+} */
+
+/* 댓글 paging 부분 */
+.my_paging_nav {
+    margin: auto;
+    margin-top: 61px;
+    width: 1200px;
 }
+.my_paging {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+.my_paging_item:not(:first-child)  {
+    margin-right: 17px;
+}
+.my_paging_item:nth-last-child(2) {
+    margin-right: 0px;
+}
+#my_prev_btn,
+#my_next_btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.my_paging_link > img {
+    margin: auto;
+    width: 9.04px;
+    height: 12.52px;
+}
+#my_prev_btn {
+    margin-right: 22px;
+}
+#my_next_btn {
+    margin-left: 22px;
+}
+
+/* 댓글 작성하는 부분 */
 .detailpage_comments_write {
-    margin-top: 65px;
+    margin-top: 57px;
     display: flex;
 }
 #write_comment {    

@@ -178,32 +178,19 @@
                 <a class="info_edit_btn" href=""><h6>수정하기</h6></a>
                 <a class="info_request_btn" href=""><h6>신청하기</h6></a>
             </div>
-
-
-
-
         </div>
-
-
-
-
-        
         <hr class="detailpage_top_line">
         <div class="pets_explain_contents">
             <button class="pets_explain_contents_detail_info_btn" id="js_tempo_detail_info_btn">
                 상세 정보
             </button>
             <div class="pets_explain_contents_detail_info" id="js_tempo_detail_info">
-                <div class="detail_info_contents">     
-                    <!-- <div>               -->
+                <div class="detail_info_contents">   
                         예시 이미지
                         <br>
                         <img src="../source/dogimg_rectan.png">
-                    <!-- </div> -->
                 </div>
             </div>
-            
-            
         </div>
         <div class="info_bott_caution">
             <h3>🐶 반려동물 입양은 신중하게 생각해주세요 😺</h3>
@@ -213,16 +200,44 @@
         <div class="detailpage_comments">
             <div class="detailpage_comments_box">
                 <div class="detailpage_comments_count">
-                    댓글보기 (<span>16</span>)
+                    댓글보기 (<span>2</span>)
                 </div>
                 <div class="detailpage_comments_content" id="detailpage_comments_content">
-                    <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
+                    <p>
+                        <img src="../source/comments_profile_icon.svg" class="comments_profile_img">
+                        <div class="comments">안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.</div>
+
+
+                    </p>
+
+
+                    <!-- <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
                         <span class="comment_del" onclick="delComments();return false;">X</span>
                     </p>
                     <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
                         <span class="comment_del" onclick="delComments();return false;">X</span>
-                    </p>
+                    </p> -->
                 </div>
+                <!-- 댓글 paging부분 -->
+                <nav class="my_paging_nav">
+                    <ul class="my_paging">
+                        <li class="my_paging_item" id="my_prev_btn">
+                            <a href="" class="my_paging_link">
+                                <img class="my_paging_btn" src="../source/my_prev_page.svg">
+                            </a>
+                        </li>
+                        <li class="my_paging_item"><a href="" class="my_paging_link">1</a></li>
+                        <li class="my_paging_item"><a href="" class="my_paging_link">2</a></li>
+                        <li class="my_paging_item"><a href="" class="my_paging_link">3</a></li>
+        
+                        <li class="my_paging_item" id="my_next_btn">
+                            <a href="" class="my_paging_link">
+                                <img class="my_paging_btn" src="../source/my_next_page.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 댓글 쓰는 곳 -->
                 <div class="detailpage_comments_write">
                     <div>
                         <input type="text" id="write_comment" placeholder="   댓글을 작성하는 곳." required>
