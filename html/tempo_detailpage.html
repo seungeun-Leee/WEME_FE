@@ -11,9 +11,26 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header").load("header.html")
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0)
         });
-    </script>    
+    </script>
+    <script type="text/javascript">
+
+        function clip(){
+            var url = 'http://192.168.35.189:5501/html/tempo_detailpage.html';
+            var textarea = document.createElement("textarea");
+            document.body.appendChild(textarea);
+            url = window.document.location.href;
+            textarea.value = url;
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("URL이 복사되었습니다.")
+        }
+        
+    </script>  
 </head>
 <body>
     <div id="header"></div>
@@ -27,7 +44,8 @@
             </ul>
             <div class="list_location_text">임시보호</div>
         </div>
-        <div class="detailpage_explain">
+        <hr>
+        <!-- <div class="detailpage_explain">
             <div class="detailpage_explain_img"></div>
             <div class="detailpage_explain_text">
                 <div class="detailpage_explain_text_title">
@@ -75,8 +93,102 @@
                     <button class="detailpage_explain_request_btn">신청하기</button>
                 </div>
             </div>
+        </div> -->
+
+        <div class="detailpage_explain">
+            <div class="detailpage_title_share_btn">
+                <div class="detailpage_title_date_id">
+                    <h3>쿠키의 보금자리가 되어주세요!</h3>
+                    <div class="detailpage_date_id">
+                        <h6 class="detailpage_date">2022. 1. 17. 13:50</h6>
+                        <img src="../source/detailpage_date_id_div_bar.svg">
+                        <h6>글쓴이</h6>
+                        <h6 class="detailpage_id">왈자퐁자</h6>
+                    </div>
+                </div>
+                <div class="detailpage_share_btns">
+                    <img src="../source/facebook.svg">
+                    <img src="../source/kakao-talk.svg">
+                    <img src="../source/twitter.svg">
+                    <img src="../source/url_share.svg" onclick="clip(); return false;">
+                </div>
+            </div>
+            <!-- 동물 메인 이미지 -->
+            <div class="detailpage_title_img"></div>
+            <!-- 동물 정보 table -->
+            <div class="basicinfo">
+                <div class="basicinfo_l">
+                    <table style=" border-collapse: collapse;">
+                        <tr>
+                            <th> 유기견 이름 </th>
+                            <td class="explain1">쿠키</td>
+                        </tr>
+
+                        <tr>
+                            <th> 분류 </th>
+                            <td class="explain2">강아지</td>
+                        </tr>
+                        
+                        <tr>
+                            <th> 성별 </th>
+                            <td class="explain3">암컷</td>
+                        </tr>
+
+                        <tr>
+                            <th> 체중(크기) </th>
+                            <td class="explain4">3.2kg</td>
+                        </tr>
+
+                        <tr>
+                            <th> 특징 </th>
+                            <td class="explain5">온순함</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="basicinfo_r">
+                    <table style="border: none; border-collapse: collapse;">
+                    <tr>
+                        <th> 품종 </th>
+                        <td class="explain6">카발리에 킹 찰스 스패니얼</td>
+                    </tr>
+
+                    <tr>
+                        <th> 나이(개월수) </th>
+                        <td class="explain7">1살</td>
+                    </tr>
+
+                    <tr>
+                        <th> 예방접종 여부 </th>
+                        <td class="explain8"><img src="../source/pet_info_o.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <th> 중성화 여부 </th>
+                        <td class="explain9"><img src="../source/pet_info_x.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <th> 지역 </th>
+                        <td class="explain10">경기도 남양주시 퇴계원읍</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="info_edit_request_btn">
+                <a class="info_edit_btn" href=""><h6>수정하기</h6></a>
+                <a class="info_request_btn" href=""><h6>신청하기</h6></a>
+            </div>
+
+
+
+
         </div>
-        <hr  class="detailpage_top_line">
+
+
+
+
+        
+        <hr class="detailpage_top_line">
         <div class="pets_explain_contents">
             <button class="pets_explain_contents_detail_info_btn" id="js_tempo_detail_info_btn">
                 상세 정보
@@ -92,6 +204,9 @@
             </div>
             
             
+        </div>
+        <div class="info_bott_caution">
+            <h3>🐶 반려동물 입양은 신중하게 생각해주세요 😺</h3>
         </div>
         <hr class="detailpage_bott_line">
 
