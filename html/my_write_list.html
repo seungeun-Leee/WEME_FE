@@ -15,7 +15,8 @@
         $(document).ready(function(){
             $("#header").load("header.html"),
             // 화면을 맨 위로 올리기
-            $('html').scrollTop(0)
+            $('html').scrollTop(0),
+            $("#footer").load("footer.html")
         });
     </script>
 </head>
@@ -166,7 +167,6 @@
                         </li>
 
                     </ul>
-
                     <nav class="my_comment_paging_nav">
                         <ul class="my_comment_paging">
                             <li class="my_comment_paging_item" id="my_comment_prev_btn">
@@ -186,16 +186,9 @@
                         </ul>
                     </nav>
                 </div>
-                
-
             </div>
-
-            
-
-
-
-
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>

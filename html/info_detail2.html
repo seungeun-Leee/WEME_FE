@@ -11,7 +11,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header").load("header.html")
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0),
+            $("#footer").load("footer.html")
         });
     </script>
     <script type="text/javascript">
@@ -70,9 +73,9 @@
                 <img src="../source/twitter.svg">
                 <img src="../source/url_share.svg" onclick="clip2(); return false;">
             </div>
-            <a href="#"><button class="go_info_review_list_btn">목록 가기</button></a>
-            
+            <a href="#"><button class="go_info_review_list_btn">목록 가기</button></a>            
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>

@@ -1,0 +1,52 @@
+* {
+    font-family: 'Noto Sans KR';
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+h5 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 220%;
+    color: #FFFFFF;
+}
+h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 220%;
+    color: #FFFFFF;
+}
+.footer_bg {
+    display: flex;
+    margin: auto;
+    width: 1920px;
+    height: 128px;
+    background: #93A761;
+}
+.footer_bg > img {
+    width: 224px;
+    height: 45px;
+    margin-top: 28px;
+    margin-left: 416px;
+}
+.design,
+.front {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 87px;
+}
+.back {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 68px;
+}
+.member_email {
+    margin-left: 22px;
+    user-select:text !important;
+    -webkit-user-select:text !important;
+    -moz-user-select:text !important;
+    -ms-user-select:text !important;
+}

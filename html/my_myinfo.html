@@ -11,9 +11,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header").load("header.html")
+            $("#header").load("header.html"),
             // 화면을 맨 위로 올리기
-            $('html').scrollTop(0)
+            $('html').scrollTop(0),
+            $("#footer").load("footer.html")
         });
     </script>
     <script>
@@ -124,19 +125,9 @@
 
                 </form>
                 <input type="button" onclick="TwoSubmit();" value="저장" class="myinfo_save_btn">
-
             </div>
-
-
         </div>
-
-
-
-
-
-
-
     </div>
-
+    <div id="footer"></div>
 </body>
 </html>
