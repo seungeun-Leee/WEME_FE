@@ -30,6 +30,10 @@ hr {
   margin: 107px 0 106px 374px;
 }
 
+#chooseFile {
+  visibility: hidden;
+}
+
 .register {
   display: flex;
   justify-content: center;
@@ -91,6 +95,7 @@ hr {
   border: none;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 24px;
+  text-align: left;
 }
 select:focus {
   outline: none;
@@ -107,14 +112,43 @@ h4 {
 
 .vacci,
 .neuter {
-  margin-left: 9px;
+  margin-left: 17px;
   display: flex;
 }
 
-.btnO,
+/* .btnO,
 .btnX {
   height: 33px;
   width: 75px;
   border-radius: 10px;
+  border: none;
+  transition-duration: 0.3s;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+} */
+
+.vacci li,
+.neuter li {
+  height: 33px;
+  width: 75px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffff;
+  color: black;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.3s;
+
+  cursor: pointer;
 }
+
+/* #btnO {
+  background: #93a761;
+}
+#btnO > h4 {
+  color: white;
+} */
+/* .vacci > li > h4,
+.neuter > li > h4 {
+  position: relative;
+  top: 7px;
+  color: #a3a3a3;
+} */

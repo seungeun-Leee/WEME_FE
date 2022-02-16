@@ -3,9 +3,6 @@
   width: 1920px;
 }
 
-.adoption_location_text {
-  margin-top: 15px;
-}
 .adoption_location_text > span {
   margin-right: 30px;
   font-size: 40px;
@@ -14,19 +11,7 @@
   color: #a3a3a3;
   font-size: 32px;
 }
-.list_top_img {
-  margin: auto;
-  margin-top: 60px;
-  width: 1200px;
-  height: 259px;
-  background-color: #dddfa0;
-}
-.adop_list_top {
-  margin: auto;
-  display: flex;
-  justify-content: flex-end;
-  width: 1200px;
-}
+
 .privatecheck {
   margin: 60px 360px 51px 360px;
   display: flex;
@@ -55,17 +40,22 @@
 }
 
 .simpleinfo tr {
-  border: solid 1px;
+  /* border: solid 1px; */
+  border: none;
 }
 
 .simpleinfo td {
-  border: 1px solid #d1d1d1;
+  /* border: 1px solid #d1d1d1; */
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .simpleinfo th {
   width: 239px;
   height: 72px;
-  border: solid 1px #d1d1d1;
+  /* border: solid 1px #d1d1d1; */
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
   background-color: #f5f6f1;
   text-align: left;
   text-indent: 31px;
@@ -94,7 +84,8 @@
   /* height: 72px; */
   padding-top: 23px;
   padding-bottom: 23px;
-  border: solid 1px #d1d1d1;
+  border-top: solid 1px #d1d1d1;
+  border-bottom: solid 1px #d1d1d1;
   background-color: #f5f6f1;
   text-indent: 31px;
   font-size: 18px;
@@ -104,7 +95,6 @@
 
 .moreinfo input {
   margin-left: 31px;
-  width: 1138px;
   height: 54px;
   border: 1px solid rgba(209, 209, 209, 1);
   margin-bottom: 9px;
@@ -140,7 +130,7 @@
   cursor: pointer;
 }
 
-.home {
-  margin: 60px 360px 51px 360px;
+.homeform {
   display: flex;
+  font-size: 18px;
 }
