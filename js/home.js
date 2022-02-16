@@ -2,7 +2,7 @@
 $(function(){
     $('.home_emergency_bott').slick({
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -37,11 +37,10 @@ $(function(){
     
     });
 });
-
 // 하단 화살표 기능
 $(function() {
     $('.home_review_choose').slick({
-        infinite: true,
+        infinite: false,
         prevArrow : $('.prevArrow2'), 
         nextArrow : $('.nextArrow2'), 
         slidesToShow: 2,
@@ -71,3 +70,8 @@ function emergency_btn2() {
     b1.style.backgroundColor="#93A761";
     b2.style.color="white";
 }
+
+// var index = $('.home_emergency_bott').slick('slickCurrentSlide');
+// if (index == 0) {
+//     alert(index);
+// }

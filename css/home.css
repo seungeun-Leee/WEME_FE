@@ -139,28 +139,30 @@ h4 {
 }
 /* 위쪽 화살표 관련 */
 .indicaotr {
-  position: relative;
-  width: 0px;
-  height: 48px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 1090px;
+  padding-left: 331px;
+  width: 1260px;
+  
 }
 .prevArrow {
   position: relative;
-  right: 1595px;
-  top: 189px;
   width: 48px;
   height: 48px;
-  border-radius: 100%;
   border: none;
 }
 .nextArrow {
   position: relative;
-  top: 131px;
-  right: 382px;
   width: 48px;
   height: 48px;
-  border-radius: 100%;
   border: none;
   
+}
+/* 슬라이드 마지막에서 화살표 숨기기(위/아래 모두) */
+.slick-disabled {
+  visibility: hidden;
 }
 .home_emergency_mid {
   position: relative;
@@ -373,6 +375,9 @@ h4 {
   position: relative;
   right: 331px;
 }
+
+
+
 
 /* .home_review_choose_box_next_btn > button {
   margin-top: 124px;

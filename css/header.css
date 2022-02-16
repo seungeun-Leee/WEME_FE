@@ -9,6 +9,10 @@
 
 body {
   margin: 0px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
   /* contents margin은 좌우 360 */
 }
 
