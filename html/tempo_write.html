@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEME-tempowrite</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0)
+        });
+    </script> 
 </head>
 <body>
+    <div id="header"></div>
 
 </body>
 </html>
