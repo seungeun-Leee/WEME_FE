@@ -11,8 +11,17 @@
     <link rel="stylesheet" type="text/css" href="../css/apply.css">
 
     <title>WEME-adoptapply</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html")
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0)
+        });
+    </script> 
 </head>
 <body>
+    <div id="header"></div>
     <div class="apply_bg">
         <div class="list_top">
             <ul class="list_location">
