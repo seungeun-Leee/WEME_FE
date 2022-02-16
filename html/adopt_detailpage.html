@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/detailpage.css">
+    <title>WEME-adopt_detailpage</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0),
+            $("#footer").load("footer.html")
+        });
+    </script>
+    <script type="text/javascript">
+
+        function clip(){
+            var url = 'http://192.168.0.4:5501/html/adopt_detailpage.html';
+            var textarea = document.createElement("textarea");
+            document.body.appendChild(textarea);
+            url = window.document.location.href;
+            textarea.value = url;
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("URL이 복사되었습니다.")
+        }
+        
+    </script>  
+</head>
+<body>
+    <div id="header"></div>
+    <div class="detailpage_bg">
+        <div class="list_top">            
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">입양</a></li>
+                <li>></li>
+                <li><a href="#">임시보호</a></li>
+            </ul>
+            <div class="list_location_text">입양하기</div>
+        </div>
+        <hr>
+        <!-- <div class="detailpage_explain">
+            <div class="detailpage_explain_img"></div>
+            <div class="detailpage_explain_text">
+                <div class="detailpage_explain_text_title">
+                    <span class="detailpage_explain_text_title_title">
+                        쿠키의 보금자리가 되어주세요!
+                    </span>
+                    <span>
+                        <button class="detailpage_explain_text_title_sharbtn">
+                            <img src="../source/sharebtn.png">
+                        </button>
+                    </span>
+                </div>
+                <hr>
+                <div class="detailpage_explain_text_box">
+                    <div class="explain_text_box1" id="explain_text_box">
+                        <h1>유기견 이름<br>분류<br>성별<br>체중(크기)<br>특징</h1>
+                    </div>
+                    <div class="explain_text_change_box1" id="explain_text_change_box">
+                        <div class="explain1">쿠키</div>
+                        <div class="explain2">강아지</div>
+                        <div class="explain3">여</div>
+                        <div class="explain4">3.2kg</div>
+                        <div class="explain5">온순함</div>
+
+                    </div>
+                    <div class="explain_text_box2" id="explain_text_box">
+                        <h1>품종<br>나이 (개월수)<br>예방접종 여부<br>중성화 여부<br>지역</h1>
+
+                    </div>
+                    <div class="explain_text_change_box2" id="explain_text_change_box">
+                        <div class="explain6">믹스견</div>
+                        <div class="explain7">3개월</div>
+                        <div class="explain8">O</div>
+                        <div class="explain9">O</div>
+                        <div class="explain10">서울</div>
+                        <div class="explain11">노원구 공릉동</div>
+                    </div>
+
+                </div>
+                <div class="detailpage_explain_text_date">
+                    왈자퐁자  •  2022.01.22
+                </div>
+                <div class="detailpage_explain_edit_request_btn">
+                    <button class="detailpage_explain_edit_btn">수정하기</button>
+                    <button class="detailpage_explain_request_btn">신청하기</button>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="detailpage_explain">
+            <div class="detailpage_title_share_btn">
+                <div class="detailpage_title_date_id">
+                    <h3>쿠키의 보금자리가 되어주세요!</h3>
+                    <div class="detailpage_date_id">
+                        <h6 class="detailpage_date">2022. 1. 17. 13:50</h6>
+                        <img src="../source/detailpage_date_id_div_bar.svg">
+                        <h6>글쓴이</h6>
+                        <h6 class="detailpage_id">왈자퐁자</h6>
+                    </div>
+                </div>
+                <div class="detailpage_share_btns">
+                    <img src="../source/facebook.svg">
+                    <img src="../source/kakao-talk.svg">
+                    <img src="../source/twitter.svg">
+                    <img src="../source/url_share.svg" onclick="clip(); return false;">
+                </div>
+            </div>
+            <!-- 동물 메인 이미지 -->
+            <div class="detailpage_title_img"></div>
+            <!-- 동물 정보 table -->
+            <div class="basicinfo">
+                <div class="basicinfo_l">
+                    <table style=" border-collapse: collapse;">
+                        <tr>
+                            <th> 유기견 이름 </th>
+                            <td class="explain1">쿠키</td>
+                        </tr>
+
+                        <tr>
+                            <th> 분류 </th>
+                            <td class="explain2">강아지</td>
+                        </tr>
+                        
+                        <tr>
+                            <th> 성별 </th>
+                            <td class="explain3">암컷</td>
+                        </tr>
+
+                        <tr>
+                            <th> 체중(크기) </th>
+                            <td class="explain4">3.2kg</td>
+                        </tr>
+
+                        <tr>
+                            <th> 특징 </th>
+                            <td class="explain5">온순함</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="basicinfo_r">
+                    <table style="border: none; border-collapse: collapse;">
+                    <tr>
+                        <th> 품종 </th>
+                        <td class="explain6">카발리에 킹 찰스 스패니얼</td>
+                    </tr>
+
+                    <tr>
+                        <th> 나이(개월수) </th>
+                        <td class="explain7">1살</td>
+                    </tr>
+
+                    <tr>
+                        <th> 예방접종 여부 </th>
+                        <td class="explain8"><img src="../source/pet_info_o.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <th> 중성화 여부 </th>
+                        <td class="explain9"><img src="../source/pet_info_x.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <th> 지역 </th>
+                        <td class="explain10">경기도 남양주시 퇴계원읍</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="info_edit_request_btn">
+                <a class="info_edit_btn" href=""><h6>수정하기</h6></a>
+                <a class="info_request_btn" href=""><h6>신청하기</h6></a>
+            </div>
+        </div>
+        <hr class="detailpage_top_line">
+        <div class="pets_explain_contents">
+            <button class="pets_explain_contents_detail_info_btn" id="js_tempo_detail_info_btn">
+                상세 정보
+            </button>
+            <div class="pets_explain_contents_detail_info" id="js_tempo_detail_info">
+                <div class="detail_info_contents">   
+                        예시 이미지
+                        <br>
+                        <img src="../source/dogimg_rectan.png">
+                </div>
+            </div>
+        </div>
+        <div class="info_bott_caution">
+            <h3>🐶 반려동물 입양은 신중하게 생각해주세요 😺</h3>
+        </div>
+        <hr class="detailpage_bott_line">
+
+        <div class="detailpage_comments">
+            <div class="detailpage_comments_box">
+                <div class="detailpage_comments_count">
+                    댓글보기 (<span>2</span>)
+                </div>
+                <div class="detailpage_comments_content" id="detailpage_comments_content">
+                    <!-- 댓글 하나 -->
+                    <div class="comments_box">
+                        <div class="comment_profile_text">
+                            <img src="../source/comments_profile_icon.svg" class="comments_profile_img">
+                            <div class="comments">
+                                <h3>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.</h3>
+                                <div class="comments_date_reply_btn">
+                                    <h6>2022.02.07&nbsp;&nbsp;&nbsp;09:22</h6>
+                                    <button onclick="replyComments();return false;" class="replybtn">
+                                        답글
+                                    </button>
+                                </div>                            
+                            </div>
+                        </div>                        
+                        <div class="comment_edit_delete_btn">
+                            <button class="comment_edit_btn">
+                                <img src="../source/comment_edit_btn.svg" alt="">
+                            </button>
+                            <img src="../source/comment_edit_delete_div_bar.svg">
+                            <button class="comment_delete_btn" onclick="delComments();return false;">
+                                <img src="../source/comment_delete_btn.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <!-- 답글 첫번째 -->
+                    <div class="comments_reply_box">
+                        <div class="comment_reply_profile_text">
+                            <img src="../source/comments_reply_div_bar.svg" class="comments_reply_div_bar">
+                            <img src="../source/comments_profile_icon.svg" class="comments_profile_img">
+                            <div class="comments">
+                                <h3>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.</h3>
+                                <div class="comments_date_reply_btn">
+                                    <h6>2022.02.07&nbsp;&nbsp;&nbsp;09:22</h6>
+                                    <button onclick="replyComments();return false;" class="replybtn">
+                                        답글
+                                    </button>
+                                </div>                            
+                            </div>
+                        </div>                        
+                        <div class="comment_edit_delete_btn">
+                            <button class="comment_edit_btn">
+                                <img src="../source/comment_edit_btn.svg" alt="">
+                            </button>
+                            <img src="../source/comment_edit_delete_div_bar.svg">
+                            <button class="comment_delete_btn" onclick="delComments();return false;">
+                                <img src="../source/comment_delete_btn.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- <div class="comment_del">삭제된 메시지 입니다.</div> -->
+                    <!-- 댓글 두번째 -->
+                    <div class="comments_box">
+                        <div class="comment_profile_text">
+                            <img src="../source/comments_profile_icon.svg" class="comments_profile_img">
+                            <div class="comments">
+                                <h3>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.</h3>
+                                <div class="comments_date_reply_btn">
+                                    <h6>2022.02.07&nbsp;&nbsp;&nbsp;09:22</h6>
+                                    <button onclick="replyComments();return false;" class="replybtn">
+                                        답글
+                                    </button>
+                                </div>                            
+                            </div>
+                        </div>                        
+                        <div class="comment_edit_delete_btn">
+                            <button class="comment_edit_btn">
+                                <img src="../source/comment_edit_btn.svg" alt="">
+                            </button>
+                            <img src="../source/comment_edit_delete_div_bar.svg">
+                            <button class="comment_delete_btn" onclick="delComments();return false;">
+                                <img src="../source/comment_delete_btn.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
+                        <span class="comment_del" onclick="delComments();return false;">X</span>
+                    </p>
+                    <p>안녕하세요! 유기견 관련 질문 있어서 댓글 남깁니다.
+                        <span class="comment_del" onclick="delComments();return false;">X</span>
+                    </p> -->
+                </div>
+                <!-- 댓글 paging부분 -->
+                <nav class="my_paging_nav">
+                    <ul class="my_paging">
+                        <li class="my_paging_item" id="my_prev_btn">
+                            <a href="" class="my_paging_link">
+                                <img class="my_paging_btn" src="../source/my_prev_page.svg">
+                            </a>
+                        </li>
+                        <li class="my_paging_item"><a href="" class="my_paging_link">1</a></li>
+                        <li class="my_paging_item"><a href="" class="my_paging_link">2</a></li>
+                        <li class="my_paging_item"><a href="" class="my_paging_link">3</a></li>
+        
+                        <li class="my_paging_item" id="my_next_btn">
+                            <a href="" class="my_paging_link">
+                                <img class="my_paging_btn" src="../source/my_next_page.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 댓글 쓰는 곳 -->
+                <div class="detailpage_comments_write">
+                    <div>
+                        <input type="text" id="write_comment" placeholder="   댓글을 작성하는 곳." required>
+                    </div>
+                    <div>
+                        <button class="add_comment" onclick="newRegister();return false;">댓글쓰기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="../js/detailpages.js"></script>
+</body>
+</html>
