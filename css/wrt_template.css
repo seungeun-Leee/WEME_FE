@@ -113,21 +113,18 @@ h4 {
 .vacci,
 .neuter {
   margin-left: 17px;
+  margin-right: 180px;
   display: flex;
+  justify-content: space-between;
 }
 
-/* .btnO,
-.btnX {
-  height: 33px;
-  width: 75px;
-  border-radius: 10px;
-  border: none;
-  transition-duration: 0.3s;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-} */
+.vacci input[type="radio"],
+.neuter input[type="radio"] {
+  display: none;
+}
 
-.vacci li,
-.neuter li {
+.vacci input[type="radio"] + span,
+.neuter input[type="radio"] + span {
   height: 33px;
   width: 75px;
   border-radius: 10px;
@@ -135,20 +132,13 @@ h4 {
   background-color: #ffff;
   color: black;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-  transition-duration: 0.3s;
+  text-align: center;
 
   cursor: pointer;
 }
 
-/* #btnO {
-  background: #93a761;
+.vacci input[type="radio"]:checked + span,
+.neuter input[type="radio"]:checked + span {
+  background-color: #93a761;
+  color: #ffffff;
 }
-#btnO > h4 {
-  color: white;
-} */
-/* .vacci > li > h4,
-.neuter > li > h4 {
-  position: relative;
-  top: 7px;
-  color: #a3a3a3;
-} */

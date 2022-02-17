@@ -64,9 +64,16 @@
                     
                     <tr>
                         <th> 성별 </th>
-                        <td><input type="checkbox" name="sex" value="F" onclick="clickCheck(this)"/> &nbsp; 여자
-                            <input type="checkbox" name="sex" value="M" onclick="clickCheck(this)"/> &nbsp; 남자
+                        <td><div class="sex">
+                            <input type="checkbox"  id="F" onclick="clickCheck(this)"/> 
+                            <label for="F"></label>
+                            <h5>&nbsp; 여자</h5>
+                            <input type="checkbox"  id="M" onclick="clickCheck(this)"/>
+                            <label for="M"></label>
+                            <h5>&nbsp; 남자</h5>
+                            
                             <script type="text/javascript" src="../js/applycheckbox.js"></script>
+                        </div>
                         </td>
                     </tr>
 

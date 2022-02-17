@@ -10,19 +10,9 @@
     <link rel="stylesheet" type="text/css" href="../css/list.css">
     <link rel="stylesheet" type="text/css" href="../css/wrt_template.css">
 
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#header").load("header.html"),
-            // 화면을 맨 위로 올리기
-            $('html').scrollTop(0),
-            $("#footer").load("footer.html")
-        });
-    </script> 
+    <title>WEME-adoptwrt</title>
 </head>
 <body>
-    <div id="header"></div>
     <div class="wrt_bg">
         <div class="list_top">
             <ul class="list_location">
@@ -101,22 +91,22 @@
 
                 <tr>
                     <th> 예방접종 여부 </th>
-                    <td><ul class="vacci">
-                        <li id="btnO" value="O" onclick="btnO(); return false;">
-                        </li>
-                        <li id="btnX"  value="X" onclick="btnX(); return false;" style="margin-left:15px">
-                        </li>
-                    </ul></td>
+                    <td><label class="vacci">
+                        <input type="radio" name="O" value="O">
+                            <span>O</span></input>
+                        <input type="radio" name="X" value="X">
+                            <span>X</span></input></td>
+                    </label></td>
                 </tr>
 
                 <tr>
                     <th> 중성화 여부 </th>
-                    <td><ul class="neuter">
-                        <li id="btnO" value="O" onclick="btnO(); return false;">
-                        </li>
-                        <li id="btnX"  value="X" onclick="btnX(); return false;" style="margin-left:15px">
-                        </li>
-                    </ul></td>
+                    <td><label class="neuter">
+                        <input type="radio" name="O" value="O">
+                            <span>O</span></input>
+                        <input type="radio" name="X" value="X">
+                            <span>X</span></input></td>
+                    </label></td>
                 </tr>
 
                 <tr>
@@ -159,7 +149,7 @@
         <div class="register">        
             <input type="submit" name="" class="regibtn" value="등록">
         </div>
+
     </div>
-    <div id="footer"></div>
 </body>
 </html>
