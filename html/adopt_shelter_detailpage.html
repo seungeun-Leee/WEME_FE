@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <link rel="stylesheet" type="text/css" href="../css/detailpage.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    <title>WEME-adopt_shelter_detailpage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0),
+            $("#footer").load("footer.html")
+        });
+    </script>
+    <script type="text/javascript">
+
+        function clip(){
+            var url = 'http://192.168.0.4:5501/html/adopt_shelter_detailpage.html';
+            var textarea = document.createElement("textarea");
+            document.body.appendChild(textarea);
+            url = window.document.location.href;
+            textarea.value = url;
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("URL이 복사되었습니다.")
+        }
+        
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.shelter_detailpage_img').slick({
+                dots: true,
+                dotsClass : "slick-dots",
+                prevArrow : $('.prevArrow'), 
+                nextArrow : $('.nextArrow')
+            });
+        });
+      </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="detailpage_bg">
+        <div class="list_top">            
+            <ul class="list_location">
+                <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
+                <li><a href="#">입양</a></li>
+                <li>></li>
+                <li><a href="#">보호소</a></li>
+            </ul>
+            <div class="list_location_text">입양하기</div>
+        </div>
+        <hr>
+        
+        <div class="detailpage_explain">
+            <div class="detailpage_title_share_btn">
+                <div class="detailpage_title_date_id">
+                    <h3>쿠키의 보금자리가 되어주세요!</h3>
+                    <div class="detailpage_date_id">
+                        <h6 class="detailpage_date">2022. 1. 17. 13:50</h6>
+                        <img src="../source/detailpage_date_id_div_bar.svg">
+                        <h6>글쓴이</h6>
+                        <h6 class="detailpage_id">왈자퐁자</h6>
+                    </div>
+                </div>
+                <div class="detailpage_share_btns">
+                    <img src="../source/facebook.svg">
+                    <img src="../source/kakao-talk.svg">
+                    <img src="../source/twitter.svg">
+                    <img src="../source/url_share.svg" onclick="clip(); return false;">
+                </div>
+            </div>
+            <!-- 동물 메인 이미지 -->
+            <!-- 슬라이드 필요 -->
+            <div class="shelter_detailpage_img">
+                <div><img src="../source/tempo_detailpage_img.png"></div>
+                <div><img src="../source/tempo_detailpage_img.png"></div>
+                <div><img src="../source/tempo_detailpage_img.png"></div>
+                <div><img src="../source/tempo_detailpage_img.png"></div>
+            </div>
+            <div class="indicaotr">
+                <span class="prevArrow"><img src='../source/prev_arrow.svg'></span>
+                <span class="nextArrow"><img src='../source/next_arrow.svg'></span>          
+            
+            </div>
+
+
+
+
+
+            <!-- 동물 정보 table -->
+            <div class="basicinfo">
+                <div class="basicinfo_l">
+                    <table style=" border-collapse: collapse;">
+                        <tr>
+                            <th> 유기견 이름 </th>
+                            <td class="explain1">쿠키</td>
+                        </tr>
+
+                        <tr>
+                            <th> 분류 </th>
+                            <td class="explain2">강아지</td>
+                        </tr>
+                        
+                        <tr>
+                            <th> 성별 </th>
+                            <td class="explain3">암컷</td>
+                        </tr>
+
+                        <tr>
+                            <th> 체중(크기) </th>
+                            <td class="explain4">3.2kg</td>
+                        </tr>
+
+                        <tr>
+                            <th> 특징 </th>
+                            <td class="explain5">온순함</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="basicinfo_r">
+                    <table style="border: none; border-collapse: collapse;">
+                    <tr>
+                        <th> 품종 </th>
+                        <td class="explain6">카발리에 킹 찰스 스패니얼</td>
+                    </tr>
+
+                    <tr>
+                        <th> 나이(개월수) </th>
+                        <td class="explain7">1살</td>
+                    </tr>
+
+                    <tr>
+                        <th> 예방접종 여부 </th>
+                        <td class="explain8"><img src="../source/pet_info_o.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <th> 중성화 여부 </th>
+                        <td class="explain9"><img src="../source/pet_info_x.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <th> 지역 </th>
+                        <td class="explain10">경기도 남양주시 퇴계원읍</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="shelter_contents">
+            <h6>*반려동물에 대한 질문과 문의는 보호소로 연락바랍니다.</h6>
+            <div class="shelter_num_url_box">
+                <div class="shelter_num">
+                    <h3>보호소 연락처</h3>
+                    <h4 class="get_shelter_num">031-1234-5678</h4>
+                </div>
+                <div class="shelter_url">
+                    <h3>보호소 바로가기</h3>
+                    <h4 class="get_shelter_url">http://www.swu.ac.kr/class/class.html</h4>
+                    <a class="goto_shelter_homepage" href="http://www.swu.ac.kr/class/class.html">바로 가기</a>
+                </div>
+            </div>
+            
+
+        </div>
+        
+        <div class="info_bott_caution">
+            <h3>🐶 반려동물 입양은 신중하게 생각해주세요 😺</h3>
+        </div>
+
+        
+    </div>
+    <div id="footer"></div>
+    <!-- <script src="../js/detailpages.js"></script> -->
+</body>
+</html>
