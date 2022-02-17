@@ -69,6 +69,34 @@
   /* text-indent: 5%; */
 }
 
+.sex {
+  display: flex;
+}
+
+.simpleinfo input[type="checkbox"] {
+  display: none;
+}
+
+.simpleinfo input[type="checkbox"] + label,
+.moreinfo input[type="checkbox"] + label {
+  margin-left: 9px;
+  position: relative;
+  top: 5px;
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(209, 209, 209, 1);
+}
+
+.sex h5 {
+  padding-right: 27px;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .moreinfo h4 {
   margin-bottom: 60px;
   color: #93a761;
