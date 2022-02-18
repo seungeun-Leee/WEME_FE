@@ -71,7 +71,7 @@
   display: flex;
 }
 
-.simpleinfo input[type="checkbox"] {
+/* .simpleinfo input[type="checkbox"] {
   display: none;
 }
 
@@ -85,7 +85,7 @@
   width: 24px;
   height: 24px;
   border: 1px solid rgba(209, 209, 209, 1);
-}
+} */
 
 .sex h5 {
   padding-right: 27px;
@@ -115,6 +115,7 @@
   background-color: #f5f6f1;
   text-indent: 31px;
   font-size: 18px;
+  color: black;
 
   margin-bottom: 9px;
 }
