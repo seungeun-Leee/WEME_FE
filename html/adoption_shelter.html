@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../css/list.css">
     <link rel="stylesheet" type="text/css" href="../css/adoption.css">
     <title>WEME-adoption-shelter</title>
-    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
@@ -49,7 +48,6 @@
                             <!-- 선택된 옵션 값이 출력되는 부분 -->
                         </span>
                         <img src="../source/list_sort_btn_down.svg">
-                    
                         <!-- 옵션 영역 -->
                         <ul class="hide">
                         <li>크기</li>
@@ -58,13 +56,11 @@
                         <li>대형견</li>
                         </ul>
                     </div>
-
                     <div class="select" data-role="selectBox2">
                         <span date-value="optValue2" class="selected-option">
                             <!-- 선택된 옵션 값이 출력되는 부분 -->
                         </span>
                         <img src="../source/list_sort_btn_down.svg">
-                    
                         <!-- 옵션 영역 -->
                         <ul class="hide2" id="hide2">
                         <li>지역</li>
@@ -85,9 +81,6 @@
                         </ul>
                     </div>
                 </div>
-
-
-                
             </div>
             <div class="list_contents">
                 <ul class="list1">
@@ -214,11 +207,24 @@
                     </a>
                 </ul>
             </div>
-            <ul class="list_bott">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-            </ul>
+            <nav class="paging_nav">
+                <ul class="paging">
+                    <li class="paging_item" id="prev_btn">
+                        <a href="" class="paging_link">
+                            <img class="paging_btn" src="../source/my_prev_page.svg">
+                        </a>
+                    </li>
+                    <li class="paging_item"><a href="" class="paging_link">1</a></li>
+                    <li class="paging_item"><a href="" class="paging_link">2</a></li>
+                    <li class="paging_item"><a href="" class="paging_link">3</a></li>
+    
+                    <li class="paging_item" id="next_btn">
+                        <a href="" class="paging_link">
+                            <img class="paging_btn" src="../source/my_next_page.svg">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
     <div id="footer"></div>
