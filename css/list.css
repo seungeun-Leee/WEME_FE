@@ -47,22 +47,11 @@ body {
   height: 0px;
   color: #787878;
 }
-
 .list_location_text2 {
   display: flex;
   margin-top: 24px;
   height: 46px;
-
 }
-/* .list_location_text2 > h6 {
-  color: #787878;
-  background-image: url(../source/text_dividing_line.svg);
-  margin-left: 12px;
-  margin-right: 12px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 46px;
-} */
 .list_location_text2 > img {
   margin-top: 9px;
   margin-left: 12px;

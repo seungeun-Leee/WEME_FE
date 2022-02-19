@@ -3,7 +3,6 @@
   margin-top: 35px;
   width: 1920px;
 }
-
 .adoption_location_text > span {
   margin-right: 30px;
   font-size: 40px;
@@ -12,7 +11,6 @@
   color: #a3a3a3;
   font-size: 32px;
 }
-
 .privatecheck {
   margin: 60px 360px 51px 360px;
   display: flex;
@@ -21,15 +19,12 @@
 .privatecheck h4 {
   font-weight: lighter;
 }
-
 .simpleinfo {
   margin: 0px 360px 0px 360px;
 }
-
 .moreinfo {
   margin: 60px 360px 0px 360px;
 }
-
 .simpleinfo h4 {
   margin-bottom: 60px;
   color: #93a761;
@@ -39,20 +34,16 @@
   line-height: 35px;
   letter-spacing: 0em;
 }
-
 .simpleinfo tr {
   border: none;
 }
-
 .simpleinfo td {
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
 }
-
 .simpleinfo th {
   width: 239px;
   height: 72px;
-  /* border: solid 1px #d1d1d1; */
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
   background-color: #f5f6f1;
@@ -60,42 +51,33 @@
   text-indent: 31px;
   font-size: 18px;
 }
-
 .simpleinfo input {
   margin-left: 9px;
   height: 54px;
   border: 1px solid rgba(209, 209, 209, 1);
-  /* text-indent: 5%; */
 }
-
 .sex {
   display: flex;
 }
-
 .simpleinfo input[type="checkbox"] {
   display: none;
 }
-
 .simpleinfo input[type="checkbox"] + label,
 .moreinfo input[type="checkbox"] + label {
   margin-left: 9px;
   position: relative;
   top: 5px;
-
   display: inline-block;
   width: 24px;
   height: 24px;
   border: 1px solid rgba(209, 209, 209, 1);
 }
-
 .sex h5 {
   padding-right: 27px;
-
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
 }
-
 .moreinfo h4 {
   margin-bottom: 60px;
   color: #93a761;
@@ -105,10 +87,8 @@
   line-height: 35px;
   letter-spacing: 0em;
 }
-
 .moreinfo h5 {
   width: 1200px;
-  /* height: 72px; */
   padding-top: 23px;
   padding-bottom: 23px;
   border-top: solid 1px #d1d1d1;
@@ -116,47 +96,37 @@
   background-color: #f5f6f1;
   text-indent: 31px;
   font-size: 18px;
-
   margin-bottom: 9px;
 }
-
 .moreinfo input {
   margin-left: 31px;
   height: 54px;
   border: 1px solid rgba(209, 209, 209, 1);
   margin-bottom: 9px;
 }
-
 .moreinfo hr {
   width: 1200px;
   border: 1px solid rgba(209, 209, 209, 1);
 }
-
 .apply {
   margin: 72px 360px 190px 360px;
   display: flex;
   justify-content: center;
 }
-
 .btn {
-  /* position: absolute; */
   height: 70px;
   width: 312px;
   border-radius: 10px;
   border: none;
   background: #93a761;
-
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
   text-align: center;
   text-indent: 0;
   color: #ffffff;
-
-  /* display: inline; */
   cursor: pointer;
 }
-
 .homeform {
   display: flex;
   font-size: 18px;
