@@ -5,10 +5,8 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 35px;
-    
     color: #000000;
 }
-
 .myadopt_contents_box {
     margin-left: 82px;
     width: 890px;
@@ -35,7 +33,6 @@
 }
 .myadopt_list:not(:last-child) {
     margin-bottom: 60px;
-
 }
 .myadopt_list_contents_box {
     position: absolute;
@@ -58,8 +55,6 @@
 /* li 안에 사진 등 가로로 컨텐츠들 */
 .myadopt_list_contents {
     display: flex;
-    
-    /* background: red; */
 }
 .main_img {
     width: 118px;
@@ -102,23 +97,19 @@
     right: 0px;
     bottom: 0px;
     background: #FFFFFF;
-    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); */
     border-radius: 10px;
 }
 .my_paging_nav {
-    /* background-color: lightsteelblue; */
     margin-left: 670px;
     width: 890px;
 }
 .my_paging {
     display: flex;
     justify-content: center;
-
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-
     color: #000000;
 }
 .my_paging_item:not(:first-child)  {
@@ -137,8 +128,6 @@
 }
 .my_paging_link > img {
     margin: auto;
-    /* margin-top: 9.74px;
-    margin-left: 11.13px; */
     width: 9.04px;
     height: 12.52px;
 }

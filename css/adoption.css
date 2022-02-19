@@ -2,7 +2,6 @@
   margin-top: 15px;
 }
 .adoption_location_text > span {
-  /* display: flex; */
   margin-right: 30px;
   font-size: 40px;
 }
@@ -46,7 +45,6 @@
   width: 600px;
   height: 26px;
   margin-right: 0px;
-  /* margin-right: 370px; */
   margin-top: 25px;
   font-style: normal;
   font-weight: normal;
@@ -81,16 +79,11 @@
 /* 셀렉트 영역 스타일 */
 .select{
   position: relative;
-  /* margin-top: 20px; */
-  /* padding-top: 5px; */
-  /* margin-right: 16px; */
   padding-bottom: 5px;
   width: 71px;
   height: 26px;
   border-radius: 5px;
   cursor: pointer;
-
-
   font-size: 18px;
   line-height: 26px;
   text-align: right;

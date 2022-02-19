@@ -5,10 +5,8 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 35px;
-    
     color: #000000;
 }
-
 .my_write_comments_box {
     margin-left: 82px;
 }
@@ -49,9 +47,6 @@
     margin-top: 40px;
     margin-left: 30px;
 }
-/* .my_write_text {
-
-} */
 .my_write_text_title {
     font-weight: 500;
     font-size: 18px;
@@ -113,12 +108,10 @@
 .my_write_paging {
     display: flex;
     justify-content: center;
-
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-
     color: #000000;
 }
 .my_write_paging_item:not(:first-child)  {
@@ -146,8 +139,6 @@
 #my_write_next_btn {
     margin-left: 22px;
 }
-
-
 /* 나의 댓글 부분 */
 .my_comments_box {
     margin-top: 64px;
@@ -200,7 +191,6 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 35px;
-    
     color: #000000;
 }
 .my_comment_paging_nav {
@@ -210,12 +200,10 @@
 .my_comment_paging {
     display: flex;
     justify-content: center;
-
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-
     color: #000000;
 }
 .my_comment_paging_item:not(:first-child)  {

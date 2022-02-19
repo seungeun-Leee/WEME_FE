@@ -21,20 +21,17 @@
   font-size: 18px;
   color: #787878;
 }
-
 .intro_bg {
   width: 1920px;
 }
 .intro_top {
   margin-left: 360px;
 }
-
 h1 {
   font-size: 32px;
   font-style: bold;
   text-align: center;
 }
-
 h4 {
   font-size: 24px;
   font-style: normal;
@@ -43,30 +40,24 @@ h4 {
   letter-spacing: 0em;
   text-align: center;
 }
-
 h5 {
   font-size: 18px;
   font-style: normal;
   line-height: 26px;
 }
-
 .main {
   margin: 15px 360px 0 360px;
   display: flex;
   justify-content: space-between;
 }
-
 .main h1 {
   font-size: 40px;
   font-style: bold;
-  /* font-weight: 600; */
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
-
   color: #535353;
 }
-
 .maintxt {
   padding-top: 83px;
 }
@@ -74,30 +65,25 @@ h5 {
   position: relative;
   top: 5px;
 }
-
 .keywordsIntro {
   background-color: #f5f6f1;
   height: 376px;
   margin-top: 152px;
 }
-
 .keywords h1 {
   padding-top: 53px;
   padding-bottom: 25px;
 }
-
 .keywords h4 {
   text-align: center;
   color: #747474;
   padding-bottom: 55px;
 }
-
 .contents {
   display: flex;
   padding: 0 360px 0 360px;
   justify-content: space-between;
 }
-
 .keyword1,
 .keyword2,
 .keyword3 {
@@ -105,20 +91,16 @@ h5 {
   flex-direction: column;
   align-items: center;
 }
-
 .keyimg {
   position: relative;
   bottom: 415px;
 }
-
 .keyText {
   position: relative;
   top: -50px;
 }
-
 .goal h4 {
   padding-top: 45px;
-
   color: #787878;
   font-size: 24px;
   font-style: normal;
@@ -127,21 +109,17 @@ h5 {
   letter-spacing: 0em;
   text-align: center;
 }
-
 .team {
   margin-top: 220px;
   margin-bottom: 190px;
 }
-
 .teamintro {
   padding-top: 83px;
   margin: 0 320px 0 320px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .teamname {
   width: 209px;
   height: 61px;
@@ -155,27 +133,22 @@ h5 {
   font-weight: 500;
   text-align: center;
 }
-
 .introtxt {
   padding-top: 30px;
 }
-
 .members {
   margin-top: 76px;
   padding: 0 360px 0 360px;
 }
-
 .memberline1 {
   display: flex;
   justify-content: space-between;
 }
-
 .memberline2 {
   padding-top: 83px;
   display: flex;
   justify-content: space-between;
 }
-
 .YH,
 .NH,
 .SE,

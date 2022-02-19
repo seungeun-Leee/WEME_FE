@@ -6,13 +6,6 @@
   margin: 0px;
   padding: 0px;
 }
-/* 임시 */
-/* .header {
-  width: 1920px;
-  height: 152px;
-  margin-bottom: 40px;
-  text-align: center;
-} */
 .list_top {
   margin-top: 35px;
 }
@@ -22,41 +15,33 @@
 .wrt {
   margin: 0 360px 0 360px;
 }
-
 .title {
   margin: 77px 0px 59px 0px;
   height: 70px;
   width: 1200px;
 }
-
 .title input {
   height: 70px;
   width: 984px;
   border: none;
-
   color: #a3a3a3;
   font-size: 24px;
   text-indent: 1%;
 }
-
 input:focus {
   outline: none;
 }
-
 .register {
   display: flex;
   justify-content: center;
 }
 .register input {
   margin-top: 63px;
-
   height: 80px;
   width: 371px;
-
   background: rgba(147, 167, 97, 1);
   font-size: 32px;
   color: white;
-
   border: none;
   border-radius: 15px;
 }

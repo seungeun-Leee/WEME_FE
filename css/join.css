@@ -18,69 +18,49 @@
   margin-top: 79px;
   width: 1920px;
 }
-
 .joinhead {
   margin-left: 360px;
   text-align: center;
   width: 1200px;
   height: 86px;
 }
-
 .joinhead h1 {
   font-weight: bold;
   font-size: 40px;
 }
-
 .joinhead hr {
-  /* position: absolute; */
   margin: auto;
   margin-top: 28px;
   width: 594px;
-
   border: 1px solid #d9d9d9;
 }
-
 .formJoin {
-  /* position: absolute; */
   margin: auto;
   width: 713px;
-  /* height: 1170px; */
-  /* left: 603px;
-  top: 369px; */
   background: white;
   border-radius: 15px;
   text-align: center;
 }
-
 .personalInfo {
   margin-top: 53px;
   padding-bottom: 0px;
 }
-
 .personalInfo h2 {
   text-align: left;
   padding: 0px 0px 71px 60px;
 }
-
-.loginInfo {
-  /* padding-bottom: 53px; */
-}
-
 .loginInfo h2 {
   text-align: left;
   padding: 20px 0px 51px 60px;
 }
-
 .textForm {
   text-align: left;
   padding-left: 60px;
   background: none;
-
   font-size: 24px;
   line-height: 35px;
   padding-bottom: 53px;
 }
-
 .textForm input:focus,
 .textForm select:focus {
   outline: 1px solid #93a761;
@@ -88,7 +68,6 @@
 .input {
   text-indent: 1%;
 }
-
 .username {
   width: 407px;
   height: 48px;
@@ -97,10 +76,8 @@
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 30px;
 }
-
 .phonenumber {
   width: 407px;
   height: 48px;
@@ -109,136 +86,99 @@
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 58px;
 }
-
 .email {
   width: 190px;
   height: 48px;
-
   border: none;
   outline: none;
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 80px;
 }
-
 select {
   width: 155px;
   height: 48px;
-
   border: none;
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-
-/* select::-ms-expand {
-  display: none;
-} */
-
 .nickname {
   width: 407px;
   height: 48px;
-
   border: none;
   outline: none;
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 80px;
 }
-
 .userID {
   width: 407px;
   height: 48px;
-  /* margin: 0px 64px 40px 242px; */
   border: none;
   outline: none;
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 80px;
 }
-
 .pwrd {
   width: 407px;
   height: 48px;
-
   border: none;
   outline: none;
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 58px;
 }
-
 .pwrdRule {
   text-align: left;
   padding-left: 110px;
   padding-top: 5px;
   background: none;
-
   font-weight: 500;
   line-height: 23px;
   color: #787878;
   font-size: 16px;
-
   margin-left: 75px;
 }
-
 .pwrdCheck {
   width: 407px;
   height: 48px;
-
   border: none;
   outline: none;
   background: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-
   margin-left: 10px;
 }
-
 .btn {
-  /* position: absolute; */
   width: 585px;
   height: 70px;
   background-color: #93a761;
   border: none;
   border-radius: 15px;
-
   font-weight: 500;
   font-size: 32px;
   line-height: 46px;
   text-align: center;
   color: #ffffff;
-
   margin-top: 65px;
   display: inline;
   cursor: pointer;
 }
-
 .footer {
-  /* position: absolute; */
   margin: auto;
   margin-top: 200px;
   width: 1920px;
-  /* left: -1px;
-  top: 1729px; */
   height: 128px;
   background-color: #93a761;
-
-  /* margin: 0px;
-  padding: 0px; */
 }
