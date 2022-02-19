@@ -13,11 +13,12 @@
   margin-bottom: 40px;
   text-align: center;
 } */
-
+.list_top {
+  margin-top: 35px;
+}
 .reviewwrt_bg {
   width: 1920px;
 }
-
 .wrt {
   margin: 0 360px 0 360px;
 }
@@ -40,10 +41,6 @@
 
 input:focus {
   outline: none;
-}
-
-hr {
-  background-color: #a3a3a3;
 }
 
 .register {
