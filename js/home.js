@@ -70,8 +70,3 @@ function emergency_btn2() {
     b1.style.backgroundColor="#93A761";
     b2.style.color="white";
 }
-
-// var index = $('.home_emergency_bott').slick('slickCurrentSlide');
-// if (index == 0) {
-//     alert(index);
-// }
