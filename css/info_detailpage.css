@@ -105,6 +105,7 @@ hr {
 .info_bott_share > img {
     width: 47px;
     height: 47px;
+    cursor: pointer;
 }
 .info_bott_share > img:not(:last-child) {
     margin-right: 16px;
