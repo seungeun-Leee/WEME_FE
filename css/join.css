@@ -44,10 +44,9 @@
   /* position: absolute; */
   margin: auto;
   width: 713px;
-  height: 1170px;
+  /* height: 1170px; */
   /* left: 603px;
   top: 369px; */
-
   background: white;
   border-radius: 15px;
   text-align: center;
@@ -64,7 +63,7 @@
 }
 
 .loginInfo {
-  padding-bottom: 53px;
+  /* padding-bottom: 53px; */
 }
 
 .loginInfo h2 {

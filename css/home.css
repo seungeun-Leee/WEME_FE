@@ -71,12 +71,12 @@ h4 {
   margin-top: 35px;
   /* background-color: aquamarine; */
 }
-.intro_text {
+.intro_img {
   width: 1920px;
   height: 542px;
+  
   background-image: url(../source/home_banner1.svg);
   margin: auto;
-  /* background-color: chocolate; */
 }
 .home_emergency {
   width: 1920px;
@@ -310,7 +310,7 @@ h4 {
   display: flex;
   margin: auto;
   margin-top: 46px;
-  margin-bottom: 181px;
+  /* margin-bottom: 181px; */
   width: 1920px;
 }
 .home_review_choose {
@@ -374,7 +374,6 @@ h4 {
   position: relative;
   right: 331px;
 }
-
 
 
 
