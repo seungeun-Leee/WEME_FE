@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/join.css">
-    <title>WEME-join</title>
-    
+    <title>WEME-join</title>    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
@@ -25,28 +22,28 @@
 <body>
 <div id="header"></div>
     <div id="header"></div>
-        
     <div class="join_bg">
         <div class="joinhead">
             <h1>회원가입</h1>
             <hr>
         </div>
         <form name="join" action=" " method=" " class="formJoin">
-            
             <div class="personalInfo">
                 <h2>개인정보</h2>
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                        사용자 이름 
-                        <input type="text" name="username" value="" class="username"><br>
+                    사용자 이름 
+                    <input type="text" name="username" value="" class="username"><br>
                 </div>
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                        전화번호 <input type="text" name="phonenumber" value="" class="phonenumber"><br>
+                    전화번호
+                    <input type="text" name="phonenumber" value="" class="phonenumber"><br>
                 </div>
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                        이메일 <input type="text" name="email" value="" class="email"> &nbsp;&nbsp; @ &nbsp;&nbsp;
+                    이메일
+                    <input type="text" name="email" value="" class="email"> &nbsp;&nbsp; @ &nbsp;&nbsp;
                     <select name="mailsite" id="">
                         <option value="">직접 입력</option>
                         <option value="gmail">gmail.com</option>
@@ -55,35 +52,35 @@
                     </select>
                 </div>
             </div>
-            
             <div class="loginInfo">
                 <h2>로그인 정보</h2>
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                        닉네임 <input type="text" name="nickname" value="" class="nickname"><br>
+                    닉네임
+                    <input type="text" name="nickname" value="" class="nickname"><br>
                 </div>
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                        아이디 <input type="text" name="user_id" value="" class="userID"><br>
+                    아이디
+                    <input type="text" name="user_id" value="" class="userID"><br>
                 </div>
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span> 
-                        비밀번호 <input type="password" name="user_password" value="" class="pwrd"><br>
+                    비밀번호
+                    <input type="password" name="user_password" value="" class="pwrd"><br>
                     <div class="pwrdRule">특수문자를 포함한 10~16자 이상으로 입력해주세요.</div>
                 </div>       
             
                 <div class="textForm">
                     <span style="color: red;">*&nbsp;&nbsp;&nbsp;</span>
-                        비밀번호 확인 <input type="password" name="passwordcheck" value="" class="pwrdCheck"><br>
-                        <div class="pwrdRule">일치합니다.</div>
+                    비밀번호 확인
+                    <input type="password" name="passwordcheck" value="" class="pwrdCheck"><br>
+                    <div class="pwrdRule">일치합니다.</div>
                 </div>
                 <input type="submit" name="" value="가입하기" class="btn">
             </div>
-
         </form>
-
     </div>
-
     <div id="footer"></div>
 </body>
 </html>
