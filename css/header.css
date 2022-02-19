@@ -39,7 +39,8 @@ a {
   top: 152px;
   margin: auto;
   width: 1920px;
-  height: 138px;
+  /* height: 138px; */
+  height: 220px;
   visibility: hidden;
   background-color: #ffffff;
   /* background-color: red; */
@@ -171,11 +172,11 @@ a {
 .user_icon_green {
   position: absolute;
   top: 69px;
+  right: 63px;
   display: none;
 }
 /* .user_icon:hover .user_icon_green{
   display: inline-block;
-  margin-left: -13px;
 } */
 
 .join_login {

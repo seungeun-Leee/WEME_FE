@@ -11,13 +11,31 @@
     <link rel="stylesheet" type="text/css" href="../css/wrt_template.css">
 
     <title>WEME-adoptwrt</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header").load("header.html"),
+            // 화면을 맨 위로 올리기
+            $('html').scrollTop(0),
+            $("#footer").load("footer.html")
+        });
+    </script>
+    <style>
+        #temp_nav > a {
+            color: #93A761;
+        }
+        #temp_subnav {
+            color: #93A761;
+        }
+    </style>
 </head>
 <body>
+    <div id="header"></div>
     <div class="wrt_bg">
         <div class="list_top">
             <ul class="list_location">
                 <li><a href="#"><img src="../source/home_icon.png" alt="home_icon"></a></li>
-                <li><a href="#">입양</a></li>
+                <li><a href="#">임시보호</a></li>
                 <li>></li>
                 <li><a href="#">임시보호</a></li>
             </ul>
@@ -151,5 +169,6 @@
         </div>
 
     </div>
+    <div id="footer"></div>
 </body>
 </html>

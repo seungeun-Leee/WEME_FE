@@ -69,6 +69,9 @@ form >li {
     line-height: 35px;
     color: #787878;
 }
+.inputbox:focus {
+    outline: none;
+}
 #id_input_box {
     border: none;
     background: #FFFFFF;
