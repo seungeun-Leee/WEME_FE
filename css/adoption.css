@@ -8,7 +8,6 @@
 }
 .adoption_location_text > span > a {
   color: #a3a3a3;
-  font-size: 32px;
 }
 .list_top_img {
   margin: auto;
@@ -18,7 +17,7 @@
   background-image: url(../source/adoption-tempo_banner.svg);
 }
 .adoption_process {
-  margin: auto;
+  margin: auto; 
   margin-top: 186px;
   margin-left: 513px;
   border: none;

@@ -1,5 +1,5 @@
 #mypage_nav_bar4 {
-    visibility:visible;
+    visibility:visible!important;
 }
 #my_nav4 > a {
     font-weight: 500;
@@ -68,6 +68,9 @@ form >li {
     font-size: 24px;
     line-height: 35px;
     color: #787878;
+}
+.inputbox:focus {
+    outline: none;
 }
 #id_input_box {
     border: none;

@@ -74,13 +74,14 @@ body {
     width: 1200px;
 }
 .my_nav {
-    /* background-color: aquamarine; */
     width: 211px;
 }
 .my_nav > li {
     width: 211px;
     height: 34px;
-    /* background-color: aqua; */
+}
+.my_nav > li > a:hover {
+    color: #000000;
 }
 .my_nav > li:not(:last-child) {
     margin-bottom: 45px;

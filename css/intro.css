@@ -6,7 +6,12 @@
   margin: 0px;
   padding: 0px;
 }
-
+#WEME_nav > a {
+  color: #93A761;
+}
+#weme_subnav {
+  color: #93A761;
+}
 .list_location {
   display: flex;
 }
