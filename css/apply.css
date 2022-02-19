@@ -86,13 +86,34 @@
   height: 24px;
   border: 1px solid rgba(209, 209, 209, 1);
 } */
-
 .sex h5 {
   padding-right: 27px;
 
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
+  color: black;
+}
+
+.sex input[type="radio"],
+.sex input[type="radio"]:checked {
+  appearance: none;
+  margin-left: 9px;
+  position: relative;
+  top: 15px;
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(209, 209, 209, 1);
+}
+
+input[type="radio"] {
+  background-color: #ffffff;
+}
+
+input[type="radio"]:checked {
+  background-color: #93a761;
 }
 
 .moreinfo h4 {
@@ -127,6 +148,39 @@
   margin-bottom: 9px;
 }
 
+.homeform {
+  display: flex;
+  font-size: 18px;
+}
+
+/* .homeformq h5 {
+  margin-bottom: 23px;
+} */
+
+.homeform h6 {
+  padding-right: 27px;
+  position: relative;
+  top: 11px;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+}
+
+.homeform input[type="radio"],
+.homeform input[type="radio"]:checked {
+  appearance: none;
+  margin: 23px 0 23px 9px;
+  position: relative;
+  top: -4px;
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(209, 209, 209, 1);
+}
+
 .moreinfo hr {
   width: 1200px;
   border: 1px solid rgba(209, 209, 209, 1);
@@ -155,9 +209,4 @@
 
   /* display: inline; */
   cursor: pointer;
-}
-
-.homeform {
-  display: flex;
-  font-size: 18px;
 }
