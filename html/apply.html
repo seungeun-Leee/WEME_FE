@@ -68,7 +68,7 @@
                     </tr>                    
                     <tr>
                         <th> 성별 </th>
-                        <td><div class="sex">
+                        <!-- <td><div class="sex">
                             <input type="checkbox"  id="F" onclick="clickCheck(this)"/> 
                             <label for="F"></label>
                             <h5>&nbsp; 여자</h5>
@@ -76,6 +76,14 @@
                             <label for="M"></label>
                             <h5>&nbsp; 남자</h5>                            
                             <script type="text/javascript" src="../js/applycheckbox.js"></script>
+                        </div>
+                        </td> -->
+
+                        <td><div class="sex">
+                            <input type="radio"  id="F" name="female" value="F"> 
+                            <label for="F"><h5>&nbsp; 여자</h5></label>
+                            <input type="radio"  id="M" name="female" value="M"> 
+                            <label for="M"><h5>&nbsp; 남자</h5></label>
                         </div>
                         </td>
                     </tr>
@@ -127,14 +135,16 @@
                     있었다면 종류, 나이, 현재 상태를 포함한 설명을 기재해 주세요. </h5>
                 <input type="text" name="birth" style="width: 1138px;">
 
-                <h5> 9. &nbsp; 주거 형태 </h5>
+                <div class="homeformq"><h5> 9. &nbsp; 주거 형태 </h5></div>
                 <div class="homeform">
-                <input type="checkbox" class="home" value="apt" onclick="clickCheck(this)"/> &nbsp; 아파트
-                <input type="checkbox" class="home" value="inde" onclick="clickCheck(this)"/> &nbsp; 단독주택
-                <input type="checkbox" class="home" value="villa" onclick="clickCheck(this)"/> &nbsp; 빌라 및 다세대
-                <input type="checkbox" class="home" value="oneroom" onclick="clickCheck(this)"/> &nbsp; 원룸
-
-                <script type="text/javascript" src="../js/applycheckbox.js"></script>
+                    <input type="radio"  id="apt" name="apartment" value="apt"> 
+                    <label for="apt"><h6>&nbsp; 아파트</h6></label>
+                    <input type="radio"  id="inde" name="indepen" value="inde"> 
+                    <label for="inde"><h6>&nbsp; 단독주택</h6></label>
+                    <input type="radio"  id="villa" name="villas" value="villa"> 
+                    <label for="villa"><h6>&nbsp; 빌라 및 다세대</h6></label>
+                    <input type="radio"  id="oneroom" name="onerooms" value="oneroom"> 
+                    <label for="oneroom"><h6>&nbsp; 원룸</h6></label>
                 </div>
 
                 <h5> 10. &nbsp; 입양을 희망하는 동물의 이름을 적어주세요. </h5>
