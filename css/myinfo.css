@@ -1,5 +1,5 @@
 #mypage_nav_bar4 {
-    visibility:visible;
+    visibility:visible!important;
 }
 #my_nav4 > a {
     font-weight: 500;
