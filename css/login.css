@@ -12,13 +12,21 @@
   margin-bottom: 144px;
   text-align: center;
 }
-.loginhead h1 {
-  position: absolute;
-  left: 904px;
+.loginhead {
+  margin: auto;
+  margin-top: 144px;
+  text-align: center;
+}
+.loginhead > h1 {
   font-weight: bold;
   font-size: 40px;
   line-height: 58px;
   color: black;
+}
+.login_id_pass {
+  margin: auto;
+  width: 1200px;
+  height: 430px;
 }
 .insertID input,
 .insertPWRD input {
@@ -68,6 +76,9 @@
   text-align: left;
   text-indent: 20%;
 }
+.find {
+  margin: auto;
+}
 .btn {
   position: absolute;
   width: 505px;
@@ -88,7 +99,7 @@
 }
 .find {
   position: absolute;
-  width: 221px;
+  /* width: 221px; */
   height: 26px;
   left: 850px;
   top: 758px;
@@ -99,7 +110,7 @@
   padding-bottom: 190px;
 }
 .footer {
-  position: absolute;
+  /* position: absolute; */
   width: 1920px;
   height: 128px;
   top: 974px;
