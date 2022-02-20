@@ -26,6 +26,7 @@
 }
 .intro_top {
   margin-left: 360px;
+  margin-top: 35px;
 }
 h1 {
   font-size: 32px;
@@ -62,7 +63,6 @@ h5 {
   padding-top: 83px;
 }
 .mainpic {
-  position: relative;
   top: 5px;
 }
 .keywordsIntro {
