@@ -1,4 +1,3 @@
-
 .wrt_bg {
   margin-top: 35px;
 }
@@ -29,23 +28,6 @@ hr {
 }
 #chooseFile {
   visibility: hidden;
-}
-.register {
-  display: flex;
-  justify-content: center;
-}
-.register input {
-  margin-top: 103px;
-  height: 70px;
-  width: 312px;
-  background: rgba(147, 167, 97, 1);
-  font-size: 24px;
-  color: white;
-  border: none;
-  border-radius: 15px;
-}
-.regibtn {
-  cursor: pointer;
 }
 .basicinfo {
   display: flex;
@@ -85,6 +67,52 @@ hr {
 select:focus {
   outline: none;
 }
+
+/* .vacci,
+.neuter {
+  margin-left: 17px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+input[type="radio"] {
+  height: 33px;
+  width: 75px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffff;
+  /* color: black; */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  cursor: pointer;
+  -webkit-appearance: none; /*to disable the default appearance of radio button*/
+  -moz-appearance: none;
+}
+
+input[type="radio"]:focus {
+  /*no need, if you don't disable default appearance*/
+  outline: none; /*to remove the square border on focus*/
+}
+
+input[type="radio"]:checked {
+  /*no need, if you don't disable default appearance*/
+  background-color: #93a761;
+}
+
+label span {
+  position: relative;
+  top: -7px;
+  left: -50px;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked ~ span {
+  color: white;
+}
+
 h4 {
   margin-bottom: 30px;
   font-size: 32px;
@@ -93,31 +121,25 @@ h4 {
   line-height: 46px;
   color: #787878;
 }
-.vacci,
-.neuter {
-  margin-left: 17px;
-  margin-right: 180px;
+
+.register {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-.vacci input[type="radio"],
-.neuter input[type="radio"] {
-  display: none;
-}
-.vacci input[type="radio"] + span,
-.neuter input[type="radio"] + span {
-  height: 33px;
-  width: 75px;
-  border-radius: 10px;
+.register input {
+  margin-top: 103px;
+
+  height: 70px;
+  width: 312px;
+
+  background: rgba(147, 167, 97, 1);
+  font-size: 24px;
+  color: white;
+
   border: none;
-  background-color: #ffff;
-  color: black;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  cursor: pointer;
+  border-radius: 15px;
 }
-.vacci input[type="radio"]:checked + span,
-.neuter input[type="radio"]:checked + span {
-  background-color: #93a761;
-  color: #ffffff;
+
+.regibtn {
+  cursor: pointer;
 }
