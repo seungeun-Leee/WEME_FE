@@ -51,6 +51,10 @@ body {
   display: flex;
   margin-top: 24px;
   height: 46px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
 }
 .list_location_text2 > img {
   margin-top: 9px;
