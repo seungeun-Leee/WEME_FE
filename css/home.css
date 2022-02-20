@@ -46,7 +46,9 @@ h4 {
   cursor: pointer;
 }
 /* 더보기 버튼 */
-#more_btn{
+#more_btn1,
+#more_btn2,
+#more_btn3{
   display: flex;
   margin-right: 360px;
   width: 68px;
