@@ -6,11 +6,17 @@
   padding: 0px;
   color: #747474;
 }
-.navbar {
+/* .navbar {
   width: 1920px;
   height: 152px;
   margin-bottom: 144px;
   text-align: center;
+} */
+
+.loginbg {
+  margin: auto;
+  margin-top: 35px;
+  width: 1920px;
 }
 .loginhead {
   margin: auto;
@@ -55,7 +61,7 @@
   top: 414px;
 }
 .insertID ::-webkit-input-placeholder {
-  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFESURBVHgB3ZXdbcIwEMfP+XhnBDZoN6izAQskbSagnSArlAnSJspzuwFhg4yQEXjPF3fISAjwxeZDCH6SFSe27+87+y4CRkjTdOJ53hy7UjUQQlR93y+iKPoZWy9GjE99318OwzA9uViIummaII7jWmfDAQbOOEFjNIe8tBbIsuyDM74v4jjOp7UAuj8HQ1DgzVoAeQVzJJwhcBU4gRLMqeAMgRUYgge9sBZo2/YbF9YwbrzmEk4rgMmz7rou4ERojOYAA5vJOygn1LXd3awS24q8pI3AU6MNEdUX13VnmKUvqmRMMEz0BHUuayp22KdQVbqCdySg4v0OTHZqKFHs9/BGib0dS6yMqUmB41BefYVh+E/v22taFEWCP5XlpcYJZeMvz/NkK4idGX2AG4BnE5AHxmXZFoxKQgISboe8a7l+DIENc0+UO/FypVMAAAAASUVORK5CYII=);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFESURBVHgB3ZXdbcIwEMfP+XhnBDZoN6izAQskbSagnSArlAnSJspzuwFhg4yQEXjPF3fISAjwxeZDCH6SFSe27+87+y4CRkjTdOJ53hy7UjUQQlR93y+iKPoZWy9GjE99318OwzA9uViIummaII7jWmfDAQbOOEFjNIe8tBbIsuyDM74v4jjOp7UAuj8HQ1DgzVoAeQVzJJwhcBU4gRLMqeAMgRUYgge9sBZo2/YbF9YwbrzmEk4rgMmz7rou4ERojOYAA5vJOygn1LXd3awS24q8pI3AU6MNEdUX13VnmKUvqmRMMEz0BHUuayp22KdQVbqCdySg4v0OTHZqKFHs9/BGib0dS6yMqUmB41BefYVh+E/v22taFEWCP5XlpcYJZeMvz/NkK4idGX2AG4BnE5AHxmXZFoxKQgISboe8a7l+DIENc0+UO/FypVMAAAAASUVORK5CYII=);
   background-size: contain;
   background-position: 43px center;
   background-repeat: no-repeat;
@@ -99,7 +105,7 @@
 }
 .find {
   position: absolute;
-  /* width: 221px; */
+  /* width: 230px; */
   height: 26px;
   left: 850px;
   top: 758px;
