@@ -55,12 +55,16 @@ var a2 = document.querySelector("#emergency_btn1 > h4");
 var b1 = document.querySelector("#emergency_btn2");
 var b2 = document.querySelector("#emergency_btn2 > h4");
 
+var href1 = document.querySelector("#more_btn1");
+
 function emergency_btn1() {
     a1.style.backgroundColor="#93A761";
     a2.style.color="white";
 
     b1.style.backgroundColor="white";
     b2.style.color="#A3A3A3";
+
+    href1.href="../html/adoption_shelter.html";
 }
 
 function emergency_btn2() {
@@ -69,4 +73,6 @@ function emergency_btn2() {
 
     b1.style.backgroundColor="#93A761";
     b2.style.color="white";
+
+    href1.href="../html/tempo_list.html";
 }
